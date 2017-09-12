@@ -1,4 +1,5 @@
 package org.seleniumhq.selenium;
+import java.io.IOException;
 import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -7,16 +8,15 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import java.io.Exception;
-
-import org.jsoup.jsoup;
+import java.io.IOException;
+import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 
 public class App {
-    public static void main(String[] args) throws InterruptedException{
+    public static void main(String[] args) throws IOException {
 /*
         // Create a new instance of the Firefox driver
         // Notice that the remainder of the code relies on the interface,
@@ -34,15 +34,18 @@ public class App {
 
     */
 //Jsoup webscrape Strategy
-        try{
-            Document doc = jsoup.connect("http://www.marketwatch.com/investing/stock/AAPL").get();
-            String title = doc.title();
-            System.out.println("title: "+ title);
-            Element links = doc
+        String url = "http://www.marketwatch.com/investing/stock/AAPL";
+        Document doc = Jsoup.connect(url).get();
+        String TickerSymbol = doc.select("meta[name=tickerSymbol]").first().attr("content");
+
+        String quote = doc.select("meta[name=price]").first().attr("content");
+
+        String priceChange = doc.select("meta[name=priceChange]").first().attr("content");
+        System.out.println("STOCK SYMBOL: " + TickerSymbol );
+        System.out.println("STOCK PRICE: "+quote +" CHANGE: "+ priceChange);
 
 
 
-
-        }
+    }
 
 }
