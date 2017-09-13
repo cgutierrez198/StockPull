@@ -44,6 +44,7 @@ public class App {
         System.out.println("STOCK SYMBOL: " + TickerSymbol );
         System.out.println("STOCK PRICE: "+quote +" CHANGE: "+ priceChange);
 
+        
 
 
     }
