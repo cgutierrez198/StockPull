@@ -34,7 +34,7 @@ public class App {
 
     */
 //Jsoup webscrape Strategy
-        String url = "http://www.marketwatch.com/investing/stock/AAPL";
+/*        String url = "http://www.marketwatch.com/investing/stock/AAPL";
         Document doc = Jsoup.connect(url).get();
         String TickerSymbol = doc.select("meta[name=tickerSymbol]").first().attr("content");
 
@@ -43,8 +43,11 @@ public class App {
         String priceChange = doc.select("meta[name=priceChange]").first().attr("content");
         System.out.println("STOCK SYMBOL: " + TickerSymbol );
         System.out.println("STOCK PRICE: "+quote +" CHANGE: "+ priceChange);
+*/
+        stock_pullHandle pull = new stock_pullHandle();
+        stock_LabelHandle label = new stock_LabelHandle();
 
-        
+        label.setLabels();
 
 
     }
