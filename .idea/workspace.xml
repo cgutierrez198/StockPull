@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="965f6b85-13a0-4b77-bea7-51cb574392df" name="Default" comment="Made Changes to use a yahooAPI that works&#10;&#10;setting up a simple test case&#10;   -todo create CSV FILES">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_yahoofinance_api_YahooFinanceAPI_3_8_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/seleniumhq/selenium/App.class" afterPath="$PROJECT_DIR$/target/classes/org/seleniumhq/selenium/App.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/seleniumhq/selenium/stock_LabelHandle.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/seleniumhq/selenium/stock_pullHandle.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/seleniumjava.iml" afterPath="$PROJECT_DIR$/seleniumjava.iml" />
     </list>
@@ -30,10 +28,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/seleniumhq/selenium/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
+            <state relative-caret-position="90">
               <caret line="28" column="8" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -52,10 +50,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HistoricalQuote.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HistoricalQuote.java" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/com/yahoofinance-api/YahooFinanceAPI/3.8.0/YahooFinanceAPI-3.8.0-sources.jar!/yahoofinance/histquotes/HistoricalQuote.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1995">
+            <state relative-caret-position="237">
               <caret line="127" column="0" lean-forward="false" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -67,22 +65,12 @@
       <file leaf-file-name="HistQuotesRequest.java" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/com/yahoofinance-api/YahooFinanceAPI/3.8.0/YahooFinanceAPI-3.8.0-sources.jar!/yahoofinance/histquotes/HistQuotesRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-336">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="252">
+              <caret line="26" column="31" lean-forward="false" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
               <folding>
                 <element signature="e#1637#1638#0" expanded="true" />
                 <element signature="e#1693#1694#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="seleniumjava.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/seleniumjava.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1386">
-              <caret line="67" column="2" lean-forward="false" selection-start-line="67" selection-start-column="2" selection-end-line="67" selection-end-column="2" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -698,7 +686,7 @@
       <workItem from="1505240588929" duration="5016000" />
       <workItem from="1505256902348" duration="3226000" />
       <workItem from="1507061873329" duration="2490000" />
-      <workItem from="1507067408769" duration="4564000" />
+      <workItem from="1507067408769" duration="5341000" />
     </task>
     <task id="LOCAL-00001" summary="Made Changes to use a yahooAPI that works&#10;&#10;setting up a simple test case&#10;   -todo create CSV FILES">
       <created>1507071652391</created>
@@ -711,7 +699,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25450000" />
+    <option name="totallyTimeSpent" value="26227000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1282" height="801" extended-state="0" />
@@ -1116,14 +1104,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/seleniumjava.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1386">
-          <caret line="67" column="2" lean-forward="false" selection-start-line="67" selection-start-column="2" selection-end-line="67" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1155,20 +1135,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/seleniumhq/selenium/App.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/yahoofinance-api/YahooFinanceAPI/3.8.0/YahooFinanceAPI-3.8.0-sources.jar!/yahoofinance/histquotes/HistoricalQuote.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="28" column="8" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state relative-caret-position="237">
+          <caret line="127" column="0" lean-forward="false" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/seleniumjava.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="67" column="2" lean-forward="false" selection-start-line="67" selection-start-column="2" selection-end-line="67" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/yahoofinance-api/YahooFinanceAPI/3.8.0/YahooFinanceAPI-3.8.0-sources.jar!/yahoofinance/histquotes/HistQuotesRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-336">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="252">
+          <caret line="26" column="31" lean-forward="false" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
           <folding>
             <element signature="e#1637#1638#0" expanded="true" />
             <element signature="e#1693#1694#0" expanded="true" />
@@ -1176,10 +1164,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/yahoofinance-api/YahooFinanceAPI/3.8.0/YahooFinanceAPI-3.8.0-sources.jar!/yahoofinance/histquotes/HistoricalQuote.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/seleniumhq/selenium/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1995">
-          <caret line="127" column="0" lean-forward="false" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+        <state relative-caret-position="90">
+          <caret line="28" column="8" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
