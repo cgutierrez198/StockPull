@@ -28,22 +28,26 @@ public class App {
         Calendar to= Calendar.getInstance();
 
         Calendar from2 = Calendar.getInstance();
-        Calendar to2= Calendar.getInstance();
-        from .add(Calendar.YEAR,-12);
-
-        from2.add(Calendar.YEAR,-5);
-        Stock apple = YahooFinance.get("f", true);
-        System.out.println(apple.getHistory(from,to));
 
         BufferedReader reader = new BufferedReader(new FileReader("test.csv"));
-       // List<String> lines = new ArrayList<String>();
+        List<String> lines = new ArrayList<String>();
         String line = null;
-        while ((line = reader.readLine()) != null) {
-         //   lines.add(line);
-            System.out.println(line);
-            Stock line1= YahooFinance.get(line, true);
-            System.out.println(line1.getHistory(from,to));
+        Stock line1;
+        while ((line = reader.readLine()) !=null ) {
+            try{
+            line1 = YahooFinance.get(line ,from,to);}
+            catch(IOException e){
+               continue;
+
+            }
+//            System.out.println(line1.getHistory(from,to));
+            line1 = YahooFinance.get(line,from,to);
+                lines.add(line1.getName()+" "+line1.getHistory(from,to));
+            System.out.println("this is the size of the input:"+lines.size());
+            System.out.println(line.toString());
+
         }
+
 
     }
 
