@@ -32,7 +32,7 @@ public class App {
 
         Calendar from = Calendar.getInstance();
         Calendar to= Calendar.getInstance();
-
+        from.add(Calendar.YEAR, -12);
         Calendar from2 = Calendar.getInstance();
 
         BufferedReader reader = new BufferedReader(new FileReader("test.csv"));
@@ -46,7 +46,7 @@ public class App {
             try{
             //line1 = YahooFinance.get(line ,from,to);
 
-                line1 = YahooFinance.get(line,from,to);
+                line1 = YahooFinance.get(line,from,to,Interval.DAILY);
 
             }
             catch(IOException e){
@@ -57,7 +57,7 @@ public class App {
                 break;
             }
                 ticker.add(line1.getName());
-                hist_data.addAll(line1.getHistory(from,to));
+                hist_data.addAll(line1.getHistory(from,to, Interval.DAILY));
             System.out.println("this is the size of the input:"+ticker.size());
             System.out.println(ticker.get(index));
             System.out.println(index);
