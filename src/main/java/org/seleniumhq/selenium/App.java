@@ -22,8 +22,10 @@ public class App {
         Calendar to= Calendar.getInstance();
         from.add(Calendar.YEAR, -2);
 
-        DateFormat df = new SimpleDateFormat("yyyy-MM-dd_HH.mm.ss");
+        DateFormat df = new SimpleDateFormat("yyyy-MM-dd");
         File file = new File(  df.format(new Date()) +"_Stocks.csv");
+
+        File tick_file = new File(  df.format("Stocks"));
         if ( !file.exists() )
             file.createNewFile();
         BufferedReader reader = new BufferedReader(new FileReader("test.csv"));
@@ -32,6 +34,7 @@ public class App {
         List<HistoricalQuote> hist_data;
         List<String> ticker = new ArrayList<String>();
 
+        CsvWriter update_ticks = new CsvWriter(new FileWriter(tick_file),',');
         CsvWriter csvOutput = new CsvWriter(new FileWriter(file, true), ',');
         String line = null;
         Stock line1;
@@ -50,30 +53,31 @@ public class App {
                 break;
             }
 
+            ticker.add(line1.getSymbol());
 
 
 //            csvOutput.endRecord();
 
-            // Use FileWriter constructor that specifies open for appending
-            hist_data = new ArrayList<HistoricalQuote>(line1.getHistory(from,to));
-            if(index<1){
-                csvOutput.write("");
-             for(int i =0;i<hist_data.size();i++){
-                 csvOutput.write(hist_data.get(i).getDate().getTime()+"");
-             }
-             csvOutput.endRecord();
-            }
+        //  // Use FileWriter constructor that specifies open for appending
+        //  hist_data = new ArrayList<HistoricalQuote>(line1.getHistory(from,to));
+        //  if(index<1){
+        //      csvOutput.write("");
+        //   for(int i =0;i<hist_data.size();i++){
+        //       csvOutput.write(hist_data.get(i).getDate().getTime()+"");
+        //   }
+        //   csvOutput.endRecord();
+        //  }
 
-            csvOutput.write(line1.getName());
-            for(int i=0;i< hist_data.size();i++)
-            csvOutput.write(hist_data.get(i).getClose()+ "");
-            csvOutput.endRecord();
-               /*
-            System.out.println("this is the size of the input:"+ticker.size());
-            System.out.println(ticker.get(index));
-            System.out.println(index);
-            index++;
-            */
+        //  csvOutput.write(line1.getName());
+        //  for(int i=0;i< hist_data.size();i++)
+        //  csvOutput.write(hist_data.get(i).getClose()+ "");
+        //  csvOutput.endRecord();
+        //     /*
+        //  System.out.println("this is the size of the input:"+ticker.size());
+        //  System.out.println(ticker.get(index));
+        //  System.out.println(index);
+        //  index++;
+        //  */
             index++;
         }
 
