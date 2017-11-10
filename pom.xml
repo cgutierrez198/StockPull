@@ -26,11 +26,19 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+<<<<<<< HEAD
     <dependency>
       <groupId>net.sourceforge.javacsv</groupId>
       <artifactId>javacsv</artifactId>
       <version>2.0</version>
     </dependency>
 
+=======
+<dependency>
+    <groupId>net.sourceforge.javacsv</groupId>
+    <artifactId>javacsv</artifactId>
+    <version>2.0</version>
+</dependency>
+>>>>>>> 26829f98b7d8d28e2d074a45b7fc0769fa0523ab
   </dependencies>
 </project>
