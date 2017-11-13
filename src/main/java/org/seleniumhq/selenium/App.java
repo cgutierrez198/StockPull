@@ -25,24 +25,33 @@ public class App {
         DateFormat df = new SimpleDateFormat("yyyy-MM-dd");
         File file = new File(  df.format(new Date()) +"_Stocks.csv");
 
-        File tick_file = new File(  df.format("Stocks"));
+        File tick_file ;
+
         if ( !file.exists() )
             file.createNewFile();
-        BufferedReader reader = new BufferedReader(new FileReader("test.csv"));
+        BufferedReader reader = new BufferedReader(new FileReader("Stocks.csv"));
+
+
         List<HistoricalQuote> date = new ArrayList<HistoricalQuote>();
-//        List<HistoricalQuote> hist_data = new ArrayList<HistoricalQuote>();
-        List<HistoricalQuote> hist_data;
+        List<HistoricalQuote> hist_data = new ArrayList<HistoricalQuote>();
+//        List<HistoricalQuote> hist_data;
         List<String> ticker = new ArrayList<String>();
 
-        CsvWriter update_ticks = new CsvWriter(new FileWriter(tick_file),',');
-        CsvWriter csvOutput = new CsvWriter(new FileWriter(file, true), ',');
+
+
+        CsvWriter update_ticks;
+        CsvWriter csvOutput = new CsvWriter(new FileWriter(file), ',');
         String line = null;
         Stock line1;
         int index=0;
 
+        String temp;
+
+        //Read The text file and save values to the data structure for further use
+        //section also identifies if the symbol is a valid symbol
         while ((line = reader.readLine()) !=null ) {
             try {
-                line1 = YahooFinance.get(line, from, to);
+                line1 = YahooFinance.get(line,true );
 
             }
             catch(IOException e){
@@ -55,32 +64,50 @@ public class App {
 
             ticker.add(line1.getSymbol());
 
+            System.out.println(line1.getSymbol());
 
 //            csvOutput.endRecord();
 
-        //  // Use FileWriter constructor that specifies open for appending
-        //  hist_data = new ArrayList<HistoricalQuote>(line1.getHistory(from,to));
-        //  if(index<1){
-        //      csvOutput.write("");
-        //   for(int i =0;i<hist_data.size();i++){
-        //       csvOutput.write(hist_data.get(i).getDate().getTime()+"");
-        //   }
-        //   csvOutput.endRecord();
-        //  }
+          // Retrieve Historical stock data from the source and output to file
+          hist_data = new ArrayList<HistoricalQuote>(line1.getHistory(from,to));
+          if(index<1){
+              csvOutput.write("");
+              csvOutput.write("");
+           for(int i =0;i<hist_data.size();i++){
+              temp = (hist_data.get(i).getDate().getTime().getMonth()+1) +"/"+ (hist_data.get(i).getDate().getTime().getYear()-100);
+              csvOutput.write(temp);
+           }
 
-        //  csvOutput.write(line1.getName());
-        //  for(int i=0;i< hist_data.size();i++)
-        //  csvOutput.write(hist_data.get(i).getClose()+ "");
-        //  csvOutput.endRecord();
-        //     /*
-        //  System.out.println("this is the size of the input:"+ticker.size());
-        //  System.out.println(ticker.get(index));
-        //  System.out.println(index);
-        //  index++;
-        //  */
+           csvOutput.endRecord();
+          }
+
+          // Get the name of the stock and a formatted date
+          csvOutput.write(line1.getSymbol());
+          temp =line1.getName();
+          csvOutput.write(temp.replace(';',' '));
+          for(int i=0;i< hist_data.size();i++)
+          csvOutput.write(hist_data.get(i).getClose()+ "");
+          csvOutput.endRecord();
             index++;
         }
 
+
+        csvOutput.flush();
+        csvOutput.close();
+
+
+//   Update the read file and close
+        tick_file = new File("Stocks.csv");
+
+
+         update_ticks = new CsvWriter(new FileWriter(tick_file),',');
+
+         for (int i=0;i<ticker.size();i++){
+            update_ticks.write(ticker.get(i));
+            update_ticks.endRecord();
+         }
+         update_ticks.flush();
+         update_ticks.close();
 
 
     }
