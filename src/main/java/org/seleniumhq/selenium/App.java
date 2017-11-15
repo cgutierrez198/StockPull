@@ -12,7 +12,7 @@ import java.io.IOException;
 import yahoofinance.Stock;
 import yahoofinance.YahooFinance;
 import yahoofinance.histquotes.HistoricalQuote;
-
+import yahoofinance.histquotes.Interval;
 
 
 public class App {
@@ -20,7 +20,7 @@ public class App {
 
         Calendar from = Calendar.getInstance();
         Calendar to= Calendar.getInstance();
-        from.add(Calendar.YEAR, -2);
+        from.add(Calendar.YEAR, -4);
 
         DateFormat df = new SimpleDateFormat("yyyy-MM-dd");
         File file = new File(  df.format(new Date()) +"_Stocks.csv");
@@ -30,7 +30,7 @@ public class App {
         if ( !file.exists() )
             file.createNewFile();
         BufferedReader reader = new BufferedReader(new FileReader("Stocks.csv"));
-
+        Object T = new HistoricalQuote();
 
         List<HistoricalQuote> date = new ArrayList<HistoricalQuote>();
         List<HistoricalQuote> hist_data = new ArrayList<HistoricalQuote>();
@@ -45,7 +45,8 @@ public class App {
         Stock line1;
         int index=0;
 
-        String temp;
+        String temp, day,month,year;
+
 
         //Read The text file and save values to the data structure for further use
         //section also identifies if the symbol is a valid symbol
@@ -69,12 +70,17 @@ public class App {
 //            csvOutput.endRecord();
 
           // Retrieve Historical stock data from the source and output to file
-          hist_data = new ArrayList<HistoricalQuote>(line1.getHistory(from,to));
+          hist_data = new ArrayList<HistoricalQuote>(line1.getHistory(from,to, Interval.DAILY));
+
           if(index<1){
               csvOutput.write("");
               csvOutput.write("");
            for(int i =0;i<hist_data.size();i++){
-              temp = (hist_data.get(i).getDate().getTime().getMonth()+1) +"/"+ (hist_data.get(i).getDate().getTime().getYear()-100);
+
+               day=(hist_data.get(i).getDate().getTime().getDate()+"");
+               month=(hist_data.get(i).getDate().getTime().getMonth()+1 +"");
+               year=(hist_data.get(i).getDate().getTime().getYear()-100+"");
+              temp = (month+"/"+year);
               csvOutput.write(temp);
            }
 
