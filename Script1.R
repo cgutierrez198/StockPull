@@ -16,16 +16,28 @@ startDt  <- as.Date("2002-01-01")
 location = "US-TX" # 
 #stockList = ["WMT","XOM","MCK","UNH","CVS"]
 
-res <- gtrends(c( "WMT","XOM","MCK","UNH"), location, time = "all")
-
+#res <- gtrends(c( "WMT","XOM","MCK","UNH"), location, time = "all")
+res <-read.csv(file="Stocks.csv", header= TRUE ,sep=",")
+i = res[4,]
+print(i)
 head(res)
+f= sprintf('%s',i)
+print (f)
 names(res)[1]
-n<- 0
+n<- -1
+temp=0
+for(n in 1:441){
 
+i = res[n,]
+print(i)
+f= sprintf('%s',i)
+print (f)
+stocks <- gtrends(f,location,time ="all")
 
-for (df in res){
+}
+for (df in stocks){
   write.table(df, file="Script3.csv", col.names=TRUE, sep=",", append=TRUE)
 }
 
-plot(res)
+plot(stocks)
 
