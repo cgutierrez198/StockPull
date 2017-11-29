@@ -1,4 +1,7 @@
 package org.seleniumhq.selenium;
+import java.awt.*;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
 import java.io.*;
 import java.math.BigDecimal;
 import java.text.DateFormat;
@@ -14,107 +17,53 @@ import yahoofinance.YahooFinance;
 import yahoofinance.histquotes.HistoricalQuote;
 import yahoofinance.histquotes.Interval;
 
+import javax.swing.*;
 
-public class App {
+
+public class App  {
+    public static int index = 0;
     public static void main(String[] args) throws IOException {
 
-        Calendar from = Calendar.getInstance();
-        Calendar to= Calendar.getInstance();
-        from.add(Calendar.YEAR, -4);
+        //    BufferedReader reader;
+        //    reader = new BufferedReader(new FileReader("Stocks.csv"));
+        //    String line=null;
+        //    while((line=reader.readLine())!=null){
+        //        tickers.add(line);
+        //    }
+        //    for (int i=0; i<tickers.size();i++){
+        //        System.out.println(tickers.get(i));
+        //    }
+        JFrame f = new JFrame();
+      final JPanel panel = new JPanel();
+      final GraphingData graph =new GraphingData();
+        ArrayList<String> date = new ArrayList<String>();
+        ArrayList<Integer> hist_data = new ArrayList<Integer>();
+        ArrayList<String> ticker = new ArrayList<String>();
 
-        DateFormat df = new SimpleDateFormat("yyyy-MM-dd");
-        File file = new File(  df.format(new Date()) +"_Stocks.csv");
+        panel.setPreferredSize(new Dimension(1280, 100));
+        panel.setFocusable(true);
+        panel.setRequestFocusEnabled(true);
+        f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        f.setSize(1280, 800);
+        f.setPreferredSize(new Dimension(1280, 400));
+        f.addKeyListener(graph);
+        f.add(graph);
+        f.setLocation(200, 200);
+        f.setVisible(true);
+        JButton northEast = new JButton("Move to North East");
+        northEast.setBounds(240, 710, 190, 20);
 
-        File tick_file ;
+        JButton refresh = new JButton("North East");
+        refresh.setBounds(110, 700, 190, 20);
 
-        if ( !file.exists() )
-            file.createNewFile();
-        BufferedReader reader = new BufferedReader(new FileReader("Stocks.csv"));
-        Object T = new HistoricalQuote();
+//            f.add(northEast);
+//            f.add(refresh);
 
-        List<HistoricalQuote> date = new ArrayList<HistoricalQuote>();
-        List<HistoricalQuote> hist_data = new ArrayList<HistoricalQuote>();
-//        List<HistoricalQuote> hist_data;
-        List<String> ticker = new ArrayList<String>();
+        // StockWrapper stocks = new StockWrapper();
+        // stocks.pullStock();
 
-
-
-        CsvWriter update_ticks;
-        CsvWriter csvOutput = new CsvWriter(new FileWriter(file), ',');
-        String line = null;
-        Stock line1;
-        int index=0;
-
-        String temp, day,month,year;
-
-
-        //Read The text file and save values to the data structure for further use
-        //section also identifies if the symbol is a valid symbol
-        while ((line = reader.readLine()) !=null ) {
-            try {
-                line1 = YahooFinance.get(line,true );
-
-            }
-            catch(IOException e){
-               continue;
-
-            }
-            catch(StringIndexOutOfBoundsException e){
-                break;
-            }
-
-            ticker.add(line1.getSymbol());
-
-            System.out.println(line1.getSymbol());
-
-//            csvOutput.endRecord();
-
-          // Retrieve Historical stock data from the source and output to file
-          hist_data = new ArrayList<HistoricalQuote>(line1.getHistory(from,to, Interval.DAILY));
-
-          if(index<1){
-              csvOutput.write("");
-              csvOutput.write("");
-           for(int i =0;i<hist_data.size();i++){
-
-               day=(hist_data.get(i).getDate().getTime().getDate()+"");
-               month=(hist_data.get(i).getDate().getTime().getMonth()+1 +"");
-               year=(hist_data.get(i).getDate().getTime().getYear()-100+"");
-              temp = (month+"/"+year);
-              csvOutput.write(temp);
-           }
-
-           csvOutput.endRecord();
-          }
-
-          // Get the name of the stock and a formatted date
-          csvOutput.write(line1.getSymbol());
-          temp =line1.getName();
-          csvOutput.write(temp.replace(';',' '));
-          for(int i=0;i< hist_data.size();i++)
-          csvOutput.write(hist_data.get(i).getClose()+ "");
-          csvOutput.endRecord();
-            index++;
-        }
-
-
-        csvOutput.flush();
-        csvOutput.close();
-
-
-//   Update the read file and close
-        tick_file = new File("Stocks.csv");
-
-
-         update_ticks = new CsvWriter(new FileWriter(tick_file),',');
-
-         for (int i=0;i<ticker.size();i++){
-            update_ticks.write(ticker.get(i));
-            update_ticks.endRecord();
-         }
-         update_ticks.flush();
-         update_ticks.close();
-
+        // stocks.writeFile();
+    }
 
     }
-}
+

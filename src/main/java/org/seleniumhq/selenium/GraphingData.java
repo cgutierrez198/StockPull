@@ -1,8 +1,11 @@
 package org.seleniumhq.selenium;
 
+    import javafx.scene.input.KeyCode;
     import yahoofinance.histquotes.HistoricalQuote;
 
     import java.awt.*;
+    import java.awt.event.KeyEvent;
+    import java.awt.event.KeyListener;
     import java.awt.font.FontRenderContext;
     import java.awt.font.LineMetrics;
     import java.awt.geom.*;
@@ -16,7 +19,7 @@ package org.seleniumhq.selenium;
     import java.util.Date;
     import javax.swing.*;
 
-    public class GraphingData extends JPanel {
+    public class GraphingData extends JPanel implements KeyListener {
 
         ArrayList<String> date = new ArrayList<String>();
         ArrayList<Integer> hist_data = new ArrayList<Integer>();
@@ -29,17 +32,75 @@ package org.seleniumhq.selenium;
     //  };
 
         final int PAD = 10;
-        static int count=0;
+        int count=0;
+        int tickerindex=0;
+        int arraylength;
+        public GraphingData(){
+        }
+
+        public void keyPressed(KeyEvent e) {
+            int keycode = e.getKeyCode();
+            switch (keycode){
+                case KeyEvent.VK_RIGHT:
+                    if(tickerindex>=arraylength){
+
+                        tickerindex=0;
+                    }
+                    else {
+                        tickerindex++;
+                    }
+                    data.clear();
+                    hist_data.clear();
+                    date.clear();
+                    count=0;
+                    break;
+                case KeyEvent.VK_LEFT:
+                    if(tickerindex<0){
+                        tickerindex = arraylength;
+
+                    }
+                    else{
+                        tickerindex--;
+                    }
+                    data.clear();
+                    hist_data.clear();
+                    date.clear();
+                    count=0;
+                    break;
+            }
+
+
+        }
+
+        public void keyReleased(KeyEvent e) {
+
+        }
+
+        public void keyTyped(KeyEvent e) {
+
+        }
+
         protected void paintComponent(Graphics g)  {
+
+        //  if(count == 100){
+        //      data.clear();
+        //      hist_data.clear();
+        //      date.clear();
+        //      tickerindex++;
+        //      count=0;
+        //  }
             if(count ==0) {
                 try {
                     readFile();
+
                 } catch (IOException e) {
                     System.out.println("error: " + e.getMessage());
                 }
                 data.addAll(hist_data);
             }
+            System.out.println(count);
             count++;
+            super.repaint();
             super.paintComponent(g);
             this.setBackground(Color.black);
             Graphics2D g2 = (Graphics2D) g;
@@ -76,6 +137,9 @@ package org.seleniumhq.selenium;
             double xInc = (double) (w - 2 * PAD) / (data.size() );
             double scale = (double) (h - 2 * PAD) / getMax();
             g2.setPaint(Color.green.darker());
+
+            g2.drawString(ticker.get(tickerindex), sx+150, sy-100);
+            System.out.println(tickerindex);
          // for (int i = 0; i < data.size() - 1; i++) {
          //     double x1 = PAD + i * xInc;
          //     double y1 = h - PAD - scale * data.get(i);
@@ -108,6 +172,7 @@ package org.seleniumhq.selenium;
 //Reads csv Data for stock file 2017-11-14_Stocks.csv
 //Puts data into data structure for plotting
         private void readFile() throws IOException {
+            System.out.println("reading file");
             int data;
             String csvFile = "2017-11-14_Stocks.csv";
             FileReader file = new FileReader(csvFile);
@@ -126,13 +191,14 @@ package org.seleniumhq.selenium;
                         for(int i=2;i<csvData.length;i++)
                         date.add(csvData[i]);
                     }
-
                     if(index > 0 ) {
 
                         ticker.add(csvData[0]);
+                        arraylength = ticker.size();
 
                         //Ticker information read here
-                        if(csvData[0].compareTo("ABM")==0) {
+                        if(tickerindex<0) tickerindex=ticker.size()-1;
+                        if(csvData[0].compareTo(ticker.get(tickerindex))==0) {
                             try {
                                 for (int i = 3; i < csvData.length; i++) {
                                     data = (int) Double.parseDouble(csvData[i]);
