@@ -170,7 +170,7 @@ package org.seleniumhq.selenium;
 
             g2.setFont(new Font("TimesRoman", Font.PLAIN, 24));
             String temp = ticker.get(tickerindex)+" "+tickerName.get(tickerindex);
-            g2.drawString(temp, sx-290, sy+50);
+            g2.drawString(temp, sx-600, sy+70);
 
 
             g2.setFont(new Font("TimesRoman", Font.PLAIN, 14));
@@ -186,7 +186,7 @@ package org.seleniumhq.selenium;
             }
 
             g2.setFont(new Font("TimesRoman", Font.PLAIN, 24));
-            g2.drawString("Stock Data -", sx+150, sy+70);
+            g2.drawString("Stock Data -", sx+350, sy+70);
 
             g2.setPaint(Color.blue);
             for (int i = 0; i < trendsHistorical_data.size(); i++) {
@@ -196,7 +196,7 @@ package org.seleniumhq.selenium;
 
             }
             g2.setFont(new Font("TimesRoman", Font.PLAIN, 24));
-            g2.drawString("GoogleTrends Data -", sx-190, sy+70);
+            g2.drawString("GoogleTrends Data -", sx+90, sy+70);
         }
 
         private int getMax(ArrayList<Integer> data) {
