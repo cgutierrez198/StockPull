@@ -188,7 +188,7 @@ package org.seleniumhq.selenium;
             g2.setFont(new Font("TimesRoman", Font.PLAIN, 24));
             g2.drawString("Stock Data -", sx+350, sy+70);
 
-            g2.setPaint(Color.blue);
+            g2.setPaint(Color.YELLOW);
             for (int i = 0; i < trendsHistorical_data.size(); i++) {
                 double x2= PAD + i * xInc2;
                 double y2= h - PAD - scale2 *trendsHistorical_data.get(i);
