@@ -30,8 +30,12 @@ package org.seleniumhq.selenium;
 
 
         ArrayList<Integer> trendsHistorical_data = new ArrayList<Integer>();
-        ArrayList<Integer> trends_data = new ArrayList<Integer>();
         ArrayList<String> trends_date = new ArrayList<String>();
+
+        boolean auto_start = false;
+        int auto_select=0;
+        int select =0;
+        boolean plotSwitch= false;
     //  int[] data = {
     //          21, 14, 18, 03, 86, 88, 74, 87, 54, 77,
     //          61, 55, 48, 60, 49, 36, 38, 27, 20, 18
@@ -78,6 +82,39 @@ package org.seleniumhq.selenium;
                     trends_date.clear();
                     count=0;
                     break;
+
+                case KeyEvent.VK_SPACE:
+
+                    auto_select++;
+                    if(auto_select >1) auto_select =0;
+                    if(tickerindex>=arraylength){
+
+                        tickerindex=0;
+                    }
+                    if(auto_select ==1) {
+                        auto_start=true;
+                    }
+                    else{
+                        auto_start=false;
+                    }
+                    data.clear();
+                    hist_data.clear();
+                    date.clear();
+                    trendsHistorical_data.clear();
+                    trends_date.clear();
+                    count=0;
+                    break;
+                case KeyEvent.VK_ENTER:
+                    if(select >1) select=0;
+                    select++;
+                    if(select ==1){
+                        plotSwitch=true;
+
+                    }
+                    else{
+                        plotSwitch=false;
+
+                    }
             }
 
 
@@ -93,13 +130,16 @@ package org.seleniumhq.selenium;
 
         protected void paintComponent(Graphics g)  {
 
-        //  if(count == 100){
-        //      data.clear();
-        //      hist_data.clear();
-        //      date.clear();
-        //      tickerindex++;
-        //      count=0;
-        //  }
+          if(count >= 80&& auto_start==true){
+              data.clear();
+              hist_data.clear();
+              date.clear();
+              trendsHistorical_data.clear();
+              trends_date.clear();
+              tickerindex++;
+              count=0;
+
+          }
             if(count ==0) {
                 try {
                     readFile();
@@ -109,7 +149,8 @@ package org.seleniumhq.selenium;
                 }
                 data.addAll(hist_data);
             }
-            count++;
+
+             count++;
             super.repaint();
             super.paintComponent(g);
             this.setBackground(Color.black);
@@ -151,21 +192,7 @@ package org.seleniumhq.selenium;
             double scale = (double) (h - 2 * PAD) / getMax(data);
             g2.setPaint(Color.green.darker());
 
-         // for (int i = 0; i < data.size() - 1; i++) {
-         //     double x1 = PAD + i * xInc;
-         //     double y1 = h - PAD - scale * data.get(i);
-         //     double x2 = PAD + (i + 1) * xInc;
-         //     double y2 = h - PAD - scale * (data.get(i)+1);
-         //     g2.draw(new Line2D.Double(x1, y1, x2, y2));
-         // }
 
-       // for (int i = 0; i < trendsHistorical_data.size() - 1; i++) {
-       //     double x1T = PAD + i * xInc2;
-       //     double y1T = h - PAD - scale2 * trendsHistorical_data.get(i);
-       //     double x2T = PAD + (i + 1) * xInc2;
-       //     double y2T = h - PAD - scale2 * (trendsHistorical_data.get(i)+1);
-       //     g2.draw(new Line2D.Double(x1T, y1T, x2T, y2T));
-       // }
             // Mark data points.
 
             g2.setFont(new Font("TimesRoman", Font.PLAIN, 24));
@@ -184,6 +211,15 @@ package org.seleniumhq.selenium;
                     g2.drawString(date.get(i), (int) x - 2, super.getHeight() -120);
                 }
             }
+            if(plotSwitch) {
+                for (int i = 0; i < data.size() - 1; i++) {
+                    double x1 = PAD + i * xInc;
+                    double y1 = h - PAD - scale * data.get(i);
+                    double x2 = PAD + (i + 1) * xInc;
+                    double y2 = h - PAD - scale * (data.get(i + 1));
+                    g2.draw(new Line2D.Double(x1, y1, x2, y2));
+                }
+            }
 
             g2.setFont(new Font("TimesRoman", Font.PLAIN, 24));
             g2.drawString("Stock Data -", sx+350, sy+70);
@@ -192,8 +228,17 @@ package org.seleniumhq.selenium;
             for (int i = 0; i < trendsHistorical_data.size(); i++) {
                 double x2= PAD + i * xInc2;
                 double y2= h - PAD - scale2 *trendsHistorical_data.get(i);
-                g2.fill(new Ellipse2D.Double(x2- 2, y2- 2, 4,4));
+                g2.fill(new Ellipse2D.Double(x2- 2, y2- 2, 3,3));
 
+            }
+            if(plotSwitch) {
+                for (int i = 0; i < trendsHistorical_data.size() - 1; i++) {
+                    double x1T = PAD + i * xInc2;
+                    double y1T = h - PAD - scale2 * trendsHistorical_data.get(i);
+                    double x2T = PAD + (i + 1) * xInc2;
+                    double y2T = h - PAD - scale2 * (trendsHistorical_data.get(i + 1));
+                    g2.draw(new Line2D.Double(x1T, y1T, x2T, y2T));
+                }
             }
             g2.setFont(new Font("TimesRoman", Font.PLAIN, 24));
             g2.drawString("GoogleTrends Data -", sx+90, sy+70);
