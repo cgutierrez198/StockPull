@@ -26,6 +26,12 @@ package org.seleniumhq.selenium;
         ArrayList<String> ticker = new ArrayList<String>();
         ArrayList<Integer> data = new ArrayList<Integer>();
 
+        ArrayList<String> tickerName = new ArrayList<String>();
+
+
+        ArrayList<Integer> trendsHistorical_data = new ArrayList<Integer>();
+        ArrayList<Integer> trends_data = new ArrayList<Integer>();
+        ArrayList<String> trends_date = new ArrayList<String>();
     //  int[] data = {
     //          21, 14, 18, 03, 86, 88, 74, 87, 54, 77,
     //          61, 55, 48, 60, 49, 36, 38, 27, 20, 18
@@ -52,6 +58,8 @@ package org.seleniumhq.selenium;
                     data.clear();
                     hist_data.clear();
                     date.clear();
+                    trendsHistorical_data.clear();
+                    trends_date.clear();
                     count=0;
                     break;
                 case KeyEvent.VK_LEFT:
@@ -65,6 +73,9 @@ package org.seleniumhq.selenium;
                     data.clear();
                     hist_data.clear();
                     date.clear();
+
+                    trendsHistorical_data.clear();
+                    trends_date.clear();
                     count=0;
                     break;
             }
@@ -98,7 +109,6 @@ package org.seleniumhq.selenium;
                 }
                 data.addAll(hist_data);
             }
-            System.out.println(count);
             count++;
             super.repaint();
             super.paintComponent(g);
@@ -134,12 +144,13 @@ package org.seleniumhq.selenium;
             float sx = (w - sw) / 2;
             g2.drawString(s, sx, sy);
             // Draw lines.
+
+            double xInc2 = (double) (w - 2 * PAD) / (trendsHistorical_data.size() );
+            double scale2 = (double) (h - 2 * PAD) / getMax(trendsHistorical_data);
             double xInc = (double) (w - 2 * PAD) / (data.size() );
-            double scale = (double) (h - 2 * PAD) / getMax();
+            double scale = (double) (h - 2 * PAD) / getMax(data);
             g2.setPaint(Color.green.darker());
 
-            g2.drawString(ticker.get(tickerindex), sx+150, sy-100);
-            System.out.println(tickerindex);
          // for (int i = 0; i < data.size() - 1; i++) {
          //     double x1 = PAD + i * xInc;
          //     double y1 = h - PAD - scale * data.get(i);
@@ -147,7 +158,22 @@ package org.seleniumhq.selenium;
          //     double y2 = h - PAD - scale * (data.get(i)+1);
          //     g2.draw(new Line2D.Double(x1, y1, x2, y2));
          // }
+
+       // for (int i = 0; i < trendsHistorical_data.size() - 1; i++) {
+       //     double x1T = PAD + i * xInc2;
+       //     double y1T = h - PAD - scale2 * trendsHistorical_data.get(i);
+       //     double x2T = PAD + (i + 1) * xInc2;
+       //     double y2T = h - PAD - scale2 * (trendsHistorical_data.get(i)+1);
+       //     g2.draw(new Line2D.Double(x1T, y1T, x2T, y2T));
+       // }
             // Mark data points.
+
+            g2.setFont(new Font("TimesRoman", Font.PLAIN, 24));
+            String temp = ticker.get(tickerindex)+" "+tickerName.get(tickerindex);
+            g2.drawString(temp, sx-290, sy+50);
+
+
+            g2.setFont(new Font("TimesRoman", Font.PLAIN, 14));
             g2.setPaint(Color.red);
             for (int i = 0; i < data.size(); i++) {
                 double x = PAD + i * xInc;
@@ -158,9 +184,22 @@ package org.seleniumhq.selenium;
                     g2.drawString(date.get(i), (int) x - 2, super.getHeight() -120);
                 }
             }
+
+            g2.setFont(new Font("TimesRoman", Font.PLAIN, 24));
+            g2.drawString("Stock Data -", sx+150, sy+70);
+
+            g2.setPaint(Color.blue);
+            for (int i = 0; i < trendsHistorical_data.size(); i++) {
+                double x2= PAD + i * xInc2;
+                double y2= h - PAD - scale2 *trendsHistorical_data.get(i);
+                g2.fill(new Ellipse2D.Double(x2- 2, y2- 2, 4,4));
+
+            }
+            g2.setFont(new Font("TimesRoman", Font.PLAIN, 24));
+            g2.drawString("GoogleTrends Data -", sx-190, sy+70);
         }
 
-        private int getMax() {
+        private int getMax(ArrayList<Integer> data) {
             int max = -Integer.MAX_VALUE;
             for (int i = 0; i < data.size(); i++) {
                 if (data.get(i) > max)
@@ -172,7 +211,6 @@ package org.seleniumhq.selenium;
 //Reads csv Data for stock file 2017-11-14_Stocks.csv
 //Puts data into data structure for plotting
         private void readFile() throws IOException {
-            System.out.println("reading file");
             int data;
             String csvFile = "2017-11-14_Stocks.csv";
             FileReader file = new FileReader(csvFile);
@@ -194,6 +232,7 @@ package org.seleniumhq.selenium;
                     if(index > 0 ) {
 
                         ticker.add(csvData[0]);
+                        tickerName.add(csvData[1]);
                         arraylength = ticker.size();
 
                         //Ticker information read here
@@ -216,5 +255,43 @@ package org.seleniumhq.selenium;
             } catch (IOException e) {
                 e.printStackTrace();
             }
+
+           String  trendsFile = "trends_file.csv";
+            FileReader file2 = new FileReader(trendsFile);
+            BufferedReader br2 = new BufferedReader(file2);
+            index  =0;
+            String temp;
+            try  {
+
+                while ((line = br2.readLine()) != null) {
+                    // use comma as separator
+                    String[] csvData2= line.split(cvsSplitBy);
+                    if(index > 0 ) {
+
+
+                        //Ticker information read here
+                        if(tickerindex<0) tickerindex=ticker.size()-1;
+                        temp=csvData2[7].replace("\"","");
+
+                        if(temp.compareTo(ticker.get(tickerindex))==0) {
+
+                            try {
+                                    data = Integer.parseInt(csvData2[2]);
+                                    trendsHistorical_data.add(data);
+                                    trends_date.add(csvData2[1]);
+                            } catch (NumberFormatException e) {
+                                continue;
+                            }
+                        }
+                    }
+
+                    index++;
+                }
+
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
+
         }
     }
