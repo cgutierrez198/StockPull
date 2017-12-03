@@ -1,7 +1,5 @@
 package org.seleniumhq.selenium;
 
-    import javafx.scene.input.KeyCode;
-    import yahoofinance.histquotes.HistoricalQuote;
 
     import java.awt.*;
     import java.awt.event.KeyEvent;
