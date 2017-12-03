@@ -198,7 +198,11 @@ package org.seleniumhq.selenium;
             g2.setFont(new Font("TimesRoman", Font.PLAIN, 24));
             String temp = ticker.get(tickerindex)+" "+tickerName.get(tickerindex);
             g2.drawString(temp, sx-600, sy+70);
-
+            if(auto_start)
+                g2.setColor(Color.magenta);
+            else
+                g2.setColor(Color.GRAY);
+                g2.drawString("auto",sx-620,sy+130);
 
             g2.setFont(new Font("TimesRoman", Font.PLAIN, 14));
             g2.setPaint(Color.red);
@@ -286,7 +290,7 @@ package org.seleniumhq.selenium;
                             try {
                                 for (int i = 3; i < csvData.length; i++) {
                                     data = (int) Double.parseDouble(csvData[i]);
-                                    hist_data.add(data);
+                                    hist_data.add(data*100);
                                 }
                             } catch (NumberFormatException e) {
                                 continue;
@@ -323,6 +327,7 @@ package org.seleniumhq.selenium;
                             try {
                                     data = Integer.parseInt(csvData2[2]);
                                     trendsHistorical_data.add(data);
+
                                     trends_date.add(csvData2[1]);
                             } catch (NumberFormatException e) {
                                 continue;
