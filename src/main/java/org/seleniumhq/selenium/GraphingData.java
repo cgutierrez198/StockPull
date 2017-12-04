@@ -8,13 +8,9 @@ package org.seleniumhq.selenium;
     import java.awt.font.LineMetrics;
     import java.awt.geom.*;
     import java.io.BufferedReader;
-    import java.io.File;
     import java.io.FileReader;
     import java.io.IOException;
-    import java.text.DateFormat;
-    import java.text.SimpleDateFormat;
     import java.util.ArrayList;
-    import java.util.Date;
     import javax.swing.*;
 
     public class GraphingData extends JPanel implements KeyListener {
@@ -34,10 +30,6 @@ package org.seleniumhq.selenium;
         int auto_select=0;
         int select =0;
         boolean plotSwitch= false;
-    //  int[] data = {
-    //          21, 14, 18, 03, 86, 88, 74, 87, 54, 77,
-    //          61, 55, 48, 60, 49, 36, 38, 27, 20, 18
-    //  };
 
         final int PAD = 10;
         int count=0;
