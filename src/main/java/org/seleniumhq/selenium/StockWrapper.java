@@ -15,6 +15,7 @@ import yahoofinance.YahooFinance;
 import yahoofinance.histquotes.HistoricalQuote;
 import yahoofinance.histquotes.Interval;
 
+
 public class StockWrapper {
 
   private  Calendar from = Calendar.getInstance();
@@ -68,30 +69,38 @@ public void pullStock() throws IOException{
 //            csvOutput.endRecord();
 
         // Retrieve Historical stock data from the source and output to file
-        hist_data = new ArrayList<HistoricalQuote>(line1.getHistory(from, to, Interval.DAILY));
+        hist_data = new ArrayList<HistoricalQuote>(line1.getHistory(from, to, Interval.WEEKLY));
 
         if (index < 1) {
-            csvOutput.write("");
-            csvOutput.write("");
-            for (int i = 0; i < hist_data.size(); i++) {
-
-                day = (hist_data.get(i).getDate().getTime().getDate() + "");
-                month = (hist_data.get(i).getDate().getTime().getMonth() + 1 + "");
-                year = (hist_data.get(i).getDate().getTime().getYear() - 100 + "");
-                temp = (month + "/" + year);
-                csvOutput.write(temp);
-            }
-
+            csvOutput.write("ticker");
+            csvOutput.write("name");
+            csvOutput.write("Date");
+            csvOutput.write("Data");
             csvOutput.endRecord();
+
+
         }
 
         // Get the name of the stock and a formatted date
-        csvOutput.write(line1.getSymbol());
-        temp = line1.getName();
-        csvOutput.write(temp.replace(';', ' '));
-        for (int i = 0; i < hist_data.size(); i++)
+
+        for (int i = 0; i < hist_data.size(); i++) {
+
+
+
+
+            csvOutput.write(line1.getSymbol());
+            temp = line1.getName();
+            csvOutput.write(temp.replace(';', ' '));
+
+            day = (hist_data.get(i).getDate().getTime().getDate() + "");
+            month = (hist_data.get(i).getDate().getTime().getMonth() + 1 + "");
+            year = (hist_data.get(i).getDate().getTime().getYear() - 100 + "");
+            temp = (day+"/"+month + "/" + year);
+            csvOutput.write(temp);
             csvOutput.write(hist_data.get(i).getClose() + "");
-        csvOutput.endRecord();
+
+            csvOutput.endRecord();
+        }
         index++;
     }
 

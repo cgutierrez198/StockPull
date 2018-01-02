@@ -7,7 +7,7 @@ import javax.swing.*;
 
 public class App  {
     public static void main(String[] args) throws IOException {
-
+/*
       JFrame f = new JFrame();
       final JPanel panel = new JPanel();
       final GraphingData graph =new GraphingData();
@@ -22,12 +22,11 @@ public class App  {
         f.add(graph);
         f.setLocation(200, 200);
         f.setVisible(true);
-        JButton northEast = new JButton("Move to North East");
-        northEast.setBounds(240, 710, 190, 20);
+*/
 
-        JButton refresh = new JButton("North East");
-        refresh.setBounds(110, 700, 190, 20);
-
+        StockWrapper stocks = new StockWrapper();
+        stocks.pullStock();
+        stocks.writeFile();
     }
 
     }
