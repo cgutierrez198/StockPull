@@ -1,0 +1,730 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AUDCAD	quotes/fx/FxSymbols.java	/^    public static final String AUDCAD = "AUDCAD=X";$/;"	f	class:FxSymbols
+AUDCHF	quotes/fx/FxSymbols.java	/^    public static final String AUDCHF = "AUDCHF=X";$/;"	f	class:FxSymbols
+AUDEUR	quotes/fx/FxSymbols.java	/^    public static final String AUDEUR = "AUDEUR=X";$/;"	f	class:FxSymbols
+AUDGBP	quotes/fx/FxSymbols.java	/^    public static final String AUDGBP = "AUDGBP=X";$/;"	f	class:FxSymbols
+AUDHKD	quotes/fx/FxSymbols.java	/^    public static final String AUDHKD = "AUDHKD=X";$/;"	f	class:FxSymbols
+AUDJPY	quotes/fx/FxSymbols.java	/^    public static final String AUDJPY = "AUDJPY=X";$/;"	f	class:FxSymbols
+AUDNZD	quotes/fx/FxSymbols.java	/^    public static final String AUDNZD = "AUDNZD=X";$/;"	f	class:FxSymbols
+AUDSGD	quotes/fx/FxSymbols.java	/^    public static final String AUDSGD = "AUDSGD=X";$/;"	f	class:FxSymbols
+AUDUSD	quotes/fx/FxSymbols.java	/^    public static final String AUDUSD = "AUDUSD=X";$/;"	f	class:FxSymbols
+AfterHoursChangeRealtime	quotes/csv/QuotesProperty.java	/^    AfterHoursChangeRealtime("c8"), \/\/ After Hours Change (Realtime)$/;"	e	enum:QuotesProperty	file:
+AnnualizedGain	quotes/csv/QuotesProperty.java	/^    AnnualizedGain("g3"), \/\/ Annualized Gain$/;"	e	enum:QuotesProperty	file:
+Ask	quotes/csv/QuotesProperty.java	/^    Ask("a"), \/\/ Ask$/;"	e	enum:QuotesProperty	file:
+AskRealtime	quotes/csv/QuotesProperty.java	/^    AskRealtime("b2"), \/\/ Ask (Realtime)$/;"	e	enum:QuotesProperty	file:
+AskSize	quotes/csv/QuotesProperty.java	/^    AskSize("a5"), \/\/ Ask Size$/;"	e	enum:QuotesProperty	file:
+AverageDailyVolume	quotes/csv/QuotesProperty.java	/^    AverageDailyVolume("a2"), \/\/ Average Daily Volume$/;"	e	enum:QuotesProperty	file:
+BILLION	Utils.java	/^    public static final BigDecimal BILLION = new BigDecimal(1000000000);$/;"	f	class:Utils
+Bid	quotes/csv/QuotesProperty.java	/^    Bid("b"), \/\/ Bid$/;"	e	enum:QuotesProperty	file:
+BidRealtime	quotes/csv/QuotesProperty.java	/^    BidRealtime("b3"), \/\/ Bid (Realtime)$/;"	e	enum:QuotesProperty	file:
+BidSize	quotes/csv/QuotesProperty.java	/^    BidSize("b6"), \/\/ Bid Size$/;"	e	enum:QuotesProperty	file:
+BookValuePerShare	quotes/csv/QuotesProperty.java	/^    BookValuePerShare("b4"), \/\/ Book Value Per Share$/;"	e	enum:QuotesProperty	file:
+CADAUD	quotes/fx/FxSymbols.java	/^    public static final String CADAUD = "CADAUD=X";$/;"	f	class:FxSymbols
+CADCHF	quotes/fx/FxSymbols.java	/^    public static final String CADCHF = "CADCHF=X";$/;"	f	class:FxSymbols
+CADEUR	quotes/fx/FxSymbols.java	/^    public static final String CADEUR = "CADEUR=X";$/;"	f	class:FxSymbols
+CADGBP	quotes/fx/FxSymbols.java	/^    public static final String CADGBP = "CADGBP=X";$/;"	f	class:FxSymbols
+CADHKD	quotes/fx/FxSymbols.java	/^    public static final String CADHKD = "CADHKD=X";$/;"	f	class:FxSymbols
+CADJPY	quotes/fx/FxSymbols.java	/^    public static final String CADJPY = "CADJPY=X";$/;"	f	class:FxSymbols
+CADNZD	quotes/fx/FxSymbols.java	/^    public static final String CADNZD = "CADNZD=X";$/;"	f	class:FxSymbols
+CADSGD	quotes/fx/FxSymbols.java	/^    public static final String CADSGD = "CADSGD=X";$/;"	f	class:FxSymbols
+CADUSD	quotes/fx/FxSymbols.java	/^    public static final String CADUSD = "CADUSD=X";$/;"	f	class:FxSymbols
+CHFAUD	quotes/fx/FxSymbols.java	/^    public static final String CHFAUD = "CHFAUD=X";$/;"	f	class:FxSymbols
+CHFCAD	quotes/fx/FxSymbols.java	/^    public static final String CHFCAD = "CHFCAD=X";$/;"	f	class:FxSymbols
+CHFEUR	quotes/fx/FxSymbols.java	/^    public static final String CHFEUR = "CHFEUR=X";$/;"	f	class:FxSymbols
+CHFGBP	quotes/fx/FxSymbols.java	/^    public static final String CHFGBP = "CHFGBP=X";$/;"	f	class:FxSymbols
+CHFHKD	quotes/fx/FxSymbols.java	/^    public static final String CHFHKD = "CHFHKD=X";$/;"	f	class:FxSymbols
+CHFJPY	quotes/fx/FxSymbols.java	/^    public static final String CHFJPY = "CHFJPY=X";$/;"	f	class:FxSymbols
+CHFNZD	quotes/fx/FxSymbols.java	/^    public static final String CHFNZD = "CHFNZD=X";$/;"	f	class:FxSymbols
+CHFSGD	quotes/fx/FxSymbols.java	/^    public static final String CHFSGD = "CHFSGD=X";$/;"	f	class:FxSymbols
+CONNECTION_TIMEOUT	YahooFinance.java	/^    public static final int CONNECTION_TIMEOUT = $/;"	f	class:YahooFinance
+Change	quotes/csv/QuotesProperty.java	/^    Change("c1"), \/\/ Change$/;"	e	enum:QuotesProperty	file:
+ChangeFromFiftydayMovingAverage	quotes/csv/QuotesProperty.java	/^    ChangeFromFiftydayMovingAverage("m7"), \/\/ Change From Fiftyday Moving Average$/;"	e	enum:QuotesProperty	file:
+ChangeFromTwoHundreddayMovingAverage	quotes/csv/QuotesProperty.java	/^    ChangeFromTwoHundreddayMovingAverage("m5"), \/\/ Change From Two Hundredday Moving Average$/;"	e	enum:QuotesProperty	file:
+ChangeFromYearHigh	quotes/csv/QuotesProperty.java	/^    ChangeFromYearHigh("k4"), \/\/ Change From Year High$/;"	e	enum:QuotesProperty	file:
+ChangeFromYearLow	quotes/csv/QuotesProperty.java	/^    ChangeFromYearLow("j5"), \/\/ Change From Year Low$/;"	e	enum:QuotesProperty	file:
+ChangeInPercent	quotes/csv/QuotesProperty.java	/^    ChangeInPercent("p2"), \/\/ Change In Percent$/;"	e	enum:QuotesProperty	file:
+ChangeInPercentFromYearHigh	quotes/csv/QuotesProperty.java	/^    ChangeInPercentFromYearHigh("k5"), \/\/ Change In Percent From Year High$/;"	e	enum:QuotesProperty	file:
+ChangeInPercentRealtime	quotes/csv/QuotesProperty.java	/^    ChangeInPercentRealtime("k2"), \/\/ Change In Percent (Realtime)$/;"	e	enum:QuotesProperty	file:
+ChangeRealtime	quotes/csv/QuotesProperty.java	/^    ChangeRealtime("c6"), \/\/ Change (Realtime)$/;"	e	enum:QuotesProperty	file:
+Change_ChangeInPercent	quotes/csv/QuotesProperty.java	/^    Change_ChangeInPercent("c"), \/\/ Change Change In Percent$/;"	e	enum:QuotesProperty	file:
+Commission	quotes/csv/QuotesProperty.java	/^    Commission("c3"), \/\/ Commission$/;"	e	enum:QuotesProperty	file:
+CrumbManager	histquotes2/CrumbManager.java	/^public class CrumbManager {$/;"	c
+Currency	quotes/csv/QuotesProperty.java	/^    Currency("c4"), \/\/ Currency$/;"	e	enum:QuotesProperty	file:
+DAILY	histquotes/Interval.java	/^    DAILY("d"),$/;"	e	enum:Interval	file:
+DAILY	histquotes2/QueryInterval.java	/^    DAILY("1d"),$/;"	e	enum:QueryInterval	file:
+DEFAULT_FROM	histquotes/HistQuotesRequest.java	/^    public static final Calendar DEFAULT_FROM = Calendar.getInstance();$/;"	f	class:HistQuotesRequest
+DEFAULT_FROM	histquotes2/HistDividendsRequest.java	/^    public static final Calendar DEFAULT_FROM = Calendar.getInstance();$/;"	f	class:HistDividendsRequest
+DEFAULT_FROM	histquotes2/HistQuotes2Request.java	/^    public static final Calendar DEFAULT_FROM = Calendar.getInstance();$/;"	f	class:HistQuotes2Request
+DEFAULT_FROM	histquotes2/HistSplitsRequest.java	/^    public static final Calendar DEFAULT_FROM = Calendar.getInstance();$/;"	f	class:HistSplitsRequest
+DEFAULT_FROM	query2v8/HistQuotesQuery2V8Request.java	/^    public static final Calendar DEFAULT_FROM = Calendar.getInstance();$/;"	f	class:HistQuotesQuery2V8Request
+DEFAULT_INTERVAL	histquotes/HistQuotesRequest.java	/^    public static final Interval DEFAULT_INTERVAL = Interval.MONTHLY;$/;"	f	class:HistQuotesRequest
+DEFAULT_INTERVAL	histquotes2/HistDividendsRequest.java	/^    public static final QueryInterval DEFAULT_INTERVAL = QueryInterval.DAILY;$/;"	f	class:HistDividendsRequest
+DEFAULT_INTERVAL	histquotes2/HistQuotes2Request.java	/^    public static final QueryInterval DEFAULT_INTERVAL = QueryInterval.MONTHLY;$/;"	f	class:HistQuotes2Request
+DEFAULT_INTERVAL	histquotes2/HistSplitsRequest.java	/^    public static final QueryInterval DEFAULT_INTERVAL = QueryInterval.DAILY;$/;"	f	class:HistSplitsRequest
+DEFAULT_INTERVAL	query2v8/HistQuotesQuery2V8Request.java	/^    public static final QueryInterval DEFAULT_INTERVAL = QueryInterval.MONTHLY;$/;"	f	class:HistQuotesQuery2V8Request
+DEFAULT_PROPERTIES	quotes/csv/FxQuotesRequest.java	/^    public static final List<QuotesProperty> DEFAULT_PROPERTIES = new ArrayList<QuotesProperty>();$/;"	f	class:FxQuotesRequest
+DEFAULT_PROPERTIES	quotes/csv/StockQuotesRequest.java	/^    public static final List<QuotesProperty> DEFAULT_PROPERTIES = new ArrayList<QuotesProperty>();$/;"	f	class:StockQuotesRequest
+DEFAULT_TO	histquotes/HistQuotesRequest.java	/^    public static final Calendar DEFAULT_TO = Calendar.getInstance();$/;"	f	class:HistQuotesRequest
+DEFAULT_TO	histquotes2/HistDividendsRequest.java	/^    public static final Calendar DEFAULT_TO = Calendar.getInstance();$/;"	f	class:HistDividendsRequest
+DEFAULT_TO	histquotes2/HistQuotes2Request.java	/^    public static final Calendar DEFAULT_TO = Calendar.getInstance();$/;"	f	class:HistQuotes2Request
+DEFAULT_TO	histquotes2/HistSplitsRequest.java	/^    public static final Calendar DEFAULT_TO = Calendar.getInstance();$/;"	f	class:HistSplitsRequest
+DEFAULT_TO	query2v8/HistQuotesQuery2V8Request.java	/^    public static final Calendar DEFAULT_TO = Calendar.getInstance();$/;"	f	class:HistQuotesQuery2V8Request
+DaysHigh	quotes/csv/QuotesProperty.java	/^    DaysHigh("h"), \/\/ Days High$/;"	e	enum:QuotesProperty	file:
+DaysLow	quotes/csv/QuotesProperty.java	/^    DaysLow("g"), \/\/ Days Low$/;"	e	enum:QuotesProperty	file:
+DaysRange	quotes/csv/QuotesProperty.java	/^    DaysRange("m"), \/\/ Days Range$/;"	e	enum:QuotesProperty	file:
+DaysRangeRealtime	quotes/csv/QuotesProperty.java	/^    DaysRangeRealtime("m2"), \/\/ Days Range (Realtime)$/;"	e	enum:QuotesProperty	file:
+DaysValueChange	quotes/csv/QuotesProperty.java	/^    DaysValueChange("w1"), \/\/ Days Value Change$/;"	e	enum:QuotesProperty	file:
+DaysValueChangeRealtime	quotes/csv/QuotesProperty.java	/^    DaysValueChangeRealtime("w4"), \/\/ Days Value Change (Realtime)$/;"	e	enum:QuotesProperty	file:
+DilutedEPS	quotes/csv/QuotesProperty.java	/^    DilutedEPS("e"), \/\/ Diluted E P S$/;"	e	enum:QuotesProperty	file:
+DividendPayDate	quotes/csv/QuotesProperty.java	/^    DividendPayDate("r1"), \/\/ Dividend Pay Date$/;"	e	enum:QuotesProperty	file:
+EBITDA	quotes/csv/QuotesProperty.java	/^    EBITDA("j4"), \/\/ E B I T D A$/;"	e	enum:QuotesProperty	file:
+EBITDA	quotes/stock/StockStats.java	/^    private BigDecimal EBITDA; \/\/ ttm$/;"	f	class:StockStats	file:
+EPSEstimateCurrentYear	quotes/csv/QuotesProperty.java	/^    EPSEstimateCurrentYear("e7"), \/\/ E P S Estimate Current Year$/;"	e	enum:QuotesProperty	file:
+EPSEstimateNextQuarter	quotes/csv/QuotesProperty.java	/^    EPSEstimateNextQuarter("e9"), \/\/ E P S Estimate Next Quarter$/;"	e	enum:QuotesProperty	file:
+EPSEstimateNextYear	quotes/csv/QuotesProperty.java	/^    EPSEstimateNextYear("e8"), \/\/ E P S Estimate Next Year$/;"	e	enum:QuotesProperty	file:
+EURAUD	quotes/fx/FxSymbols.java	/^    public static final String EURAUD = "EURAUD=X";$/;"	f	class:FxSymbols
+EURCAD	quotes/fx/FxSymbols.java	/^    public static final String EURCAD = "EURCAD=X";$/;"	f	class:FxSymbols
+EURCHF	quotes/fx/FxSymbols.java	/^    public static final String EURCHF = "EURCHF=X";$/;"	f	class:FxSymbols
+EURGBP	quotes/fx/FxSymbols.java	/^    public static final String EURGBP = "EURGBP=X";$/;"	f	class:FxSymbols
+EURHKD	quotes/fx/FxSymbols.java	/^    public static final String EURHKD = "EURHKD=X";$/;"	f	class:FxSymbols
+EURJPY	quotes/fx/FxSymbols.java	/^    public static final String EURJPY = "EURJPY=X";$/;"	f	class:FxSymbols
+EURNZD	quotes/fx/FxSymbols.java	/^    public static final String EURNZD = "EURNZD=X";$/;"	f	class:FxSymbols
+EURSGD	quotes/fx/FxSymbols.java	/^    public static final String EURSGD = "EURSGD=X";$/;"	f	class:FxSymbols
+EURUSD	quotes/fx/FxSymbols.java	/^    public static final String EURUSD = "EURUSD=X";$/;"	f	class:FxSymbols
+ExDividendDate	quotes/csv/QuotesProperty.java	/^    ExDividendDate("q"), \/\/ Ex Dividend Date$/;"	e	enum:QuotesProperty	file:
+ExchangeTimeZone	exchanges/ExchangeTimeZone.java	/^public class ExchangeTimeZone {$/;"	c
+FiftydayMovingAverage	quotes/csv/QuotesProperty.java	/^    FiftydayMovingAverage("m3"), \/\/ Fiftyday Moving Average$/;"	e	enum:QuotesProperty	file:
+FxQuote	quotes/fx/FxQuote.java	/^    public FxQuote(String symbol) {$/;"	m	class:FxQuote
+FxQuote	quotes/fx/FxQuote.java	/^    public FxQuote(String symbol, BigDecimal price) {$/;"	m	class:FxQuote
+FxQuote	quotes/fx/FxQuote.java	/^public class FxQuote {$/;"	c
+FxQuotesQuery1V7Request	quotes/query1v7/FxQuotesQuery1V7Request.java	/^    public FxQuotesQuery1V7Request(String symbols) {$/;"	m	class:FxQuotesQuery1V7Request
+FxQuotesQuery1V7Request	quotes/query1v7/FxQuotesQuery1V7Request.java	/^public class FxQuotesQuery1V7Request extends QuotesRequest<FxQuote> {$/;"	c
+FxQuotesRequest	quotes/csv/FxQuotesRequest.java	/^    public FxQuotesRequest(String query) {$/;"	m	class:FxQuotesRequest
+FxQuotesRequest	quotes/csv/FxQuotesRequest.java	/^public class FxQuotesRequest extends QuotesRequest<FxQuote> {$/;"	c
+FxSymbols	quotes/fx/FxSymbols.java	/^public class FxSymbols {$/;"	c
+GBPAUD	quotes/fx/FxSymbols.java	/^    public static final String GBPAUD = "GBPAUD=X";$/;"	f	class:FxSymbols
+GBPCAD	quotes/fx/FxSymbols.java	/^    public static final String GBPCAD = "GBPCAD=X";$/;"	f	class:FxSymbols
+GBPCHF	quotes/fx/FxSymbols.java	/^    public static final String GBPCHF = "GBPCHF=X";$/;"	f	class:FxSymbols
+GBPEUR	quotes/fx/FxSymbols.java	/^    public static final String GBPEUR = "GBPEUR=X";$/;"	f	class:FxSymbols
+GBPHKD	quotes/fx/FxSymbols.java	/^    public static final String GBPHKD = "GBPHKD=X";$/;"	f	class:FxSymbols
+GBPJPY	quotes/fx/FxSymbols.java	/^    public static final String GBPJPY = "GBPJPY=X";$/;"	f	class:FxSymbols
+GBPNZD	quotes/fx/FxSymbols.java	/^    public static final String GBPNZD = "GBPNZD=X";$/;"	f	class:FxSymbols
+GBPSGD	quotes/fx/FxSymbols.java	/^    public static final String GBPSGD = "GBPSGD=X";$/;"	f	class:FxSymbols
+GBPUSD	quotes/fx/FxSymbols.java	/^    public static final String GBPUSD = "GBPUSD=X";$/;"	f	class:FxSymbols
+HISTQUOTES2_BASE_URL	YahooFinance.java	/^    public static final String HISTQUOTES2_BASE_URL = System.getProperty("yahoofinance.baseurl.histquotes2", "https:\/\/query1.finance.yahoo.com\/v7\/finance\/download\/");$/;"	f	class:YahooFinance
+HISTQUOTES2_COOKIE	YahooFinance.java	/^    public static final String HISTQUOTES2_COOKIE = System.getProperty("yahoofinance.cookie", "");$/;"	f	class:YahooFinance
+HISTQUOTES2_CRUMB	YahooFinance.java	/^    public static final String HISTQUOTES2_CRUMB = System.getProperty("yahoofinance.crumb", "");$/;"	f	class:YahooFinance
+HISTQUOTES2_CRUMB_URL	YahooFinance.java	/^    public static final String HISTQUOTES2_CRUMB_URL = System.getProperty("yahoofinance.crumburl.histquotes2", "https:\/\/query1.finance.yahoo.com\/v1\/test\/getcrumb");$/;"	f	class:YahooFinance
+HISTQUOTES2_ENABLED	YahooFinance.java	/^    public static final String HISTQUOTES2_ENABLED = System.getProperty("yahoofinance.histquotes2.enabled", "true");$/;"	f	class:YahooFinance
+HISTQUOTES2_SCRAPE_URL	YahooFinance.java	/^    public static final String HISTQUOTES2_SCRAPE_URL = System.getProperty("yahoofinance.scrapeurl.histquotes2", "https:\/\/finance.yahoo.com\/quote\/%5EGSPC\/options");$/;"	f	class:YahooFinance
+HISTQUOTES_BASE_URL	YahooFinance.java	/^    public static final String HISTQUOTES_BASE_URL = System.getProperty("yahoofinance.baseurl.histquotes", "https:\/\/ichart.yahoo.com\/table.csv");$/;"	f	class:YahooFinance
+HISTQUOTES_QUERY2V8_BASE_URL	YahooFinance.java	/^    public static final String HISTQUOTES_QUERY2V8_BASE_URL = System.getProperty("yahoofinance.baseurl.histquotesquery2v8", "https:\/\/query2.finance.yahoo.com\/v8\/finance\/chart\/");$/;"	f	class:YahooFinance
+HKDAUD	quotes/fx/FxSymbols.java	/^    public static final String HKDAUD = "HKDAUD=X";$/;"	f	class:FxSymbols
+HKDCAD	quotes/fx/FxSymbols.java	/^    public static final String HKDCAD = "HKDCAD=X";$/;"	f	class:FxSymbols
+HKDCHF	quotes/fx/FxSymbols.java	/^    public static final String HKDCHF = "HKDCHF=X";$/;"	f	class:FxSymbols
+HKDEUR	quotes/fx/FxSymbols.java	/^    public static final String HKDEUR = "HKDEUR=X";$/;"	f	class:FxSymbols
+HKDGBP	quotes/fx/FxSymbols.java	/^    public static final String HKDGBP = "HKDGBP=X";$/;"	f	class:FxSymbols
+HKDJPY	quotes/fx/FxSymbols.java	/^    public static final String HKDJPY = "HKDJPY=X";$/;"	f	class:FxSymbols
+HKDNZD	quotes/fx/FxSymbols.java	/^    public static final String HKDNZD = "HKDNZD=X";$/;"	f	class:FxSymbols
+HKDSGD	quotes/fx/FxSymbols.java	/^    public static final String HKDSGD = "HKDSGD=X";$/;"	f	class:FxSymbols
+HKDUSD	quotes/fx/FxSymbols.java	/^    public static final String HKDUSD = "HKDUSD=X";$/;"	f	class:FxSymbols
+HUNDRED	Utils.java	/^    public static final BigDecimal HUNDRED = new BigDecimal(100);$/;"	f	class:Utils
+HighLimit	quotes/csv/QuotesProperty.java	/^    HighLimit("l2"), \/\/ High Limit$/;"	e	enum:QuotesProperty	file:
+HistDividendsRequest	histquotes2/HistDividendsRequest.java	/^    public HistDividendsRequest(String symbol) {$/;"	m	class:HistDividendsRequest
+HistDividendsRequest	histquotes2/HistDividendsRequest.java	/^    public HistDividendsRequest(String symbol, Calendar from, Calendar to) {$/;"	m	class:HistDividendsRequest
+HistDividendsRequest	histquotes2/HistDividendsRequest.java	/^    public HistDividendsRequest(String symbol, Date from, Date to) {$/;"	m	class:HistDividendsRequest
+HistDividendsRequest	histquotes2/HistDividendsRequest.java	/^public class HistDividendsRequest {$/;"	c
+HistQuotes2Request	histquotes2/HistQuotes2Request.java	/^    public HistQuotes2Request(String symbol) {$/;"	m	class:HistQuotes2Request
+HistQuotes2Request	histquotes2/HistQuotes2Request.java	/^    public HistQuotes2Request(String symbol, Calendar from, Calendar to) {$/;"	m	class:HistQuotes2Request
+HistQuotes2Request	histquotes2/HistQuotes2Request.java	/^    public HistQuotes2Request(String symbol, Calendar from, Calendar to, Interval interval) {$/;"	m	class:HistQuotes2Request
+HistQuotes2Request	histquotes2/HistQuotes2Request.java	/^    public HistQuotes2Request(String symbol, Calendar from, Calendar to, QueryInterval interval) {$/;"	m	class:HistQuotes2Request
+HistQuotes2Request	histquotes2/HistQuotes2Request.java	/^    public HistQuotes2Request(String symbol, Date from, Date to) {$/;"	m	class:HistQuotes2Request
+HistQuotes2Request	histquotes2/HistQuotes2Request.java	/^    public HistQuotes2Request(String symbol, Date from, Date to, Interval interval) {$/;"	m	class:HistQuotes2Request
+HistQuotes2Request	histquotes2/HistQuotes2Request.java	/^    public HistQuotes2Request(String symbol, Date from, Date to, QueryInterval interval) {$/;"	m	class:HistQuotes2Request
+HistQuotes2Request	histquotes2/HistQuotes2Request.java	/^    public HistQuotes2Request(String symbol, Interval interval) {$/;"	m	class:HistQuotes2Request
+HistQuotes2Request	histquotes2/HistQuotes2Request.java	/^    public HistQuotes2Request(String symbol, QueryInterval interval) {$/;"	m	class:HistQuotes2Request
+HistQuotes2Request	histquotes2/HistQuotes2Request.java	/^public class HistQuotes2Request {$/;"	c
+HistQuotesQuery2V8Request	query2v8/HistQuotesQuery2V8Request.java	/^    public HistQuotesQuery2V8Request(String symbol) {$/;"	m	class:HistQuotesQuery2V8Request
+HistQuotesQuery2V8Request	query2v8/HistQuotesQuery2V8Request.java	/^    public HistQuotesQuery2V8Request(String symbol, Calendar from, Calendar to) {$/;"	m	class:HistQuotesQuery2V8Request
+HistQuotesQuery2V8Request	query2v8/HistQuotesQuery2V8Request.java	/^    public HistQuotesQuery2V8Request(String symbol, Calendar from, Calendar to, QueryInterval interval) {$/;"	m	class:HistQuotesQuery2V8Request
+HistQuotesQuery2V8Request	query2v8/HistQuotesQuery2V8Request.java	/^    public HistQuotesQuery2V8Request(String symbol, Date from, Date to) {$/;"	m	class:HistQuotesQuery2V8Request
+HistQuotesQuery2V8Request	query2v8/HistQuotesQuery2V8Request.java	/^    public HistQuotesQuery2V8Request(String symbol, Date from, Date to, QueryInterval interval) {$/;"	m	class:HistQuotesQuery2V8Request
+HistQuotesQuery2V8Request	query2v8/HistQuotesQuery2V8Request.java	/^    public HistQuotesQuery2V8Request(String symbol, QueryInterval interval) {$/;"	m	class:HistQuotesQuery2V8Request
+HistQuotesQuery2V8Request	query2v8/HistQuotesQuery2V8Request.java	/^public class HistQuotesQuery2V8Request {$/;"	c
+HistQuotesRequest	histquotes/HistQuotesRequest.java	/^    public HistQuotesRequest(String symbol) {$/;"	m	class:HistQuotesRequest
+HistQuotesRequest	histquotes/HistQuotesRequest.java	/^    public HistQuotesRequest(String symbol, Calendar from, Calendar to) {$/;"	m	class:HistQuotesRequest
+HistQuotesRequest	histquotes/HistQuotesRequest.java	/^    public HistQuotesRequest(String symbol, Calendar from, Calendar to, Interval interval) {$/;"	m	class:HistQuotesRequest
+HistQuotesRequest	histquotes/HistQuotesRequest.java	/^    public HistQuotesRequest(String symbol, Date from, Date to) {$/;"	m	class:HistQuotesRequest
+HistQuotesRequest	histquotes/HistQuotesRequest.java	/^    public HistQuotesRequest(String symbol, Date from, Date to, Interval interval) {$/;"	m	class:HistQuotesRequest
+HistQuotesRequest	histquotes/HistQuotesRequest.java	/^    public HistQuotesRequest(String symbol, Interval interval) {$/;"	m	class:HistQuotesRequest
+HistQuotesRequest	histquotes/HistQuotesRequest.java	/^public class HistQuotesRequest {$/;"	c
+HistSplitsRequest	histquotes2/HistSplitsRequest.java	/^    public HistSplitsRequest(String symbol) {$/;"	m	class:HistSplitsRequest
+HistSplitsRequest	histquotes2/HistSplitsRequest.java	/^    public HistSplitsRequest(String symbol, Calendar from, Calendar to) {$/;"	m	class:HistSplitsRequest
+HistSplitsRequest	histquotes2/HistSplitsRequest.java	/^    public HistSplitsRequest(String symbol, Date from, Date to) {$/;"	m	class:HistSplitsRequest
+HistSplitsRequest	histquotes2/HistSplitsRequest.java	/^public class HistSplitsRequest {$/;"	c
+HistoricalDividend	histquotes2/HistoricalDividend.java	/^    public HistoricalDividend() {}$/;"	m	class:HistoricalDividend
+HistoricalDividend	histquotes2/HistoricalDividend.java	/^    public HistoricalDividend(String symbol, Calendar date, BigDecimal adjDividend) {$/;"	m	class:HistoricalDividend
+HistoricalDividend	histquotes2/HistoricalDividend.java	/^public class HistoricalDividend {$/;"	c
+HistoricalQuote	histquotes/HistoricalQuote.java	/^    public HistoricalQuote() {}$/;"	m	class:HistoricalQuote
+HistoricalQuote	histquotes/HistoricalQuote.java	/^    public HistoricalQuote(String symbol, Calendar date, BigDecimal open, BigDecimal low, BigDecimal high, BigDecimal close, BigDecimal adjClose, Long volume) {$/;"	m	class:HistoricalQuote
+HistoricalQuote	histquotes/HistoricalQuote.java	/^public class HistoricalQuote {$/;"	c
+HistoricalSplit	histquotes2/HistoricalSplit.java	/^    public HistoricalSplit() {}$/;"	m	class:HistoricalSplit
+HistoricalSplit	histquotes2/HistoricalSplit.java	/^    public HistoricalSplit(String symbol, Calendar date, BigDecimal numerator, BigDecimal denominator) {$/;"	m	class:HistoricalSplit
+HistoricalSplit	histquotes2/HistoricalSplit.java	/^public class HistoricalSplit {$/;"	c
+HoldingsGain	quotes/csv/QuotesProperty.java	/^    HoldingsGain("g4"), \/\/ Holdings Gain$/;"	e	enum:QuotesProperty	file:
+HoldingsGainPercent	quotes/csv/QuotesProperty.java	/^    HoldingsGainPercent("g1"), \/\/ Holdings Gain Percent$/;"	e	enum:QuotesProperty	file:
+HoldingsGainPercentRealtime	quotes/csv/QuotesProperty.java	/^    HoldingsGainPercentRealtime("g5"), \/\/ Holdings Gain Percent (Realtime)$/;"	e	enum:QuotesProperty	file:
+HoldingsGainRealtime	quotes/csv/QuotesProperty.java	/^    HoldingsGainRealtime("g6"), \/\/ Holdings Gain (Realtime)$/;"	e	enum:QuotesProperty	file:
+HoldingsValue	quotes/csv/QuotesProperty.java	/^    HoldingsValue("v1"), \/\/ Holdings Value$/;"	e	enum:QuotesProperty	file:
+HoldingsValueRealtime	quotes/csv/QuotesProperty.java	/^    HoldingsValueRealtime("v7"), \/\/ Holdings Value (Realtime)$/;"	e	enum:QuotesProperty	file:
+INDEX_TIMEZONES	exchanges/ExchangeTimeZone.java	/^    public static final Map<String, TimeZone> INDEX_TIMEZONES = new HashMap<String, TimeZone>();$/;"	f	class:ExchangeTimeZone
+Interval	histquotes/Interval.java	/^    Interval(String tag) {$/;"	m	class:Interval
+Interval	histquotes/Interval.java	/^public enum Interval {$/;"	g
+IntervalMapper	histquotes2/IntervalMapper.java	/^public class IntervalMapper {$/;"	c
+JPYAUD	quotes/fx/FxSymbols.java	/^    public static final String JPYAUD = "JPYAUD=X";$/;"	f	class:FxSymbols
+JPYCAD	quotes/fx/FxSymbols.java	/^    public static final String JPYCAD = "JPYCAD=X";$/;"	f	class:FxSymbols
+JPYCHF	quotes/fx/FxSymbols.java	/^    public static final String JPYCHF = "JPYCHF=X";$/;"	f	class:FxSymbols
+JPYEUR	quotes/fx/FxSymbols.java	/^    public static final String JPYEUR = "JPYEUR=X";$/;"	f	class:FxSymbols
+JPYGBP	quotes/fx/FxSymbols.java	/^    public static final String JPYGBP = "JPYGBP=X";$/;"	f	class:FxSymbols
+JPYHKD	quotes/fx/FxSymbols.java	/^    public static final String JPYHKD = "JPYHKD=X";$/;"	f	class:FxSymbols
+JPYNZD	quotes/fx/FxSymbols.java	/^    public static final String JPYNZD = "JPYNZD=X";$/;"	f	class:FxSymbols
+JPYSGD	quotes/fx/FxSymbols.java	/^    public static final String JPYSGD = "JPYSGD=X";$/;"	f	class:FxSymbols
+JPYUSD	quotes/fx/FxSymbols.java	/^    public static final String JPYUSD = "JPYUSD=X";$/;"	f	class:FxSymbols
+LastTradeDate	quotes/csv/QuotesProperty.java	/^    LastTradeDate("d1"), \/\/ Last Trade Date$/;"	e	enum:QuotesProperty	file:
+LastTradePriceOnly	quotes/csv/QuotesProperty.java	/^    LastTradePriceOnly("l1"), \/\/ Last Trade Price Only$/;"	e	enum:QuotesProperty	file:
+LastTradeRealtimeWithTime	quotes/csv/QuotesProperty.java	/^    LastTradeRealtimeWithTime("k1"), \/\/ Last Trade (Realtime) With Time$/;"	e	enum:QuotesProperty	file:
+LastTradeSize	quotes/csv/QuotesProperty.java	/^    LastTradeSize("k3"), \/\/ Last Trade Size$/;"	e	enum:QuotesProperty	file:
+LastTradeTime	quotes/csv/QuotesProperty.java	/^    LastTradeTime("t1"), \/\/ Last Trade Time$/;"	e	enum:QuotesProperty	file:
+LastTradeWithTime	quotes/csv/QuotesProperty.java	/^    LastTradeWithTime("l"), \/\/ Last Trade With Time$/;"	e	enum:QuotesProperty	file:
+LowLimit	quotes/csv/QuotesProperty.java	/^    LowLimit("l3"), \/\/ Low Limit$/;"	e	enum:QuotesProperty	file:
+MILLION	Utils.java	/^    public static final BigDecimal MILLION = new BigDecimal(1000000);$/;"	f	class:Utils
+MONTHLY	histquotes/Interval.java	/^    MONTHLY("m");$/;"	e	enum:Interval	file:
+MONTHLY	histquotes2/QueryInterval.java	/^    MONTHLY("1mo");$/;"	e	enum:QueryInterval	file:
+MarketCapRealtime	quotes/csv/QuotesProperty.java	/^    MarketCapRealtime("j3"), \/\/ Market Cap (Realtime)$/;"	e	enum:QuotesProperty	file:
+MarketCapitalization	quotes/csv/QuotesProperty.java	/^    MarketCapitalization("j1"), \/\/ Market Capitalization$/;"	e	enum:QuotesProperty	file:
+MoreInfo	quotes/csv/QuotesProperty.java	/^    MoreInfo("i"), \/\/ More Info$/;"	e	enum:QuotesProperty	file:
+NZDAUD	quotes/fx/FxSymbols.java	/^    public static final String NZDAUD = "NZDAUD=X";$/;"	f	class:FxSymbols
+NZDCAD	quotes/fx/FxSymbols.java	/^    public static final String NZDCAD = "NZDCAD=X";$/;"	f	class:FxSymbols
+NZDCHF	quotes/fx/FxSymbols.java	/^    public static final String NZDCHF = "NZDCHF=X";$/;"	f	class:FxSymbols
+NZDEUR	quotes/fx/FxSymbols.java	/^    public static final String NZDEUR = "NZDEUR=X";$/;"	f	class:FxSymbols
+NZDGBP	quotes/fx/FxSymbols.java	/^    public static final String NZDGBP = "NZDGBP=X";$/;"	f	class:FxSymbols
+NZDHKD	quotes/fx/FxSymbols.java	/^    public static final String NZDHKD = "NZDHKD=X";$/;"	f	class:FxSymbols
+NZDJPY	quotes/fx/FxSymbols.java	/^    public static final String NZDJPY = "NZDJPY=X";$/;"	f	class:FxSymbols
+NZDSGD	quotes/fx/FxSymbols.java	/^    public static final String NZDSGD = "NZDSGD=X";$/;"	f	class:FxSymbols
+NZDUSD	quotes/fx/FxSymbols.java	/^    public static final String NZDUSD = "NZDUSD=X";$/;"	f	class:FxSymbols
+Name	quotes/csv/QuotesProperty.java	/^    Name("n"), \/\/ Name$/;"	e	enum:QuotesProperty	file:
+Notes	quotes/csv/QuotesProperty.java	/^    Notes("n4"), \/\/ Notes$/;"	e	enum:QuotesProperty	file:
+ONE_HUNDRED	quotes/query1v7/StockQuotesQuery1V7Request.java	/^    private static final BigDecimal ONE_HUNDRED = new BigDecimal(100);$/;"	f	class:StockQuotesQuery1V7Request	file:
+OneyrTargetPrice	quotes/csv/QuotesProperty.java	/^    OneyrTargetPrice("t8"), \/\/ Oneyr Target Price$/;"	e	enum:QuotesProperty	file:
+Open	quotes/csv/QuotesProperty.java	/^    Open("o"), \/\/ Open$/;"	e	enum:QuotesProperty	file:
+OrderBookRealtime	quotes/csv/QuotesProperty.java	/^    OrderBookRealtime("i5"), \/\/ Order Book (Realtime)$/;"	e	enum:QuotesProperty	file:
+PEGRatio	quotes/csv/QuotesProperty.java	/^    PEGRatio("r5"), \/\/ P E G Ratio$/;"	e	enum:QuotesProperty	file:
+PERatio	quotes/csv/QuotesProperty.java	/^    PERatio("r"), \/\/ P E Ratio$/;"	e	enum:QuotesProperty	file:
+PERatioRealtime	quotes/csv/QuotesProperty.java	/^    PERatioRealtime("r2"), \/\/ P E Ratio (Realtime)$/;"	e	enum:QuotesProperty	file:
+PercentChangeFromFiftydayMovingAverage	quotes/csv/QuotesProperty.java	/^    PercentChangeFromFiftydayMovingAverage("m8"), \/\/ Percent Change From Fiftyday Moving Average$/;"	e	enum:QuotesProperty	file:
+PercentChangeFromTwoHundreddayMovingAverage	quotes/csv/QuotesProperty.java	/^    PercentChangeFromTwoHundreddayMovingAverage("m6"), \/\/ Percent Change From Two Hundredday Moving Average$/;"	e	enum:QuotesProperty	file:
+PercentChangeFromYearLow	quotes/csv/QuotesProperty.java	/^    PercentChangeFromYearLow("j6"), \/\/ Percent Change From Year Low$/;"	e	enum:QuotesProperty	file:
+PreviousClose	quotes/csv/QuotesProperty.java	/^    PreviousClose("p"), \/\/ Previous Close$/;"	e	enum:QuotesProperty	file:
+PriceBook	quotes/csv/QuotesProperty.java	/^    PriceBook("p6"), \/\/ Price Book$/;"	e	enum:QuotesProperty	file:
+PriceEPSEstimateCurrentYear	quotes/csv/QuotesProperty.java	/^    PriceEPSEstimateCurrentYear("r6"), \/\/ Price E P S Estimate Current Year$/;"	e	enum:QuotesProperty	file:
+PriceEPSEstimateNextYear	quotes/csv/QuotesProperty.java	/^    PriceEPSEstimateNextYear("r7"), \/\/ Price E P S Estimate Next Year$/;"	e	enum:QuotesProperty	file:
+PricePaid	quotes/csv/QuotesProperty.java	/^    PricePaid("p1"), \/\/ Price Paid$/;"	e	enum:QuotesProperty	file:
+PriceSales	quotes/csv/QuotesProperty.java	/^    PriceSales("p5"), \/\/ Price Sales$/;"	e	enum:QuotesProperty	file:
+QUOTES_BASE_URL	YahooFinance.java	/^    public static final String QUOTES_BASE_URL = System.getProperty("yahoofinance.baseurl.quotes", "http:\/\/download.finance.yahoo.com\/d\/quotes.csv");$/;"	f	class:YahooFinance
+QUOTES_CSV_DELIMITER	YahooFinance.java	/^    public static final String QUOTES_CSV_DELIMITER = ",";$/;"	f	class:YahooFinance
+QUOTES_QUERY1V7_BASE_URL	YahooFinance.java	/^    public static final String QUOTES_QUERY1V7_BASE_URL = System.getProperty("yahoofinance.baseurl.quotesquery1v7", "https:\/\/query1.finance.yahoo.com\/v7\/finance\/quote");$/;"	f	class:YahooFinance
+QUOTES_QUERY1V7_ENABLED	YahooFinance.java	/^    public static final String QUOTES_QUERY1V7_ENABLED = System.getProperty("yahoofinance.quotesquery1v7.enabled", "true");$/;"	f	class:YahooFinance
+QueryInterval	histquotes2/QueryInterval.java	/^    QueryInterval(String tag) {$/;"	m	class:QueryInterval
+QueryInterval	histquotes2/QueryInterval.java	/^public enum QueryInterval {$/;"	g
+QuotesProperty	quotes/csv/QuotesProperty.java	/^    QuotesProperty(String tag) {$/;"	m	class:QuotesProperty
+QuotesProperty	quotes/csv/QuotesProperty.java	/^public enum QuotesProperty {$/;"	g
+QuotesRequest	quotes/csv/QuotesRequest.java	/^    public QuotesRequest(String query, List<QuotesProperty> properties) {$/;"	m	class:QuotesRequest
+QuotesRequest	quotes/csv/QuotesRequest.java	/^public abstract class QuotesRequest<T> {$/;"	c
+QuotesRequest	quotes/query1v7/QuotesRequest.java	/^    public QuotesRequest(String symbols) {$/;"	m	class:QuotesRequest
+QuotesRequest	quotes/query1v7/QuotesRequest.java	/^public abstract class QuotesRequest<T> {$/;"	c
+RedirectableRequest	util/RedirectableRequest.java	/^    public RedirectableRequest(URL request) {$/;"	m	class:RedirectableRequest
+RedirectableRequest	util/RedirectableRequest.java	/^    public RedirectableRequest(URL request, int protocolRedirectLimit) {$/;"	m	class:RedirectableRequest
+RedirectableRequest	util/RedirectableRequest.java	/^public class RedirectableRequest {$/;"	c
+Revenue	quotes/csv/QuotesProperty.java	/^    Revenue("s6"), \/\/ Revenue$/;"	e	enum:QuotesProperty	file:
+SGDAUD	quotes/fx/FxSymbols.java	/^    public static final String SGDAUD = "SGDAUD=X";$/;"	f	class:FxSymbols
+SGDCAD	quotes/fx/FxSymbols.java	/^    public static final String SGDCAD = "SGDCAD=X";$/;"	f	class:FxSymbols
+SGDCHF	quotes/fx/FxSymbols.java	/^    public static final String SGDCHF = "SGDCHF=X";$/;"	f	class:FxSymbols
+SGDEUR	quotes/fx/FxSymbols.java	/^    public static final String SGDEUR = "SGDEUR=X";$/;"	f	class:FxSymbols
+SGDGBP	quotes/fx/FxSymbols.java	/^    public static final String SGDGBP = "SGDGBP=X";$/;"	f	class:FxSymbols
+SGDHKD	quotes/fx/FxSymbols.java	/^    public static final String SGDHKD = "SGDHKD=X";$/;"	f	class:FxSymbols
+SGDJPY	quotes/fx/FxSymbols.java	/^    public static final String SGDJPY = "SGDJPY=X";$/;"	f	class:FxSymbols
+SGDNZD	quotes/fx/FxSymbols.java	/^    public static final String SGDNZD = "SGDNZD=X";$/;"	f	class:FxSymbols
+SGDUSD	quotes/fx/FxSymbols.java	/^    public static final String SGDUSD = "SGDUSD=X";$/;"	f	class:FxSymbols
+SUFFIX_TIMEZONES	exchanges/ExchangeTimeZone.java	/^    public static final Map<String, TimeZone> SUFFIX_TIMEZONES = new HashMap<String, TimeZone>();$/;"	f	class:ExchangeTimeZone
+SharesFloat	quotes/csv/QuotesProperty.java	/^    SharesFloat("f6"), \/\/ Shares Float$/;"	e	enum:QuotesProperty	file:
+SharesOutstanding	quotes/csv/QuotesProperty.java	/^    SharesOutstanding("j2"), \/\/ Shares Outstanding$/;"	e	enum:QuotesProperty	file:
+SharesOwned	quotes/csv/QuotesProperty.java	/^    SharesOwned("s1"), \/\/ Shares Owned$/;"	e	enum:QuotesProperty	file:
+ShortRatio	quotes/csv/QuotesProperty.java	/^    ShortRatio("s7"), \/\/ Short Ratio$/;"	e	enum:QuotesProperty	file:
+Stock	Stock.java	/^    public Stock(String symbol) {$/;"	m	class:Stock
+Stock	Stock.java	/^public class Stock {$/;"	c
+StockDividend	quotes/stock/StockDividend.java	/^    public StockDividend(String symbol) {$/;"	m	class:StockDividend
+StockDividend	quotes/stock/StockDividend.java	/^    public StockDividend(String symbol, Calendar payDate, Calendar exDate, BigDecimal annualYield, BigDecimal annualYieldPercent) {$/;"	m	class:StockDividend
+StockDividend	quotes/stock/StockDividend.java	/^public class StockDividend {$/;"	c
+StockExchange	quotes/csv/QuotesProperty.java	/^    StockExchange("x"), \/\/ Stock Exchange$/;"	e	enum:QuotesProperty	file:
+StockQuote	quotes/stock/StockQuote.java	/^    public StockQuote(String symbol) {$/;"	m	class:StockQuote
+StockQuote	quotes/stock/StockQuote.java	/^public class StockQuote {$/;"	c
+StockQuotesData	quotes/csv/StockQuotesData.java	/^    public StockQuotesData(String[] data) {$/;"	m	class:StockQuotesData
+StockQuotesData	quotes/csv/StockQuotesData.java	/^public class StockQuotesData {$/;"	c
+StockQuotesQuery1V7Request	quotes/query1v7/StockQuotesQuery1V7Request.java	/^    public StockQuotesQuery1V7Request(String symbols) {$/;"	m	class:StockQuotesQuery1V7Request
+StockQuotesQuery1V7Request	quotes/query1v7/StockQuotesQuery1V7Request.java	/^public class StockQuotesQuery1V7Request extends QuotesRequest<Stock> {$/;"	c
+StockQuotesRequest	quotes/csv/StockQuotesRequest.java	/^    public StockQuotesRequest(String query) {$/;"	m	class:StockQuotesRequest
+StockQuotesRequest	quotes/csv/StockQuotesRequest.java	/^public class StockQuotesRequest extends QuotesRequest<StockQuotesData> {$/;"	c
+StockStats	quotes/stock/StockStats.java	/^    public StockStats(String symbol) {$/;"	m	class:StockStats
+StockStats	quotes/stock/StockStats.java	/^public class StockStats {$/;"	c
+Symbol	quotes/csv/QuotesProperty.java	/^    Symbol("s"), \/\/ Symbol$/;"	e	enum:QuotesProperty	file:
+THOUSAND	Utils.java	/^    public static final BigDecimal THOUSAND = new BigDecimal(1000);$/;"	f	class:Utils
+TIMEZONE	YahooFinance.java	/^    public static final String TIMEZONE = "America\/New_York";$/;"	f	class:YahooFinance
+TickerTrend	quotes/csv/QuotesProperty.java	/^    TickerTrend("t7"), \/\/ Ticker Trend$/;"	e	enum:QuotesProperty	file:
+TradeDate	quotes/csv/QuotesProperty.java	/^    TradeDate("d2"), \/\/ Trade Date$/;"	e	enum:QuotesProperty	file:
+TradeLinks	quotes/csv/QuotesProperty.java	/^    TradeLinks("t6"), \/\/ Trade Links$/;"	e	enum:QuotesProperty	file:
+TradeLinksAdditional	quotes/csv/QuotesProperty.java	/^    TradeLinksAdditional("f"), \/\/ Trade Links Additional$/;"	e	enum:QuotesProperty	file:
+TrailingAnnualDividendYield	quotes/csv/QuotesProperty.java	/^    TrailingAnnualDividendYield("d"), \/\/ Trailing Annual Dividend Yield$/;"	e	enum:QuotesProperty	file:
+TrailingAnnualDividendYieldInPercent	quotes/csv/QuotesProperty.java	/^    TrailingAnnualDividendYieldInPercent("y"), \/\/ Trailing Annual Dividend Yield In Percent$/;"	e	enum:QuotesProperty	file:
+TwoHundreddayMovingAverage	quotes/csv/QuotesProperty.java	/^    TwoHundreddayMovingAverage("m4"), \/\/ Two Hundredday Moving Average$/;"	e	enum:QuotesProperty	file:
+USDAUD	quotes/fx/FxSymbols.java	/^    public static final String USDAUD = "USDAUD=X";$/;"	f	class:FxSymbols
+USDCAD	quotes/fx/FxSymbols.java	/^    public static final String USDCAD = "USDCAD=X";$/;"	f	class:FxSymbols
+USDCHF	quotes/fx/FxSymbols.java	/^    public static final String USDCHF = "USDCHF=X";$/;"	f	class:FxSymbols
+USDEUR	quotes/fx/FxSymbols.java	/^    public static final String USDEUR = "USDEUR=X";$/;"	f	class:FxSymbols
+USDGBP	quotes/fx/FxSymbols.java	/^    public static final String USDGBP = "USDGBP=X";$/;"	f	class:FxSymbols
+USDHKD	quotes/fx/FxSymbols.java	/^    public static final String USDHKD = "USDHKD=X";$/;"	f	class:FxSymbols
+USDJPY	quotes/fx/FxSymbols.java	/^    public static final String USDJPY = "USDJPY=X";$/;"	f	class:FxSymbols
+USDNZD	quotes/fx/FxSymbols.java	/^    public static final String USDNZD = "USDNZD=X";$/;"	f	class:FxSymbols
+USDSGD	quotes/fx/FxSymbols.java	/^    public static final String USDSGD = "USDSGD=X";$/;"	f	class:FxSymbols
+Utils	Utils.java	/^public class Utils {$/;"	c
+Volume	quotes/csv/QuotesProperty.java	/^    Volume("v"), \/\/ Volume$/;"	e	enum:QuotesProperty	file:
+WEEKLY	histquotes/Interval.java	/^    WEEKLY("w"),$/;"	e	enum:Interval	file:
+WEEKLY	histquotes2/QueryInterval.java	/^    WEEKLY("5d"),$/;"	e	enum:QueryInterval	file:
+YahooFinance	YahooFinance.java	/^public class YahooFinance {$/;"	c
+YearHigh	quotes/csv/QuotesProperty.java	/^    YearHigh("k"), \/\/ Year High$/;"	e	enum:QuotesProperty	file:
+YearLow	quotes/csv/QuotesProperty.java	/^    YearLow("j"), \/\/ Year Low$/;"	e	enum:QuotesProperty	file:
+YearRange	quotes/csv/QuotesProperty.java	/^    YearRange("w"); \/\/ Year Range$/;"	e	enum:QuotesProperty	file:
+adjClose	histquotes/HistoricalQuote.java	/^    private BigDecimal adjClose;$/;"	f	class:HistoricalQuote	file:
+adjDividend	histquotes2/HistoricalDividend.java	/^    private BigDecimal adjDividend;$/;"	f	class:HistoricalDividend	file:
+annualYield	quotes/stock/StockDividend.java	/^    private BigDecimal annualYield;$/;"	f	class:StockDividend	file:
+annualYieldPercent	quotes/stock/StockDividend.java	/^    private BigDecimal annualYieldPercent;$/;"	f	class:StockDividend	file:
+ask	quotes/stock/StockQuote.java	/^    private BigDecimal ask;$/;"	f	class:StockQuote	file:
+askSize	quotes/stock/StockQuote.java	/^    private Long askSize;$/;"	f	class:StockQuote	file:
+avgVolume	quotes/stock/StockQuote.java	/^    private Long avgVolume;$/;"	f	class:StockQuote	file:
+bid	quotes/stock/StockQuote.java	/^    private BigDecimal bid;$/;"	f	class:StockQuote	file:
+bidSize	quotes/stock/StockQuote.java	/^    private Long bidSize;$/;"	f	class:StockQuote	file:
+bookValuePerShare	quotes/stock/StockStats.java	/^    private BigDecimal bookValuePerShare;$/;"	f	class:StockStats	file:
+cleanHistCalendar	histquotes/HistQuotesRequest.java	/^    private Calendar cleanHistCalendar(Calendar cal) {$/;"	m	class:HistQuotesRequest	file:
+cleanHistCalendar	histquotes2/HistDividendsRequest.java	/^    private Calendar cleanHistCalendar(Calendar cal) {$/;"	m	class:HistDividendsRequest	file:
+cleanHistCalendar	histquotes2/HistQuotes2Request.java	/^    private Calendar cleanHistCalendar(Calendar cal) {$/;"	m	class:HistQuotes2Request	file:
+cleanHistCalendar	histquotes2/HistSplitsRequest.java	/^    private Calendar cleanHistCalendar(Calendar cal) {$/;"	m	class:HistSplitsRequest	file:
+cleanHistCalendar	query2v8/HistQuotesQuery2V8Request.java	/^    private Calendar cleanHistCalendar(Calendar cal) {$/;"	m	class:HistQuotesQuery2V8Request	file:
+cleanNumberString	Utils.java	/^    private static String cleanNumberString(String data) {$/;"	m	class:Utils	file:
+close	histquotes/HistoricalQuote.java	/^    private BigDecimal close;$/;"	f	class:HistoricalQuote	file:
+connectTimeout	util/RedirectableRequest.java	/^    private int connectTimeout = 10000;$/;"	f	class:RedirectableRequest	file:
+cookie	histquotes2/CrumbManager.java	/^    private static String cookie = "";$/;"	f	class:CrumbManager	file:
+crumb	histquotes2/CrumbManager.java	/^    private static String crumb = "";$/;"	f	class:CrumbManager	file:
+currency	Stock.java	/^    private String currency;$/;"	f	class:Stock	file:
+data	quotes/csv/StockQuotesData.java	/^    private final String[] data;$/;"	f	class:StockQuotesData	file:
+date	histquotes/HistoricalQuote.java	/^    private Calendar date;$/;"	f	class:HistoricalQuote	file:
+date	histquotes2/HistoricalDividend.java	/^    private Calendar date;$/;"	f	class:HistoricalDividend	file:
+date	histquotes2/HistoricalSplit.java	/^    private Calendar date;$/;"	f	class:HistoricalSplit	file:
+dayHigh	quotes/stock/StockQuote.java	/^    private BigDecimal dayHigh;$/;"	f	class:StockQuote	file:
+dayLow	quotes/stock/StockQuote.java	/^    private BigDecimal dayLow;$/;"	f	class:StockQuote	file:
+denominator	histquotes2/HistoricalSplit.java	/^    private BigDecimal denominator;$/;"	f	class:HistoricalSplit	file:
+dividend	Stock.java	/^    private StockDividend dividend;$/;"	f	class:Stock	file:
+dividendHistory	Stock.java	/^    private List<HistoricalDividend> dividendHistory;$/;"	f	class:Stock	file:
+earningsAnnouncement	quotes/stock/StockStats.java	/^    private Calendar earningsAnnouncement;$/;"	f	class:StockStats	file:
+eps	quotes/stock/StockStats.java	/^    private BigDecimal eps;$/;"	f	class:StockStats	file:
+epsEstimateCurrentYear	quotes/stock/StockStats.java	/^    private BigDecimal epsEstimateCurrentYear;$/;"	f	class:StockStats	file:
+epsEstimateNextQuarter	quotes/stock/StockStats.java	/^    private BigDecimal epsEstimateNextQuarter;$/;"	f	class:StockStats	file:
+epsEstimateNextYear	quotes/stock/StockStats.java	/^    private BigDecimal epsEstimateNextYear;$/;"	f	class:StockStats	file:
+exDate	quotes/stock/StockDividend.java	/^    private Calendar exDate;$/;"	f	class:StockDividend	file:
+fetchHistoricalQuotes	YahooFinance.java	/^    private static Map<String, Stock> fetchHistoricalQuotes(Map<String, Stock> stocks, Calendar from, Calendar to, Interval interval) throws IOException {$/;"	m	class:YahooFinance	file:
+from	histquotes/HistQuotesRequest.java	/^    private final Calendar from;$/;"	f	class:HistQuotesRequest	file:
+from	histquotes2/HistDividendsRequest.java	/^    private final Calendar from;$/;"	f	class:HistDividendsRequest	file:
+from	histquotes2/HistQuotes2Request.java	/^    private final Calendar from;$/;"	f	class:HistQuotes2Request	file:
+from	histquotes2/HistSplitsRequest.java	/^    private final Calendar from;$/;"	f	class:HistSplitsRequest	file:
+from	query2v8/HistQuotesQuery2V8Request.java	/^    private final Calendar from;$/;"	f	class:HistQuotesQuery2V8Request	file:
+get	YahooFinance.java	/^    public static Map<String, Stock> get(String[] symbols) throws IOException {$/;"	m	class:YahooFinance
+get	YahooFinance.java	/^    public static Map<String, Stock> get(String[] symbols, Calendar from) throws IOException {$/;"	m	class:YahooFinance
+get	YahooFinance.java	/^    public static Map<String, Stock> get(String[] symbols, Calendar from, Calendar to) throws IOException {$/;"	m	class:YahooFinance
+get	YahooFinance.java	/^    public static Map<String, Stock> get(String[] symbols, Calendar from, Calendar to, Interval interval) throws IOException {$/;"	m	class:YahooFinance
+get	YahooFinance.java	/^    public static Map<String, Stock> get(String[] symbols, Calendar from, Interval interval) throws IOException {$/;"	m	class:YahooFinance
+get	YahooFinance.java	/^    public static Map<String, Stock> get(String[] symbols, Interval interval) throws IOException {$/;"	m	class:YahooFinance
+get	YahooFinance.java	/^    public static Map<String, Stock> get(String[] symbols, boolean includeHistorical) throws IOException {$/;"	m	class:YahooFinance
+get	YahooFinance.java	/^    public static Stock get(String symbol) throws IOException {$/;"	m	class:YahooFinance
+get	YahooFinance.java	/^    public static Stock get(String symbol, Calendar from) throws IOException {$/;"	m	class:YahooFinance
+get	YahooFinance.java	/^    public static Stock get(String symbol, Calendar from, Calendar to) throws IOException {$/;"	m	class:YahooFinance
+get	YahooFinance.java	/^    public static Stock get(String symbol, Calendar from, Calendar to, Interval interval) throws IOException {$/;"	m	class:YahooFinance
+get	YahooFinance.java	/^    public static Stock get(String symbol, Calendar from, Interval interval) throws IOException {$/;"	m	class:YahooFinance
+get	YahooFinance.java	/^    public static Stock get(String symbol, Interval interval) throws IOException {$/;"	m	class:YahooFinance
+get	YahooFinance.java	/^    public static Stock get(String symbol, boolean includeHistorical) throws IOException {$/;"	m	class:YahooFinance
+get	exchanges/ExchangeTimeZone.java	/^    public static TimeZone get(String suffix) {$/;"	m	class:ExchangeTimeZone
+get	histquotes2/IntervalMapper.java	/^    public static QueryInterval get(Interval interval) {$/;"	m	class:IntervalMapper
+getAdjClose	histquotes/HistoricalQuote.java	/^    public BigDecimal getAdjClose() {$/;"	m	class:HistoricalQuote
+getAdjDividend	histquotes2/HistoricalDividend.java	/^    public BigDecimal getAdjDividend() {$/;"	m	class:HistoricalDividend
+getAnnualYield	quotes/stock/StockDividend.java	/^    public BigDecimal getAnnualYield() {$/;"	m	class:StockDividend
+getAnnualYieldPercent	quotes/stock/StockDividend.java	/^    public BigDecimal getAnnualYieldPercent() {$/;"	m	class:StockDividend
+getAsk	quotes/stock/StockQuote.java	/^    public BigDecimal getAsk() {$/;"	m	class:StockQuote
+getAskSize	quotes/stock/StockQuote.java	/^    public Long getAskSize() {$/;"	m	class:StockQuote
+getAvgVolume	quotes/stock/StockQuote.java	/^    public Long getAvgVolume() {$/;"	m	class:StockQuote
+getBid	quotes/stock/StockQuote.java	/^    public BigDecimal getBid() {$/;"	m	class:StockQuote
+getBidSize	quotes/stock/StockQuote.java	/^    public Long getBidSize() {$/;"	m	class:StockQuote
+getBigDecimal	Utils.java	/^    public static BigDecimal getBigDecimal(String data) {$/;"	m	class:Utils
+getBigDecimal	Utils.java	/^    public static BigDecimal getBigDecimal(String dataMain, String dataSub) {$/;"	m	class:Utils
+getBookValuePerShare	quotes/stock/StockStats.java	/^    public BigDecimal getBookValuePerShare() {$/;"	m	class:StockStats
+getChange	quotes/stock/StockQuote.java	/^    public BigDecimal getChange() {$/;"	m	class:StockQuote
+getChangeFromAvg200	quotes/stock/StockQuote.java	/^    public BigDecimal getChangeFromAvg200() {$/;"	m	class:StockQuote
+getChangeFromAvg200InPercent	quotes/stock/StockQuote.java	/^    public BigDecimal getChangeFromAvg200InPercent() {$/;"	m	class:StockQuote
+getChangeFromAvg50	quotes/stock/StockQuote.java	/^    public BigDecimal getChangeFromAvg50() {$/;"	m	class:StockQuote
+getChangeFromAvg50InPercent	quotes/stock/StockQuote.java	/^    public BigDecimal getChangeFromAvg50InPercent() {$/;"	m	class:StockQuote
+getChangeFromYearHigh	quotes/stock/StockQuote.java	/^    public BigDecimal getChangeFromYearHigh() {$/;"	m	class:StockQuote
+getChangeFromYearHighInPercent	quotes/stock/StockQuote.java	/^    public BigDecimal getChangeFromYearHighInPercent() {$/;"	m	class:StockQuote
+getChangeFromYearLow	quotes/stock/StockQuote.java	/^    public BigDecimal getChangeFromYearLow() {$/;"	m	class:StockQuote
+getChangeFromYearLowInPercent	quotes/stock/StockQuote.java	/^    public BigDecimal getChangeFromYearLowInPercent() {$/;"	m	class:StockQuote
+getChangeInPercent	quotes/stock/StockQuote.java	/^    public BigDecimal getChangeInPercent() {$/;"	m	class:StockQuote
+getClose	histquotes/HistoricalQuote.java	/^    public BigDecimal getClose() {$/;"	m	class:HistoricalQuote
+getConnectTimeout	util/RedirectableRequest.java	/^    public int getConnectTimeout() {$/;"	m	class:RedirectableRequest
+getCookie	histquotes2/CrumbManager.java	/^    public static String getCookie() throws IOException {$/;"	m	class:CrumbManager
+getCrumb	histquotes2/CrumbManager.java	/^    public static synchronized String getCrumb() throws IOException {$/;"	m	class:CrumbManager
+getCurrency	Stock.java	/^    public String getCurrency() {$/;"	m	class:Stock
+getDate	histquotes/HistoricalQuote.java	/^    public Calendar getDate() {$/;"	m	class:HistoricalQuote
+getDate	histquotes2/HistoricalDividend.java	/^    public Calendar getDate() {$/;"	m	class:HistoricalDividend
+getDate	histquotes2/HistoricalSplit.java	/^    public Calendar getDate() {$/;"	m	class:HistoricalSplit
+getDayHigh	quotes/stock/StockQuote.java	/^    public BigDecimal getDayHigh() {$/;"	m	class:StockQuote
+getDayLow	quotes/stock/StockQuote.java	/^    public BigDecimal getDayLow() {$/;"	m	class:StockQuote
+getDenominator	histquotes2/HistoricalSplit.java	/^    public BigDecimal getDenominator() {$/;"	m	class:HistoricalSplit
+getDividend	Stock.java	/^    public StockDividend getDividend() {$/;"	m	class:Stock
+getDividend	Stock.java	/^    public StockDividend getDividend(boolean refresh) throws IOException {$/;"	m	class:Stock
+getDividend	quotes/csv/StockQuotesData.java	/^    public StockDividend getDividend() {$/;"	m	class:StockQuotesData
+getDividend	quotes/query1v7/StockQuotesQuery1V7Request.java	/^    private StockDividend getDividend(JsonNode node) {$/;"	m	class:StockQuotesQuery1V7Request	file:
+getDividendDateFormat	Utils.java	/^    private static String getDividendDateFormat(String date) {$/;"	m	class:Utils	file:
+getDividendHistory	Stock.java	/^    public List<HistoricalDividend> getDividendHistory() throws IOException {$/;"	m	class:Stock
+getDividendHistory	Stock.java	/^    public List<HistoricalDividend> getDividendHistory(Calendar from) throws IOException {$/;"	m	class:Stock
+getDividendHistory	Stock.java	/^    public List<HistoricalDividend> getDividendHistory(Calendar from, Calendar to) throws IOException {$/;"	m	class:Stock
+getDouble	Utils.java	/^    public static double getDouble(String data) {$/;"	m	class:Utils
+getEBITDA	quotes/stock/StockStats.java	/^    public BigDecimal getEBITDA() {$/;"	m	class:StockStats
+getEarningsAnnouncement	quotes/stock/StockStats.java	/^    public Calendar getEarningsAnnouncement() {$/;"	m	class:StockStats
+getEps	quotes/stock/StockStats.java	/^    public BigDecimal getEps() {$/;"	m	class:StockStats
+getEpsEstimateCurrentYear	quotes/stock/StockStats.java	/^    public BigDecimal getEpsEstimateCurrentYear() {$/;"	m	class:StockStats
+getEpsEstimateNextQuarter	quotes/stock/StockStats.java	/^    public BigDecimal getEpsEstimateNextQuarter() {$/;"	m	class:StockStats
+getEpsEstimateNextYear	quotes/stock/StockStats.java	/^    public BigDecimal getEpsEstimateNextYear() {$/;"	m	class:StockStats
+getExDate	quotes/stock/StockDividend.java	/^    public Calendar getExDate() {$/;"	m	class:StockDividend
+getFieldsString	quotes/csv/QuotesRequest.java	/^    private String getFieldsString() {$/;"	m	class:QuotesRequest	file:
+getFx	YahooFinance.java	/^    public static FxQuote getFx(String symbol) throws IOException {$/;"	m	class:YahooFinance
+getFx	YahooFinance.java	/^    public static Map<String, FxQuote> getFx(String[] symbols) throws IOException {$/;"	m	class:YahooFinance
+getHigh	histquotes/HistoricalQuote.java	/^    public BigDecimal getHigh() {$/;"	m	class:HistoricalQuote
+getHistory	Stock.java	/^    public List<HistoricalQuote> getHistory() throws IOException {$/;"	m	class:Stock
+getHistory	Stock.java	/^    public List<HistoricalQuote> getHistory(Calendar from) throws IOException {$/;"	m	class:Stock
+getHistory	Stock.java	/^    public List<HistoricalQuote> getHistory(Calendar from, Calendar to) throws IOException {$/;"	m	class:Stock
+getHistory	Stock.java	/^    public List<HistoricalQuote> getHistory(Calendar from, Calendar to, Interval interval) throws IOException {$/;"	m	class:Stock
+getHistory	Stock.java	/^    public List<HistoricalQuote> getHistory(Calendar from, Interval interval) throws IOException {$/;"	m	class:Stock
+getHistory	Stock.java	/^    public List<HistoricalQuote> getHistory(Interval interval) throws IOException {$/;"	m	class:Stock
+getInt	Utils.java	/^    public static Integer getInt(String data) {$/;"	m	class:Utils
+getJson	query2v8/HistQuotesQuery2V8Request.java	/^    public String getJson() throws IOException {$/;"	m	class:HistQuotesQuery2V8Request
+getLastTradeDateStr	quotes/stock/StockQuote.java	/^    public String getLastTradeDateStr() {$/;"	m	class:StockQuote
+getLastTradeSize	quotes/stock/StockQuote.java	/^    public Long getLastTradeSize() {$/;"	m	class:StockQuote
+getLastTradeTime	quotes/stock/StockQuote.java	/^    public Calendar getLastTradeTime() {$/;"	m	class:StockQuote
+getLastTradeTime	quotes/stock/StockQuote.java	/^    public Calendar getLastTradeTime(TimeZone timeZone) {$/;"	m	class:StockQuote
+getLastTradeTimeStr	quotes/stock/StockQuote.java	/^    public String getLastTradeTimeStr() {$/;"	m	class:StockQuote
+getLong	Utils.java	/^    public static Long getLong(String data) {$/;"	m	class:Utils
+getLow	histquotes/HistoricalQuote.java	/^    public BigDecimal getLow() {$/;"	m	class:HistoricalQuote
+getMarketCap	quotes/stock/StockStats.java	/^    public BigDecimal getMarketCap() {$/;"	m	class:StockStats
+getName	Stock.java	/^    public String getName() {$/;"	m	class:Stock
+getNumerator	histquotes2/HistoricalSplit.java	/^    public BigDecimal getNumerator() {$/;"	m	class:HistoricalSplit
+getOneYearTargetPrice	quotes/stock/StockStats.java	/^    public BigDecimal getOneYearTargetPrice() {$/;"	m	class:StockStats
+getOpen	histquotes/HistoricalQuote.java	/^    public BigDecimal getOpen() {$/;"	m	class:HistoricalQuote
+getOpen	quotes/stock/StockQuote.java	/^    public BigDecimal getOpen() {$/;"	m	class:StockQuote
+getPayDate	quotes/stock/StockDividend.java	/^    public Calendar getPayDate() {$/;"	m	class:StockDividend
+getPe	quotes/stock/StockStats.java	/^    public BigDecimal getPe() {$/;"	m	class:StockStats
+getPeg	quotes/stock/StockStats.java	/^    public BigDecimal getPeg() {$/;"	m	class:StockStats
+getPercent	Utils.java	/^    public static BigDecimal getPercent(BigDecimal numerator, BigDecimal denominator) {$/;"	m	class:Utils
+getPercent	Utils.java	/^    public static double getPercent(double numerator, double denominator) {$/;"	m	class:Utils
+getPreviousClose	quotes/stock/StockQuote.java	/^    public BigDecimal getPreviousClose() {$/;"	m	class:StockQuote
+getPrice	quotes/fx/FxQuote.java	/^    public BigDecimal getPrice() {$/;"	m	class:FxQuote
+getPrice	quotes/fx/FxQuote.java	/^    public BigDecimal getPrice(boolean refresh) throws IOException {$/;"	m	class:FxQuote
+getPrice	quotes/stock/StockQuote.java	/^    public BigDecimal getPrice() {$/;"	m	class:StockQuote
+getPriceAvg200	quotes/stock/StockQuote.java	/^    public BigDecimal getPriceAvg200() {$/;"	m	class:StockQuote
+getPriceAvg50	quotes/stock/StockQuote.java	/^    public BigDecimal getPriceAvg50() {$/;"	m	class:StockQuote
+getPriceBook	quotes/stock/StockStats.java	/^    public BigDecimal getPriceBook() {$/;"	m	class:StockStats
+getPriceSales	quotes/stock/StockStats.java	/^    public BigDecimal getPriceSales() {$/;"	m	class:StockStats
+getProperties	quotes/csv/QuotesRequest.java	/^    public List<QuotesProperty> getProperties() {$/;"	m	class:QuotesRequest
+getProtocolRedirectLimit	util/RedirectableRequest.java	/^    public int getProtocolRedirectLimit() {$/;"	m	class:RedirectableRequest
+getQuery	quotes/csv/QuotesRequest.java	/^    public String getQuery() {$/;"	m	class:QuotesRequest
+getQuote	Stock.java	/^    public StockQuote getQuote() {$/;"	m	class:Stock
+getQuote	Stock.java	/^    public StockQuote getQuote(boolean refresh) throws IOException {$/;"	m	class:Stock
+getQuote	quotes/csv/StockQuotesData.java	/^    public StockQuote getQuote() {$/;"	m	class:StockQuotesData
+getQuote	quotes/query1v7/StockQuotesQuery1V7Request.java	/^    private StockQuote getQuote(JsonNode node) {$/;"	m	class:StockQuotesQuery1V7Request	file:
+getQuotes	YahooFinance.java	/^    private static Map<String, Stock> getQuotes(String query, Calendar from, Calendar to, Interval interval) throws IOException {$/;"	m	class:YahooFinance	file:
+getQuotes	YahooFinance.java	/^    private static Map<String, Stock> getQuotes(String query, boolean includeHistorical) throws IOException {$/;"	m	class:YahooFinance	file:
+getROE	quotes/stock/StockStats.java	/^    public BigDecimal getROE() {$/;"	m	class:StockStats
+getReadTimeout	util/RedirectableRequest.java	/^    public int getReadTimeout() {$/;"	m	class:RedirectableRequest
+getRequest	util/RedirectableRequest.java	/^    public URL getRequest() {$/;"	m	class:RedirectableRequest
+getResult	histquotes/HistQuotesRequest.java	/^    public List<HistoricalQuote> getResult() throws IOException {$/;"	m	class:HistQuotesRequest
+getResult	histquotes2/HistDividendsRequest.java	/^    public List<HistoricalDividend> getResult() throws IOException {$/;"	m	class:HistDividendsRequest
+getResult	histquotes2/HistQuotes2Request.java	/^    public List<HistoricalQuote> getResult() throws IOException {$/;"	m	class:HistQuotes2Request
+getResult	histquotes2/HistSplitsRequest.java	/^    public List<HistoricalSplit> getResult() throws IOException {$/;"	m	class:HistSplitsRequest
+getResult	query2v8/HistQuotesQuery2V8Request.java	/^    public List<HistoricalQuote> getResult() throws IOException {$/;"	m	class:HistQuotesQuery2V8Request
+getResult	quotes/csv/QuotesRequest.java	/^    public List<T> getResult() throws IOException {$/;"	m	class:QuotesRequest
+getResult	quotes/query1v7/QuotesRequest.java	/^    public List<T> getResult() throws IOException {$/;"	m	class:QuotesRequest
+getRevenue	quotes/stock/StockStats.java	/^    public BigDecimal getRevenue() {$/;"	m	class:StockStats
+getSharesFloat	quotes/stock/StockStats.java	/^    public Long getSharesFloat() {$/;"	m	class:StockStats
+getSharesOutstanding	quotes/stock/StockStats.java	/^    public Long getSharesOutstanding() {$/;"	m	class:StockStats
+getSharesOwned	quotes/stock/StockStats.java	/^    public Long getSharesOwned() {$/;"	m	class:StockStats
+getShortRatio	quotes/stock/StockStats.java	/^    public BigDecimal getShortRatio() {$/;"	m	class:StockStats
+getSingleResult	quotes/csv/QuotesRequest.java	/^    public T getSingleResult() throws IOException {$/;"	m	class:QuotesRequest
+getSingleResult	quotes/query1v7/QuotesRequest.java	/^    public T getSingleResult() throws IOException {$/;"	m	class:QuotesRequest
+getSplitFactor	histquotes2/HistoricalSplit.java	/^    public BigDecimal getSplitFactor() {$/;"	m	class:HistoricalSplit
+getSplitHistory	Stock.java	/^    public List<HistoricalSplit> getSplitHistory() throws IOException {$/;"	m	class:Stock
+getSplitHistory	Stock.java	/^    public List<HistoricalSplit> getSplitHistory(Calendar from) throws IOException {$/;"	m	class:Stock
+getSplitHistory	Stock.java	/^    public List<HistoricalSplit> getSplitHistory(Calendar from, Calendar to) throws IOException {$/;"	m	class:Stock
+getStats	Stock.java	/^    public StockStats getStats() {$/;"	m	class:Stock
+getStats	Stock.java	/^    public StockStats getStats(boolean refresh) throws IOException {$/;"	m	class:Stock
+getStats	quotes/csv/StockQuotesData.java	/^    public StockStats getStats() {$/;"	m	class:StockQuotesData
+getStats	quotes/query1v7/StockQuotesQuery1V7Request.java	/^    private StockStats getStats(JsonNode node) {$/;"	m	class:StockQuotesQuery1V7Request	file:
+getStock	quotes/csv/StockQuotesData.java	/^    public Stock getStock() {$/;"	m	class:StockQuotesData
+getStockExchange	Stock.java	/^    public String getStockExchange() {$/;"	m	class:Stock
+getStockTimeZone	exchanges/ExchangeTimeZone.java	/^    public static TimeZone getStockTimeZone(String symbol) {$/;"	m	class:ExchangeTimeZone
+getString	Utils.java	/^    public static String getString(String data) {$/;"	m	class:Utils
+getStringValue	quotes/query1v7/StockQuotesQuery1V7Request.java	/^    private String getStringValue(JsonNode node, String field) {$/;"	m	class:StockQuotesQuery1V7Request	file:
+getSymbol	Stock.java	/^    public String getSymbol() {$/;"	m	class:Stock
+getSymbol	histquotes/HistoricalQuote.java	/^    public String getSymbol() {$/;"	m	class:HistoricalQuote
+getSymbol	histquotes2/HistoricalDividend.java	/^    public String getSymbol() {$/;"	m	class:HistoricalDividend
+getSymbol	histquotes2/HistoricalSplit.java	/^    public String getSymbol() {$/;"	m	class:HistoricalSplit
+getSymbol	quotes/fx/FxQuote.java	/^    public String getSymbol() {$/;"	m	class:FxQuote
+getSymbol	quotes/stock/StockDividend.java	/^    public String getSymbol() {$/;"	m	class:StockDividend
+getSymbol	quotes/stock/StockQuote.java	/^    public String getSymbol() {$/;"	m	class:StockQuote
+getSymbol	quotes/stock/StockStats.java	/^    public String getSymbol() {$/;"	m	class:StockStats
+getSymbols	quotes/query1v7/QuotesRequest.java	/^    public String getSymbols() {$/;"	m	class:QuotesRequest
+getTag	histquotes/Interval.java	/^    public String getTag() {$/;"	m	class:Interval
+getTag	histquotes2/QueryInterval.java	/^    public String getTag() {$/;"	m	class:QueryInterval
+getTag	quotes/csv/QuotesProperty.java	/^    public String getTag() {$/;"	m	class:QuotesProperty
+getTimeZone	quotes/stock/StockQuote.java	/^    public TimeZone getTimeZone() {$/;"	m	class:StockQuote
+getURLParameters	Utils.java	/^    public static String getURLParameters(Map<String, String> params) {$/;"	m	class:Utils
+getValue	quotes/csv/StockQuotesData.java	/^    public String getValue(QuotesProperty property) {$/;"	m	class:StockQuotesData
+getVolume	histquotes/HistoricalQuote.java	/^    public Long getVolume() {$/;"	m	class:HistoricalQuote
+getVolume	quotes/stock/StockQuote.java	/^    public Long getVolume() {$/;"	m	class:StockQuote
+getYearHigh	quotes/stock/StockQuote.java	/^    public BigDecimal getYearHigh() {$/;"	m	class:StockQuote
+getYearLow	quotes/stock/StockQuote.java	/^    public BigDecimal getYearLow() {$/;"	m	class:StockQuote
+high	histquotes/HistoricalQuote.java	/^    private BigDecimal high;$/;"	f	class:HistoricalQuote	file:
+history	Stock.java	/^    private List<HistoricalQuote> history;$/;"	f	class:Stock	file:
+interval	histquotes/HistQuotesRequest.java	/^    private final Interval interval;$/;"	f	class:HistQuotesRequest	file:
+interval	histquotes2/HistQuotes2Request.java	/^    private final QueryInterval interval;$/;"	f	class:HistQuotes2Request	file:
+interval	query2v8/HistQuotesQuery2V8Request.java	/^    private final QueryInterval interval;$/;"	f	class:HistQuotesQuery2V8Request	file:
+isParseable	Utils.java	/^    private static boolean isParseable(String data) {$/;"	m	class:Utils	file:
+isValid	Stock.java	/^    public boolean isValid() {$/;"	m	class:Stock
+join	Utils.java	/^    public static String join(String[] data, String d) {$/;"	m	class:Utils
+lastTradeDateStr	quotes/stock/StockQuote.java	/^    private String lastTradeDateStr;$/;"	f	class:StockQuote	file:
+lastTradeSize	quotes/stock/StockQuote.java	/^    private Long lastTradeSize;$/;"	f	class:StockQuote	file:
+lastTradeTime	quotes/stock/StockQuote.java	/^    private Calendar lastTradeTime;$/;"	f	class:StockQuote	file:
+lastTradeTimeStr	quotes/stock/StockQuote.java	/^    private String lastTradeTimeStr;$/;"	f	class:StockQuote	file:
+log	Stock.java	/^    private static final Logger log = LoggerFactory.getLogger(Stock.class);$/;"	f	class:Stock	file:
+log	Utils.java	/^    private static final Logger log = LoggerFactory.getLogger(Utils.class);$/;"	f	class:Utils	file:
+log	exchanges/ExchangeTimeZone.java	/^    private static final Logger log = LoggerFactory.getLogger(ExchangeTimeZone.class);$/;"	f	class:ExchangeTimeZone	file:
+log	histquotes/HistQuotesRequest.java	/^    private static final Logger log = LoggerFactory.getLogger(HistQuotesRequest.class);$/;"	f	class:HistQuotesRequest	file:
+log	histquotes2/CrumbManager.java	/^    private static final Logger log = LoggerFactory.getLogger(CrumbManager.class);$/;"	f	class:CrumbManager	file:
+log	histquotes2/HistDividendsRequest.java	/^    private static final Logger log = LoggerFactory.getLogger(HistDividendsRequest.class);$/;"	f	class:HistDividendsRequest	file:
+log	histquotes2/HistQuotes2Request.java	/^    private static final Logger log = LoggerFactory.getLogger(HistQuotes2Request.class);$/;"	f	class:HistQuotes2Request	file:
+log	histquotes2/HistSplitsRequest.java	/^    private static final Logger log = LoggerFactory.getLogger(HistSplitsRequest.class);$/;"	f	class:HistSplitsRequest	file:
+log	query2v8/HistQuotesQuery2V8Request.java	/^    private static final Logger log = LoggerFactory.getLogger(HistQuotesQuery2V8Request.class);$/;"	f	class:HistQuotesQuery2V8Request	file:
+log	quotes/csv/QuotesRequest.java	/^    private static final Logger log = LoggerFactory.getLogger(QuotesRequest.class);$/;"	f	class:QuotesRequest	file:
+log	quotes/query1v7/QuotesRequest.java	/^    private static final Logger log = LoggerFactory.getLogger(QuotesRequest.class);$/;"	f	class:QuotesRequest	file:
+low	histquotes/HistoricalQuote.java	/^    private BigDecimal low;$/;"	f	class:HistoricalQuote	file:
+marketCap	quotes/stock/StockStats.java	/^    private BigDecimal marketCap;$/;"	f	class:StockStats	file:
+name	Stock.java	/^    private String name;$/;"	f	class:Stock	file:
+numerator	histquotes2/HistoricalSplit.java	/^    private BigDecimal numerator;$/;"	f	class:HistoricalSplit	file:
+objectMapper	query2v8/HistQuotesQuery2V8Request.java	/^    private static final ObjectMapper objectMapper = new ObjectMapper();$/;"	f	class:HistQuotesQuery2V8Request	file:
+objectMapper	quotes/query1v7/QuotesRequest.java	/^    private static final ObjectMapper objectMapper = new ObjectMapper();$/;"	f	class:QuotesRequest	file:
+oneYearTargetPrice	quotes/stock/StockStats.java	/^    private BigDecimal oneYearTargetPrice;$/;"	f	class:StockStats	file:
+open	histquotes/HistoricalQuote.java	/^    private BigDecimal open;$/;"	f	class:HistoricalQuote	file:
+open	quotes/stock/StockQuote.java	/^    private BigDecimal open;$/;"	f	class:StockQuote	file:
+openConnection	util/RedirectableRequest.java	/^    public URLConnection openConnection() throws IOException {$/;"	m	class:RedirectableRequest
+openConnection	util/RedirectableRequest.java	/^    public URLConnection openConnection(Map<String, String> requestProperties) throws IOException {$/;"	m	class:RedirectableRequest
+parseCSVLine	histquotes/HistQuotesRequest.java	/^    private HistoricalQuote parseCSVLine(String line) {$/;"	m	class:HistQuotesRequest	file:
+parseCSVLine	histquotes2/HistDividendsRequest.java	/^    private HistoricalDividend parseCSVLine(String line) {$/;"	m	class:HistDividendsRequest	file:
+parseCSVLine	histquotes2/HistQuotes2Request.java	/^    private HistoricalQuote parseCSVLine(String line) {$/;"	m	class:HistQuotes2Request	file:
+parseCSVLine	histquotes2/HistSplitsRequest.java	/^    private HistoricalSplit parseCSVLine(String line) {$/;"	m	class:HistSplitsRequest	file:
+parseCSVLine	quotes/csv/FxQuotesRequest.java	/^    protected FxQuote parseCSVLine(String line) {$/;"	m	class:FxQuotesRequest
+parseCSVLine	quotes/csv/QuotesRequest.java	/^    protected abstract T parseCSVLine(String line);$/;"	m	class:QuotesRequest
+parseCSVLine	quotes/csv/StockQuotesRequest.java	/^    protected StockQuotesData parseCSVLine(String line) {$/;"	m	class:StockQuotesRequest
+parseDateTime	Utils.java	/^    public static Calendar parseDateTime(String date, String time, TimeZone timeZone) {$/;"	m	class:Utils
+parseDividendDate	Utils.java	/^    public static Calendar parseDividendDate(String date) {$/;"	m	class:Utils
+parseHistDate	Utils.java	/^    public static Calendar parseHistDate(String date) {$/;"	m	class:Utils
+parseJson	quotes/query1v7/FxQuotesQuery1V7Request.java	/^    protected FxQuote parseJson(JsonNode node) {$/;"	m	class:FxQuotesQuery1V7Request
+parseJson	quotes/query1v7/QuotesRequest.java	/^    protected abstract T parseJson(JsonNode node);$/;"	m	class:QuotesRequest
+parseJson	quotes/query1v7/StockQuotesQuery1V7Request.java	/^    protected Stock parseJson(JsonNode node) {$/;"	m	class:StockQuotesQuery1V7Request
+payDate	quotes/stock/StockDividend.java	/^    private Calendar payDate;$/;"	f	class:StockDividend	file:
+pe	quotes/stock/StockStats.java	/^    private BigDecimal pe;$/;"	f	class:StockStats	file:
+peg	quotes/stock/StockStats.java	/^    private BigDecimal peg;$/;"	f	class:StockStats	file:
+previousClose	quotes/stock/StockQuote.java	/^    private BigDecimal previousClose;$/;"	f	class:StockQuote	file:
+price	quotes/fx/FxQuote.java	/^    private BigDecimal price;$/;"	f	class:FxQuote	file:
+price	quotes/stock/StockQuote.java	/^    private BigDecimal price;$/;"	f	class:StockQuote	file:
+priceAvg200	quotes/stock/StockQuote.java	/^    private BigDecimal priceAvg200;$/;"	f	class:StockQuote	file:
+priceAvg50	quotes/stock/StockQuote.java	/^    private BigDecimal priceAvg50;$/;"	f	class:StockQuote	file:
+priceBook	quotes/stock/StockStats.java	/^    private BigDecimal priceBook;$/;"	f	class:StockStats	file:
+priceSales	quotes/stock/StockStats.java	/^    private BigDecimal priceSales;$/;"	f	class:StockStats	file:
+print	Stock.java	/^    public void print() {$/;"	m	class:Stock
+properties	quotes/csv/QuotesRequest.java	/^    protected List<QuotesProperty> properties;$/;"	f	class:QuotesRequest
+protocolRedirectLimit	util/RedirectableRequest.java	/^    private int protocolRedirectLimit;$/;"	f	class:RedirectableRequest	file:
+query	quotes/csv/QuotesRequest.java	/^    protected final String query;$/;"	f	class:QuotesRequest
+quote	Stock.java	/^    private StockQuote quote;$/;"	f	class:Stock	file:
+readTimeout	util/RedirectableRequest.java	/^    private int readTimeout = 10000;$/;"	f	class:RedirectableRequest	file:
+refresh	histquotes2/CrumbManager.java	/^    public static void refresh() throws IOException {$/;"	m	class:CrumbManager
+request	util/RedirectableRequest.java	/^    private URL request;$/;"	f	class:RedirectableRequest	file:
+revenue	quotes/stock/StockStats.java	/^    private BigDecimal revenue; \/\/ ttm$/;"	f	class:StockStats	file:
+setAdjClose	histquotes/HistoricalQuote.java	/^    public void setAdjClose(BigDecimal adjClose) {$/;"	m	class:HistoricalQuote
+setAdjDividend	histquotes2/HistoricalDividend.java	/^    public void setAdjDividend(BigDecimal adjDividend) {$/;"	m	class:HistoricalDividend
+setAnnualYield	quotes/stock/StockDividend.java	/^    public void setAnnualYield(BigDecimal annualYield) {$/;"	m	class:StockDividend
+setAnnualYieldPercent	quotes/stock/StockDividend.java	/^    public void setAnnualYieldPercent(BigDecimal annualYieldPercent) {$/;"	m	class:StockDividend
+setAsk	quotes/stock/StockQuote.java	/^    public void setAsk(BigDecimal ask) {$/;"	m	class:StockQuote
+setAskSize	quotes/stock/StockQuote.java	/^    public void setAskSize(Long askSize) {$/;"	m	class:StockQuote
+setAvgVolume	quotes/stock/StockQuote.java	/^    public void setAvgVolume(Long avgVolume) {$/;"	m	class:StockQuote
+setBid	quotes/stock/StockQuote.java	/^    public void setBid(BigDecimal bid) {$/;"	m	class:StockQuote
+setBidSize	quotes/stock/StockQuote.java	/^    public void setBidSize(Long bidSize) {$/;"	m	class:StockQuote
+setBookValuePerShare	quotes/stock/StockStats.java	/^    public void setBookValuePerShare(BigDecimal bookValuePerShare) {$/;"	m	class:StockStats
+setClose	histquotes/HistoricalQuote.java	/^    public void setClose(BigDecimal close) {$/;"	m	class:HistoricalQuote
+setConnectTimeout	util/RedirectableRequest.java	/^    public void setConnectTimeout(int connectTimeout) {$/;"	m	class:RedirectableRequest
+setCookie	histquotes2/CrumbManager.java	/^    private static void setCookie() throws IOException {$/;"	m	class:CrumbManager	file:
+setCrumb	histquotes2/CrumbManager.java	/^    private static void setCrumb() throws IOException {$/;"	m	class:CrumbManager	file:
+setCurrency	Stock.java	/^    public void setCurrency(String currency) {$/;"	m	class:Stock
+setDate	histquotes/HistoricalQuote.java	/^    public void setDate(Calendar date) {$/;"	m	class:HistoricalQuote
+setDate	histquotes2/HistoricalDividend.java	/^    public void setDate(Calendar date) {$/;"	m	class:HistoricalDividend
+setDate	histquotes2/HistoricalSplit.java	/^    public void setDate(Calendar date) {$/;"	m	class:HistoricalSplit
+setDayHigh	quotes/stock/StockQuote.java	/^    public void setDayHigh(BigDecimal dayHigh) {$/;"	m	class:StockQuote
+setDayLow	quotes/stock/StockQuote.java	/^    public void setDayLow(BigDecimal dayLow) {$/;"	m	class:StockQuote
+setDenominator	histquotes2/HistoricalSplit.java	/^    public void setDenominator(BigDecimal denominator) {$/;"	m	class:HistoricalSplit
+setDividend	Stock.java	/^    public void setDividend(StockDividend dividend) {$/;"	m	class:Stock
+setDividendHistory	Stock.java	/^    public void setDividendHistory(List<HistoricalDividend> dividendHistory) {$/;"	m	class:Stock
+setEBITDA	quotes/stock/StockStats.java	/^    public void setEBITDA(BigDecimal EBITDA) {$/;"	m	class:StockStats
+setEarningsAnnouncement	quotes/stock/StockStats.java	/^    public void setEarningsAnnouncement(Calendar earningsAnnouncement) {$/;"	m	class:StockStats
+setEps	quotes/stock/StockStats.java	/^    public void setEps(BigDecimal eps) {$/;"	m	class:StockStats
+setEpsEstimateCurrentYear	quotes/stock/StockStats.java	/^    public void setEpsEstimateCurrentYear(BigDecimal epsEstimateCurrentYear) {$/;"	m	class:StockStats
+setEpsEstimateNextQuarter	quotes/stock/StockStats.java	/^    public void setEpsEstimateNextQuarter(BigDecimal epsEstimateNextQuarter) {$/;"	m	class:StockStats
+setEpsEstimateNextYear	quotes/stock/StockStats.java	/^    public void setEpsEstimateNextYear(BigDecimal epsEstimateNextYear) {$/;"	m	class:StockStats
+setExDate	quotes/stock/StockDividend.java	/^    public void setExDate(Calendar exDate) {$/;"	m	class:StockDividend
+setHigh	histquotes/HistoricalQuote.java	/^    public void setHigh(BigDecimal high) {$/;"	m	class:HistoricalQuote
+setHistory	Stock.java	/^    public void setHistory(List<HistoricalQuote> history) {$/;"	m	class:Stock
+setLastTradeDateStr	quotes/stock/StockQuote.java	/^    public void setLastTradeDateStr(String lastTradeDateStr) {$/;"	m	class:StockQuote
+setLastTradeSize	quotes/stock/StockQuote.java	/^    public void setLastTradeSize(Long lastTradeSize) {$/;"	m	class:StockQuote
+setLastTradeTime	quotes/stock/StockQuote.java	/^    public void setLastTradeTime(Calendar lastTradeTime) {$/;"	m	class:StockQuote
+setLastTradeTimeStr	quotes/stock/StockQuote.java	/^    public void setLastTradeTimeStr(String lastTradeTimeStr) {$/;"	m	class:StockQuote
+setLow	histquotes/HistoricalQuote.java	/^    public void setLow(BigDecimal low) {$/;"	m	class:HistoricalQuote
+setMarketCap	quotes/stock/StockStats.java	/^    public void setMarketCap(BigDecimal marketCap) {$/;"	m	class:StockStats
+setName	Stock.java	/^    public void setName(String name) {$/;"	m	class:Stock
+setNumerator	histquotes2/HistoricalSplit.java	/^    public void setNumerator(BigDecimal numerator) {$/;"	m	class:HistoricalSplit
+setOneYearTargetPrice	quotes/stock/StockStats.java	/^    public void setOneYearTargetPrice(BigDecimal oneYearTargetPrice) {$/;"	m	class:StockStats
+setOpen	histquotes/HistoricalQuote.java	/^    public void setOpen(BigDecimal open) {$/;"	m	class:HistoricalQuote
+setOpen	quotes/stock/StockQuote.java	/^    public void setOpen(BigDecimal open) {$/;"	m	class:StockQuote
+setPayDate	quotes/stock/StockDividend.java	/^    public void setPayDate(Calendar payDate) {$/;"	m	class:StockDividend
+setPe	quotes/stock/StockStats.java	/^    public void setPe(BigDecimal pe) {$/;"	m	class:StockStats
+setPeg	quotes/stock/StockStats.java	/^    public void setPeg(BigDecimal peg) {$/;"	m	class:StockStats
+setPreviousClose	quotes/stock/StockQuote.java	/^    public void setPreviousClose(BigDecimal previousClose) {$/;"	m	class:StockQuote
+setPrice	quotes/fx/FxQuote.java	/^    public void setPrice(BigDecimal price) {$/;"	m	class:FxQuote
+setPrice	quotes/stock/StockQuote.java	/^    public void setPrice(BigDecimal price) {$/;"	m	class:StockQuote
+setPriceAvg200	quotes/stock/StockQuote.java	/^    public void setPriceAvg200(BigDecimal priceAvg200) {$/;"	m	class:StockQuote
+setPriceAvg50	quotes/stock/StockQuote.java	/^    public void setPriceAvg50(BigDecimal priceAvg50) {$/;"	m	class:StockQuote
+setPriceBook	quotes/stock/StockStats.java	/^    public void setPriceBook(BigDecimal priceBook) {$/;"	m	class:StockStats
+setPriceSales	quotes/stock/StockStats.java	/^    public void setPriceSales(BigDecimal priceSales) {$/;"	m	class:StockStats
+setProperties	quotes/csv/QuotesRequest.java	/^    public void setProperties(List<QuotesProperty> properties) {$/;"	m	class:QuotesRequest
+setProtocolRedirectLimit	util/RedirectableRequest.java	/^    public void setProtocolRedirectLimit(int protocolRedirectLimit) {$/;"	m	class:RedirectableRequest
+setQuote	Stock.java	/^    public void setQuote(StockQuote quote) {$/;"	m	class:Stock
+setReadTimeout	util/RedirectableRequest.java	/^    public void setReadTimeout(int readTimeout) {$/;"	m	class:RedirectableRequest
+setRequest	util/RedirectableRequest.java	/^    public void setRequest(URL request) {$/;"	m	class:RedirectableRequest
+setRevenue	quotes/stock/StockStats.java	/^    public void setRevenue(BigDecimal revenue) {$/;"	m	class:StockStats
+setSharesFloat	quotes/stock/StockStats.java	/^    public void setSharesFloat(Long sharesFloat) {$/;"	m	class:StockStats
+setSharesOutstanding	quotes/stock/StockStats.java	/^    public void setSharesOutstanding(Long sharesOutstanding) {$/;"	m	class:StockStats
+setSharesOwned	quotes/stock/StockStats.java	/^    public void setSharesOwned(Long sharesOwned) {$/;"	m	class:StockStats
+setShortRatio	quotes/stock/StockStats.java	/^    public void setShortRatio(BigDecimal shortRatio) {$/;"	m	class:StockStats
+setSplitHistory	Stock.java	/^    public void setSplitHistory(List<HistoricalSplit> splitHistory) {$/;"	m	class:Stock
+setStats	Stock.java	/^    public void setStats(StockStats stats) {$/;"	m	class:Stock
+setStockExchange	Stock.java	/^    public void setStockExchange(String stockExchange) {$/;"	m	class:Stock
+setSymbol	histquotes/HistoricalQuote.java	/^    public void setSymbol(String symbol) {$/;"	m	class:HistoricalQuote
+setSymbol	histquotes2/HistoricalDividend.java	/^    public void setSymbol(String symbol) {$/;"	m	class:HistoricalDividend
+setSymbol	histquotes2/HistoricalSplit.java	/^    public void setSymbol(String symbol) {$/;"	m	class:HistoricalSplit
+setSymbol	quotes/fx/FxQuote.java	/^    public void setSymbol(String symbol) {$/;"	m	class:FxQuote
+setTimeZone	quotes/stock/StockQuote.java	/^    public void setTimeZone(TimeZone timeZone) {$/;"	m	class:StockQuote
+setVolume	histquotes/HistoricalQuote.java	/^    public void setVolume(Long volume) {$/;"	m	class:HistoricalQuote
+setVolume	quotes/stock/StockQuote.java	/^    public void setVolume(Long volume) {$/;"	m	class:StockQuote
+setYearHigh	quotes/stock/StockQuote.java	/^    public void setYearHigh(BigDecimal yearHigh) {$/;"	m	class:StockQuote
+setYearLow	quotes/stock/StockQuote.java	/^    public void setYearLow(BigDecimal yearLow) {$/;"	m	class:StockQuote
+sharesFloat	quotes/stock/StockStats.java	/^    private Long sharesFloat;$/;"	f	class:StockStats	file:
+sharesOutstanding	quotes/stock/StockStats.java	/^    private Long sharesOutstanding;$/;"	f	class:StockStats	file:
+sharesOwned	quotes/stock/StockStats.java	/^    private Long sharesOwned;$/;"	f	class:StockStats	file:
+shortRatio	quotes/stock/StockStats.java	/^    private BigDecimal shortRatio;$/;"	f	class:StockStats	file:
+splitHistory	Stock.java	/^    private List<HistoricalSplit> splitHistory;$/;"	f	class:Stock	file:
+stats	Stock.java	/^    private StockStats stats;$/;"	f	class:Stock	file:
+stockExchange	Stock.java	/^    private String stockExchange;$/;"	f	class:Stock	file:
+stripOverhead	Utils.java	/^    public static String stripOverhead(String line) {$/;"	m	class:Utils
+symbol	Stock.java	/^    private final String symbol;$/;"	f	class:Stock	file:
+symbol	histquotes/HistQuotesRequest.java	/^    private final String symbol;$/;"	f	class:HistQuotesRequest	file:
+symbol	histquotes/HistoricalQuote.java	/^    private String symbol;$/;"	f	class:HistoricalQuote	file:
+symbol	histquotes2/HistDividendsRequest.java	/^    private final String symbol;$/;"	f	class:HistDividendsRequest	file:
+symbol	histquotes2/HistQuotes2Request.java	/^    private final String symbol;$/;"	f	class:HistQuotes2Request	file:
+symbol	histquotes2/HistSplitsRequest.java	/^    private final String symbol;$/;"	f	class:HistSplitsRequest	file:
+symbol	histquotes2/HistoricalDividend.java	/^    private String symbol;$/;"	f	class:HistoricalDividend	file:
+symbol	histquotes2/HistoricalSplit.java	/^    private String symbol;$/;"	f	class:HistoricalSplit	file:
+symbol	query2v8/HistQuotesQuery2V8Request.java	/^    private final String symbol;$/;"	f	class:HistQuotesQuery2V8Request	file:
+symbol	quotes/fx/FxQuote.java	/^    private String symbol;$/;"	f	class:FxQuote	file:
+symbol	quotes/stock/StockDividend.java	/^    private final String symbol;$/;"	f	class:StockDividend	file:
+symbol	quotes/stock/StockQuote.java	/^    private final String symbol;$/;"	f	class:StockQuote	file:
+symbol	quotes/stock/StockStats.java	/^    private final String symbol;$/;"	f	class:StockStats	file:
+symbols	quotes/query1v7/QuotesRequest.java	/^    protected final String symbols;$/;"	f	class:QuotesRequest
+tag	histquotes/Interval.java	/^    private final String tag;$/;"	f	class:Interval	file:
+tag	histquotes2/QueryInterval.java	/^    private final String tag;$/;"	f	class:QueryInterval	file:
+tag	quotes/csv/QuotesProperty.java	/^    private final String tag;$/;"	f	class:QuotesProperty	file:
+timeZone	quotes/stock/StockQuote.java	/^    private TimeZone timeZone;$/;"	f	class:StockQuote	file:
+to	histquotes/HistQuotesRequest.java	/^    private final Calendar to;$/;"	f	class:HistQuotesRequest	file:
+to	histquotes2/HistDividendsRequest.java	/^    private final Calendar to;$/;"	f	class:HistDividendsRequest	file:
+to	histquotes2/HistQuotes2Request.java	/^    private final Calendar to;$/;"	f	class:HistQuotes2Request	file:
+to	histquotes2/HistSplitsRequest.java	/^    private final Calendar to;$/;"	f	class:HistSplitsRequest	file:
+to	query2v8/HistQuotesQuery2V8Request.java	/^    private final Calendar to;$/;"	f	class:HistQuotesQuery2V8Request	file:
+toString	Stock.java	/^    public String toString() {$/;"	m	class:Stock
+toString	histquotes/HistoricalQuote.java	/^    public String toString() {$/;"	m	class:HistoricalQuote
+toString	histquotes2/HistoricalDividend.java	/^    public String toString() {$/;"	m	class:HistoricalDividend
+toString	histquotes2/HistoricalSplit.java	/^    public String toString() {$/;"	m	class:HistoricalSplit
+toString	quotes/fx/FxQuote.java	/^    public String toString() {$/;"	m	class:FxQuote
+toString	quotes/stock/StockDividend.java	/^    public String toString() {$/;"	m	class:StockDividend
+toString	quotes/stock/StockQuote.java	/^    public String toString() {$/;"	m	class:StockQuote
+toString	quotes/stock/StockStats.java	/^    public String toString() {$/;"	m	class:StockStats
+unescape	Utils.java	/^    public static String unescape(String data) {$/;"	m	class:Utils
+unixToCalendar	Utils.java	/^    public static Calendar unixToCalendar(long timestamp) {$/;"	m	class:Utils
+update	Stock.java	/^    private void update() throws IOException {$/;"	m	class:Stock	file:
+volume	histquotes/HistoricalQuote.java	/^    private Long volume;$/;"	f	class:HistoricalQuote	file:
+volume	quotes/stock/StockQuote.java	/^    private Long volume;$/;"	f	class:StockQuote	file:
+yahoofinance	Stock.java	/^package yahoofinance;$/;"	p
+yahoofinance	Utils.java	/^package yahoofinance;$/;"	p
+yahoofinance	YahooFinance.java	/^package yahoofinance;$/;"	p
+yahoofinance.exchanges	exchanges/ExchangeTimeZone.java	/^package yahoofinance.exchanges;$/;"	p
+yahoofinance.histquotes	histquotes/HistQuotesRequest.java	/^package yahoofinance.histquotes;$/;"	p
+yahoofinance.histquotes	histquotes/HistoricalQuote.java	/^package yahoofinance.histquotes;$/;"	p
+yahoofinance.histquotes	histquotes/Interval.java	/^package yahoofinance.histquotes;$/;"	p
+yahoofinance.histquotes2	histquotes2/CrumbManager.java	/^package yahoofinance.histquotes2;$/;"	p
+yahoofinance.histquotes2	histquotes2/HistDividendsRequest.java	/^package yahoofinance.histquotes2;$/;"	p
+yahoofinance.histquotes2	histquotes2/HistQuotes2Request.java	/^package yahoofinance.histquotes2;$/;"	p
+yahoofinance.histquotes2	histquotes2/HistSplitsRequest.java	/^package yahoofinance.histquotes2;$/;"	p
+yahoofinance.histquotes2	histquotes2/HistoricalDividend.java	/^package yahoofinance.histquotes2;$/;"	p
+yahoofinance.histquotes2	histquotes2/HistoricalSplit.java	/^package yahoofinance.histquotes2;$/;"	p
+yahoofinance.histquotes2	histquotes2/IntervalMapper.java	/^package yahoofinance.histquotes2;$/;"	p
+yahoofinance.histquotes2	histquotes2/QueryInterval.java	/^package yahoofinance.histquotes2;$/;"	p
+yahoofinance.query2v8	query2v8/HistQuotesQuery2V8Request.java	/^package yahoofinance.query2v8;$/;"	p
+yahoofinance.quotes.csv	quotes/csv/FxQuotesRequest.java	/^package yahoofinance.quotes.csv;$/;"	p
+yahoofinance.quotes.csv	quotes/csv/QuotesProperty.java	/^package yahoofinance.quotes.csv;$/;"	p
+yahoofinance.quotes.csv	quotes/csv/QuotesRequest.java	/^package yahoofinance.quotes.csv;$/;"	p
+yahoofinance.quotes.csv	quotes/csv/StockQuotesData.java	/^package yahoofinance.quotes.csv;$/;"	p
+yahoofinance.quotes.csv	quotes/csv/StockQuotesRequest.java	/^package yahoofinance.quotes.csv;$/;"	p
+yahoofinance.quotes.fx	quotes/fx/FxQuote.java	/^package yahoofinance.quotes.fx;$/;"	p
+yahoofinance.quotes.fx	quotes/fx/FxSymbols.java	/^package yahoofinance.quotes.fx;$/;"	p
+yahoofinance.quotes.query1v7	quotes/query1v7/FxQuotesQuery1V7Request.java	/^package yahoofinance.quotes.query1v7;$/;"	p
+yahoofinance.quotes.query1v7	quotes/query1v7/QuotesRequest.java	/^package yahoofinance.quotes.query1v7;$/;"	p
+yahoofinance.quotes.query1v7	quotes/query1v7/StockQuotesQuery1V7Request.java	/^package yahoofinance.quotes.query1v7;$/;"	p
+yahoofinance.quotes.stock	quotes/stock/StockDividend.java	/^package yahoofinance.quotes.stock;$/;"	p
+yahoofinance.quotes.stock	quotes/stock/StockQuote.java	/^package yahoofinance.quotes.stock;$/;"	p
+yahoofinance.quotes.stock	quotes/stock/StockStats.java	/^package yahoofinance.quotes.stock;$/;"	p
+yahoofinance.util	util/RedirectableRequest.java	/^package yahoofinance.util;$/;"	p
+yearHigh	quotes/stock/StockQuote.java	/^    private BigDecimal yearHigh;$/;"	f	class:StockQuote	file:
+yearLow	quotes/stock/StockQuote.java	/^    private BigDecimal yearLow;$/;"	f	class:StockQuote	file:

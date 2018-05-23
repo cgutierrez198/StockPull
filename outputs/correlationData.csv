@@ -1,0 +1,443 @@
+Company Name,ticker,correlation
+3M,MMM,-0.08
+A-Mark Precious Metals,AMRK,0.10
+Abbott Laboratories,ABT,-0.24
+AbbVie,ABBV,0.15
+ABM Industries,ABM,-0.44
+Advance Auto Parts,AAP,0.11
+AECOM,ACM,-0.03
+AES,AES,0.47
+Aetna,AET,-0.03
+Aflac,AFL,-0.11
+AGCO,AGCO,-0.23
+Air Products and Chemicals,APD,-0.35
+AK Steel Holding,AKS,0.05
+Alaska Air,ALK,0.08
+Alliance Data Systems,ADS,0.06
+Allstate,ALL,-0.10
+Ally Financial,ALLY,-0.05
+Alphabet,GOOGL,0.06
+Altria,MO,0.23
+Amazoncom,AMZN,NaN
+Ameren,AEE,0.01
+American Airlines,AAL,-0.10
+American Electric Power,AEP,-0.54
+American Express,AXP,0.39
+American Financial,AFG,-0.58
+American International,AIG,-0.46
+Ameriprise Financial,AMP,-0.03
+AmerisourceBergen,ABC,0.26
+Amgen,AMGN,-0.16
+Amphenol,APH,-0.41
+Anadarko Petroleum,APC,0.57
+Anixter International,AXE,0.05
+Anthem,ANTM,0.09
+Apache,APA,0.31
+Applied Materials,AMAT,0.30
+Aramark,ARMK,-0.32
+ArcelorMittal,MT,-0.03
+Archer-Daniels-Midland,ADM,0.09
+Arconic,ARNC,-0.20
+Arrow Electronics,ARW,-0.23
+Arthur J Gallagher,AJG,0.08
+Asbury Automotive,ABG,0.34
+Ashland Global Holdings,ASH,0.50
+Assurant,AIZ,-0.77
+AT&T,T,-0.39
+Autoliv,ALV,0.05
+Automatic Data Processing,ADP,-0.28
+AutoNation,AN,-0.17
+AutoZone,AZO,0.30
+Avery Dennison,AVY,-0.30
+Avis Budget,CAR,0.26
+Avnet,AVT,0.25
+Avon Products,AVP,-0.23
+Ball,BLL,0.58
+Bank of America,BAC,-0.46
+Bank of New York,BK,-0.56
+Barnes & Noble,BKS,0.28
+Baxter International,BAX,-0.29
+BB&T,BBT,-0.37
+Becton Dickinson,BDX,-0.12
+Bed Bath & Beyond,BBBY,0.18
+Best Buy,BBY,0.07
+Big Lots,BIG,0.22
+Biogen,BIIB,0.30
+BlackRock,BLK,-0.13
+Boeing,BA,-0.14
+Booz Allen Hamilton Holding,BAH,0.14
+BorgWarner,BWA,-0.42
+Boston Scientific,BSX,-0.19
+Bristol-Myers Squibb,BMY,-0.26
+Burlington Stores,BURL,0.09
+Calpine,CPN,-0.02
+Campbell Soup,CPB,-0.09
+Capital One Financial,COF,0.13
+Cardinal Health,CAH,0.08
+CarMax,KMX,-0.19
+Casey's General Stores,CASY,-0.01
+Caterpillar,CAT,0.08
+CBRE,CBG,0.05
+CBS,CBS,-0.21
+CDW,CDW,-0.66
+Celanese,CE,-0.27
+Celgene,CELG,0.22
+Centene,CNC,0.68
+CenterPoint Energy,CNP,-0.17
+CenturyLink,CTL,0.48
+CH Robinson Worldwide,CHRW,-0.15
+Charles Schwab,SCHW,-0.06
+Charter Communications,CHTR,-0.78
+Chesapeake Energy,CHK,0.01
+Chevron,CVX,0.27
+Chico's FAS,CHS,0.05
+Cigna,CI,0.15
+Cincinnati Financial,CINF,-0.44
+Cisco Systems,CSCO,-0.60
+Citigroup,C,-0.38
+Citizens Financial,CFG,-0.25
+Clorox,CLX,0.65
+CMS Energy,CMS,-0.18
+Coca-Cola,KO,0.20
+Cognizant Technology Solutions,CTSH,-0.32
+Colgate-Palmolive,CL,-0.21
+Comcast,CMCSA,-0.82
+Commercial Metals,CMC,-0.09
+Community Health Systems,CYH,0.15
+Conagra Brands,CAG,0.37
+ConocoPhillips,COP,0.42
+Consolidated Edison,ED,-0.43
+Constellation Brands,STZ,0.45
+Core-Mark Holding,CORE,NaN
+Corning,GLW,-0.01
+Costco Wholesale,COST,0.66
+Crown Holdings,CCK,-0.05
+CSX,CSX,0.49
+Cummins,CMI,0.01
+CVS Health,CVS,0.13
+Dana,DAN,-0.32
+Danaher,DHR,-0.40
+Darden Restaurants,DRI,-0.41
+DaVita,DVA,-0.33
+Dean Foods,DF,0.01
+Deere,DE,0.11
+Delek US Holdings,DK,0.08
+Delta Air Lines,DAL,0.18
+Devon Energy,DVN,0.33
+Dick's Sporting Goods,DKS,-0.09
+Dillard's,DDS,0.22
+Discover Financial Services,DFS,-0.07
+Discovery Communications,DISCA,0.44
+DISH Network,DISH,0.48
+Dollar General,DG,0.59
+Dollar Tree,DLTR,0.68
+Dominion Energy,D,0.59
+Domtar,UFS,NaN
+Dover,DOV,0.03
+DR Horton,DHI,0.06
+Dr Pepper Snapple,DPS,-0.22
+DTE Energy,DTE,-0.22
+Duke Energy,DUK,0.11
+Eastman Chemical,EMN,0.14
+eBay,EBAY,-0.76
+Ecolab,ECL,0.15
+Edison International,EIX,-0.32
+Eli Lilly,LLY,-0.33
+EMCOR,EME,-0.39
+Emerson Electric,EMR,-0.14
+Energy Transfer Equity,ETE,-0.25
+Enterprise Products Partners,EPD,NaN
+EOG Resources,EOG,0.32
+Erie Indemnity,ERIE,0.07
+Essendant,ESND,-0.82
+Estée Lauder Companies,EL,NaN
+Eversource Energy,ES,0.10
+Exelon,EXC,-0.25
+Expedia,EXPE,-0.44
+Expeditors International of Washington,EXPD,-0.12
+Express Scripts Holding,ESRX,0.18
+Exxon Mobile,XOM,0.10
+Facebook,FB,-0.81
+Federal Home Loan Mortgage,FMCC,0.40
+Federal National Mortgage Association,FNMA,0.38
+FedEx,FDX,0.25
+Fidelity National Financial,FNF,-0.35
+Fidelity National Information Services,FIS,-0.32
+Fifth Third Bancorp,FITB,0.02
+First American Financial,FAF,-0.07
+First Data,FDC,-0.06
+FirstEnergy Corp,FE,0.18
+Fiserv,FISV,-0.48
+Fisher Scientific,TMO,-0.66
+Fluor,FLR,0.18
+Foot Locker,FL,0.15
+Ford,F,-0.47
+Franklin Resources,BEN,0.20
+Freeport-McMoRan,FCX,0.03
+Frontier Communications,FTR,-0.08
+GameStop,GME,-0.09
+Gap,GPS,0.27
+General Dynamics,GD,-0.41
+General Electric,GE,-0.39
+General Mills,GIS,-0.04
+General Motors,GM,-0.12
+Genesis Healthcare,GEN,0.65
+Genpact Limited,G,0.01
+Genuine Parts,GPC,-0.31
+Genworth Financial,GNW,0.56
+Gilead Sciences,GILD,0.52
+Global Partners,GLP,0.47
+Goldman Sachs,GS,0.19
+Group 1 Automotive,GPI,0.08
+Halliburton,HAL,0.33
+Hanesbrands,HBI,0.35
+Harley-Davidson,HOG,-0.64
+Hartford,HIG,-0.20
+HCA Healthcare,HCA,-0.06
+HD Supply Holdings,HDS,0.12
+Henry Schein,HSIC,-0.52
+Herc Holdings,HRI,-0.36
+Hershey,HSY,-0.01
+Hess,HES,0.29
+Hilton Worldwide Holdings,HLT,0.01
+HollyFrontier,HFC,0.28
+Home Depot,HD,0.26
+Honeywell International,HON,-0.23
+Hormel Foods,HRL,0.15
+Host Hotels & Resorts,HST,0.21
+HP,HPQ,-0.26
+HRG,HRG,-0.51
+Humana,HUM,-0.43
+Huntington Ingalls Industries,HII,0.07
+Huntsman,HUN,-0.31
+IBM,IBM,0.34
+Icahn Enterprises,IEP,0.28
+iHeartMedia,IHRT,-0.56
+Illinois Tool Works,ITW,-0.24
+Ingredion,INGR,0.00
+Insight Enterprises,NSIT,-0.09
+Intel,INTC,-0.37
+International Paper,IP,-0.01
+Interpublic of Companies,IPG,NaN
+INTL FCStone,INTL,0.18
+IQVIA Holdings,Q,0.23
+J C Penney,JCP,0.20
+J M Smucker,SJM,NaN
+Jabil,JBL,-0.25
+Jacobs Engineering,JEC,0.10
+JB Hunt Transport Services,JBHT,NaN
+JetBlue Airways,JBLU,-0.73
+Johnson & Johnson,JNJ,-0.50
+Johnson Controls International plc,JCI,-0.02
+Jones Energy,JONE,-0.07
+Jones Lang LaSalle,JLL,0.21
+JPMorgan Chase,JPM,-0.56
+Kellogg,K,-0.10
+Kelly Services,KELYA,-0.37
+Kimberly-Clark,KMB,-0.29
+Kinder Morgan,KMI,0.22
+Kindred Healthcare,KND,0.60
+KKR,KKR,0.21
+Kohl's,KSS,-0.21
+Kraft Heinz,KHC,0.08
+Kroger,KR,-0.01
+L Brands,LB,-0.14
+L3 Technologies,LLL,0.83
+Laboratory  of America Holdings,LH,NaN
+Lakeland Industries,LAKE,0.30
+Lam,LRCX,-0.61
+Las Vegas Sands Corp,LVS,0.24
+Lear,LEA,-0.19
+Lennar,LEN,0.28
+Leucadia National,LUK,0.16
+Level 3 Communications,LVLT,-0.54
+LifePoint Health,LPNT,-0.15
+Lincoln National,LNC,-0.26
+Lithia Motors,LAD,-0.02
+Live Nation Entertainment,LYV,-0.14
+LKQ,LKQ,0.69
+Lockheed Martin,LMT,-0.18
+Loews,L,-0.23
+Lowe's Companies,LOW,-0.24
+Macy's,M,-0.45
+ManpowerGroup,MAN,NaN
+Marathon Oil,MRO,-0.07
+Marathon Petroleum,MPC,-0.16
+Markel,MKL,-0.00
+Marriott International,MAR,-0.18
+Marsh & McLennan Companies,MMC,0.00
+Masco,MAS,-0.73
+Mastercard,MA,-0.12
+Mattel,MAT,-0.36
+McDonald's,MCD,0.61
+McKesson,MCK,NaN
+Merck,MRK,0.01
+MetLife,MET,-0.10
+MGM Resorts International,MGM,0.18
+Micron Technology,MU,1.00
+Microsoft,MSFT,-0.71
+Mohawk Industries,MHK,-0.19
+Molina Healthcare,MOH,0.39
+Mondelez International,MDLZ,-0.56
+Monsanto,MON,0.01
+Morgan Stanley,MS,-0.26
+Mosaic,MOS,-0.38
+Motorola Solutions,MSI,-0.52
+Murphy USA,MUSA,0.30
+Navient,NAVI,-0.13
+Navistar International,NAV,-0.10
+NCR,NCR,-0.27
+NetApp,NTAP,-0.10
+Netflix,NFLX,-0.39
+Newell Brands,NWL,0.46
+Newmont Mining,NEM,-0.07
+NextEra Energy,NEE,0.27
+NGL Energy Partners,NGL,0.03
+NIKE,NKE,0.44
+NiSource,NI,-0.69
+Nordstrom,JWN,-0.04
+Norfolk Southern,NSC,-0.28
+Northrop Grumman,NOC,-0.38
+NRG Energy,NRG,0.20
+Nucor,NUE,0.35
+NVR,NVR,0.86
+O'Reilly Automotive,ORLY,-0.18
+Occidental Petroleum,OXY,0.58
+Office Depot,ODP,0.14
+Old Republic International,ORI,-0.27
+Omnicom,OMC,-0.22
+ONEOK,OKE,0.05
+Oracle,ORCL,-0.38
+Oshkosh,OSK,-0.00
+Owens & Minor,OMI,-0.08
+Owens Corning,OC,0.12
+Owens-Illinois,OI,0.24
+PACCAR,PCAR,0.20
+Packaging  of America,PKG,-0.03
+Parker-Hannifin,PH,NaN
+PayPal Holdings,PYPL,0.11
+PBF Energy,PBF,0.02
+Peabody Energy,BTU,-0.16
+Penske Automotive,PAG,0.28
+Pepsico,PEP,-0.33
+Performance Food,PFGC,0.13
+Pfizer,PFE,-0.18
+PG&E,PCG,0.32
+Philip Morris International,PM,-0.27
+Phillips 66,PSX,-0.16
+Plains GP Holdings,PAGP,0.11
+PNC Financial Services,PNC,-0.19
+PPG Industries,PPG,-0.21
+PPL,PPL,0.41
+Praxair,PX,-0.04
+Priceline,PCLN,-0.54
+Principal Financial,PFG,-0.13
+Procter & Gamble,PG,-0.30
+Progressive,PGR,0.15
+Prudential Financial,PRU,-0.14
+Public Service Enterprise,PEG,NaN
+PulteGroup,PHM,-0.18
+PVH Corp,PVH,0.16
+QUALCOMM,QCOM,0.13
+Quanta Services,PWR,0.05
+Quest Diagnostics,DGX,-0.03
+QVC,QVCA,0.47
+Ralph Lauren,RL,0.54
+Raymond James Financial,RJF,-0.52
+Raytheon,RTN,-0.08
+Realogy Holdings Corp,RLGY,0.01
+Regions Financial,RF,-0.16
+Reinsurance of America,RGA,NaN
+Reliance Steel & Aluminum,RS,-0.15
+Republic Services,RSG,0.66
+Rite Aid,RAD,-0.19
+Rockwell Automation,ROK,-0.12
+Rockwell Collins,COL,0.35
+Ross Stores,ROST,-0.52
+RR Donnelley & Sons,RRD,0.16
+Ryder System,R,0.03
+S&P Global,SPGI,0.46
+Salesforcecom inc,CRM,NaN
+Sanmina,SANM,-0.16
+Sea Limited,SE,0.49
+Seaboard,SEB,0.22
+Sealed Air,SEE,0.11
+Sears Holdings,SHLD,0.23
+Sempra Energy,SRE,-0.15
+Sherwin-Williams,SHW,0.61
+Sonic Automotive,SAH,0.34
+Southern,SO,-0.37
+Southwest Airlines,LUV,-0.63
+SpartanNash,SPTN,0.41
+Spirit AeroSystems Holdings,SPR,0.16
+Stanley Black & Decker,SWK,0.57
+Staples,SPLS,NaN
+Starbucks,SBUX,0.52
+State Street,STT,-0.13
+Steel Dynamics,STLD,0.24
+Stryker,SYK,-0.10
+SunTrust Banks,STI,-0.20
+SUPERVALU,SVU,-0.03
+Symantec,SYMC,-0.36
+SYNNEX,SNX,-0.48
+Sysco,SYY,-0.57
+Targa Resources Corp,TRGP,-0.09
+Target,TGT,0.10
+Tech Data,TECD,0.14
+TechnipFMC plc,FTI,NaN
+Telephone and Data Systems,TDS,-0.12
+Tenet Healthcare,THC,0.64
+Tenneco,TEN,-0.01
+Terex,TEX,-0.30
+Texas Instruments,TXN,-0.34
+Textron,TXT,0.40
+Time Warner,TWX,-0.73
+TJX Companies,TJX,-0.01
+Tractor Supply,TSCO,0.03
+TravelCenters of America,TA,-0.62
+Travelers Companies,TRV,-0.26
+Trinity Industries,TRN,0.37
+Twenty-First Century Fox,FOXA,0.16
+Tyson Foods,TSN,0.55
+UGI,UGI,-0.13
+Union Pacific,UNP,0.17
+United Continental Holdings,UAL,0.09
+United Natural Foods,UNFI,0.37
+United Parcel Service,UPS,-0.21
+United Rentals,URI,0.10
+United States Steel,X,-0.08
+United Technologies,UTX,-0.01
+UnitedHealth,UNH,0.08
+Univar,UNVR,-0.06
+Universal Health Services,UHS,0.07
+Unum,UNM,0.03
+US Bancorp,USB,-0.28
+Valero Energy,VLO,-0.33
+Veritiv,VRTV,-0.12
+Verizon Communications,VZ,0.22
+VF,VFC,0.29
+Visa,V,0.15
+Visteon,VC,-0.18
+Voya Financial,VOYA,0.37
+W R Berkley,WRB,NaN
+Walt Disney,DIS,-0.36
+Waste Management,WM,-0.03
+WEC Energy,WEC,0.45
+WellCare Health Plans,WCG,-0.06
+Wells Fargo,WFC,-0.11
+WESCO International,WCC,0.36
+Western Digital,WDC,0.52
+Western Union,WU,0.47
+WestRock,WRK,0.17
+Weyerhaeuser,WY,-0.16
+Whirlpool,WHR,0.16
+Williams Companies,WMB,0.18
+Windstream Holdings,WIN,0.10
+World Fuel Services,INT,0.25
+WW Grainger,GWW,0.43
+Wyndham Worldwide,WYN,-0.23
+Xcel Energy,XEL,-0.39
+Xerox,XRX,0.22
+XPO Logistics,XPO,0.59
+Yum! Brands,YUM,NaN
+Zimmer Biomet Holdings,ZBH,0.10

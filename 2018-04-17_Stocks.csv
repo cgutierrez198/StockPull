@@ -1,0 +1,748 @@
+ticker,name,Date,Data
+MT,ArcelorMittal,17/4/14,48.840000
+MT,ArcelorMittal,22/4/14,48.810001
+MT,ArcelorMittal,2/5/14,48.720001
+MT,ArcelorMittal,7/5/14,48.419998
+MT,ArcelorMittal,12/5/14,47.759998
+MT,ArcelorMittal,22/5/14,45.660000
+MT,ArcelorMittal,27/5/14,46.500000
+MT,ArcelorMittal,6/6/14,46.080002
+MT,ArcelorMittal,11/6/14,46.080002
+MT,ArcelorMittal,16/6/14,44.790001
+MT,ArcelorMittal,26/6/14,44.700001
+MT,ArcelorMittal,1/7/14,44.639999
+MT,ArcelorMittal,11/7/14,43.799999
+MT,ArcelorMittal,16/7/14,45.630001
+MT,ArcelorMittal,21/7/14,44.970001
+MT,ArcelorMittal,31/7/14,45.630001
+MT,ArcelorMittal,5/8/14,42.360001
+MT,ArcelorMittal,15/8/14,41.279999
+MT,ArcelorMittal,20/8/14,42.330002
+MT,ArcelorMittal,25/8/14,42.060001
+MT,ArcelorMittal,4/9/14,43.500000
+MT,ArcelorMittal,9/9/14,44.009998
+MT,ArcelorMittal,19/9/14,44.459999
+MT,ArcelorMittal,24/9/14,42.689999
+MT,ArcelorMittal,29/9/14,41.279999
+MT,ArcelorMittal,9/10/14,37.169998
+MT,ArcelorMittal,14/10/14,37.680000
+MT,ArcelorMittal,24/10/14,38.820000
+MT,ArcelorMittal,29/10/14,38.880001
+MT,ArcelorMittal,3/11/14,38.549999
+MT,ArcelorMittal,13/11/14,36.150002
+MT,ArcelorMittal,18/11/14,37.349998
+MT,ArcelorMittal,28/11/14,36.750000
+MT,ArcelorMittal,3/12/14,36.750000
+MT,ArcelorMittal,8/12/14,35.549999
+MT,ArcelorMittal,18/12/14,33.869999
+MT,ArcelorMittal,23/12/14,33.509998
+MT,ArcelorMittal,2/1/15,32.520031
+MT,ArcelorMittal,7/1/15,30.810030
+MT,ArcelorMittal,12/1/15,30.180031
+MT,ArcelorMittal,22/1/15,30.270031
+MT,ArcelorMittal,27/1/15,28.800028
+MT,ArcelorMittal,6/2/15,29.760029
+MT,ArcelorMittal,11/2/15,29.940029
+MT,ArcelorMittal,26/2/15,32.820034
+MT,ArcelorMittal,3/3/15,32.340031
+MT,ArcelorMittal,13/3/15,30.480030
+MT,ArcelorMittal,18/3/15,30.930031
+MT,ArcelorMittal,23/3/15,30.570030
+MT,ArcelorMittal,2/4/15,28.440029
+MT,ArcelorMittal,7/4/15,29.400030
+MT,ArcelorMittal,17/4/15,28.770029
+MT,ArcelorMittal,22/4/15,28.890028
+MT,ArcelorMittal,27/4/15,32.130032
+MT,ArcelorMittal,7/5/15,30.780031
+MT,ArcelorMittal,12/5/15,33.060032
+MT,ArcelorMittal,22/5/15,33.420033
+MT,ArcelorMittal,27/5/15,33.420033
+MT,ArcelorMittal,1/6/15,31.740000
+MT,ArcelorMittal,11/6/15,32.790031
+MT,ArcelorMittal,16/6/15,32.010033
+MT,ArcelorMittal,26/6/15,31.170031
+MT,ArcelorMittal,1/7/15,28.920029
+MT,ArcelorMittal,6/7/15,27.660028
+MT,ArcelorMittal,16/7/15,26.820026
+MT,ArcelorMittal,21/7/15,27.120028
+MT,ArcelorMittal,31/7/15,27.060026
+MT,ArcelorMittal,5/8/15,28.050028
+MT,ArcelorMittal,10/8/15,29.070028
+MT,ArcelorMittal,20/8/15,25.470026
+MT,ArcelorMittal,25/8/15,22.860023
+MT,ArcelorMittal,4/9/15,21.660021
+MT,ArcelorMittal,9/9/15,21.900023
+MT,ArcelorMittal,14/9/15,20.790020
+MT,ArcelorMittal,24/9/15,17.580017
+MT,ArcelorMittal,29/9/15,15.840015
+MT,ArcelorMittal,9/10/15,20.129999
+MT,ArcelorMittal,14/10/15,19.530001
+MT,ArcelorMittal,19/10/15,18.389999
+MT,ArcelorMittal,29/10/15,16.350016
+MT,ArcelorMittal,3/11/15,17.610018
+MT,ArcelorMittal,13/11/15,14.520000
+MT,ArcelorMittal,18/11/15,15.420000
+MT,ArcelorMittal,23/11/15,14.430000
+MT,ArcelorMittal,3/12/15,13.170000
+MT,ArcelorMittal,8/12/15,11.790000
+MT,ArcelorMittal,18/12/15,11.550012
+MT,ArcelorMittal,23/12/15,13.590014
+MT,ArcelorMittal,28/12/15,12.930013
+MT,ArcelorMittal,7/1/16,11.190011
+MT,ArcelorMittal,12/1/16,10.380000
+MT,ArcelorMittal,22/1/16,10.710011
+MT,ArcelorMittal,27/1/16,11.400000
+MT,ArcelorMittal,1/2/16,11.190011
+MT,ArcelorMittal,11/2/16,9.060000
+MT,ArcelorMittal,16/2/16,9.960010
+MT,ArcelorMittal,26/2/16,10.590011
+MT,ArcelorMittal,2/3/16,14.340014
+MT,ArcelorMittal,7/3/16,15.420015
+MT,ArcelorMittal,17/3/16,13.710013
+MT,ArcelorMittal,22/3/16,12.750012
+MT,ArcelorMittal,1/4/16,14.400014
+MT,ArcelorMittal,6/4/16,13.830014
+MT,ArcelorMittal,11/4/16,15.090015
+MT,ArcelorMittal,21/4/16,17.160017
+MT,ArcelorMittal,26/4/16,16.770018
+MT,ArcelorMittal,6/5/16,15.780016
+MT,ArcelorMittal,11/5/16,14.790000
+MT,ArcelorMittal,16/5/16,14.070014
+MT,ArcelorMittal,26/5/16,14.610015
+MT,ArcelorMittal,31/5/16,14.580014
+MT,ArcelorMittal,10/6/16,15.870016
+MT,ArcelorMittal,15/6/16,15.060015
+MT,ArcelorMittal,20/6/16,15.870016
+MT,ArcelorMittal,30/6/16,13.980014
+MT,ArcelorMittal,5/7/16,14.160014
+MT,ArcelorMittal,15/7/16,16.920017
+MT,ArcelorMittal,20/7/16,16.290016
+MT,ArcelorMittal,25/7/16,17.190018
+MT,ArcelorMittal,4/8/16,19.020020
+MT,ArcelorMittal,9/8/16,19.230019
+MT,ArcelorMittal,19/8/16,19.080019
+MT,ArcelorMittal,24/8/16,18.420019
+MT,ArcelorMittal,29/8/16,18.570019
+MT,ArcelorMittal,8/9/16,18.450018
+MT,ArcelorMittal,13/9/16,16.620016
+MT,ArcelorMittal,23/9/16,18.180017
+MT,ArcelorMittal,28/9/16,18.840019
+MT,ArcelorMittal,3/10/16,18.270018
+MT,ArcelorMittal,13/10/16,18.450018
+MT,ArcelorMittal,18/10/16,19.080019
+MT,ArcelorMittal,28/10/16,19.710020
+MT,ArcelorMittal,2/11/16,19.590019
+MT,ArcelorMittal,7/11/16,20.460020
+MT,ArcelorMittal,17/11/16,21.420021
+MT,ArcelorMittal,22/11/16,22.950024
+MT,ArcelorMittal,2/12/16,23.460024
+MT,ArcelorMittal,7/12/16,25.950026
+MT,ArcelorMittal,12/12/16,24.390024
+MT,ArcelorMittal,22/12/16,22.140022
+MT,ArcelorMittal,27/12/16,22.110022
+MT,ArcelorMittal,6/1/17,22.830023
+MT,ArcelorMittal,11/1/17,24.720024
+MT,ArcelorMittal,26/1/17,24.300024
+MT,ArcelorMittal,31/1/17,23.370024
+MT,ArcelorMittal,10/2/17,26.280025
+MT,ArcelorMittal,15/2/17,27.600027
+MT,ArcelorMittal,2/3/17,26.610027
+MT,ArcelorMittal,7/3/17,25.710026
+MT,ArcelorMittal,17/3/17,27.090027
+MT,ArcelorMittal,22/3/17,26.430027
+MT,ArcelorMittal,27/3/17,24.780025
+MT,ArcelorMittal,6/4/17,24.720024
+MT,ArcelorMittal,11/4/17,24.120024
+MT,ArcelorMittal,21/4/17,23.070023
+MT,ArcelorMittal,26/4/17,23.760023
+MT,ArcelorMittal,1/5/17,23.639999
+MT,ArcelorMittal,11/5/17,23.310024
+MT,ArcelorMittal,16/5/17,23.010023
+MT,ArcelorMittal,26/5/17,22.260000
+MT,ArcelorMittal,31/5/17,21.840000
+MT,ArcelorMittal,5/6/17,21.190001
+MT,ArcelorMittal,15/6/17,20.110001
+MT,ArcelorMittal,20/6/17,19.879999
+MT,ArcelorMittal,30/6/17,22.730000
+MT,ArcelorMittal,5/7/17,23.120001
+MT,ArcelorMittal,10/7/17,23.440001
+MT,ArcelorMittal,20/7/17,25.670000
+MT,ArcelorMittal,25/7/17,26.100000
+MT,ArcelorMittal,4/8/17,26.049999
+MT,ArcelorMittal,9/8/17,26.920000
+MT,ArcelorMittal,14/8/17,25.600000
+MT,ArcelorMittal,24/8/17,26.160000
+MT,ArcelorMittal,29/8/17,26.389999
+MT,ArcelorMittal,8/9/17,26.840000
+MT,ArcelorMittal,13/9/17,27.230000
+MT,ArcelorMittal,18/9/17,27.110001
+MT,ArcelorMittal,28/9/17,25.480000
+MT,ArcelorMittal,3/10/17,26.680000
+MT,ArcelorMittal,13/10/17,29.350000
+MT,ArcelorMittal,18/10/17,29.000000
+MT,ArcelorMittal,23/10/17,30.090000
+MT,ArcelorMittal,2/11/17,29.530001
+MT,ArcelorMittal,7/11/17,29.280001
+MT,ArcelorMittal,17/11/17,28.000000
+MT,ArcelorMittal,22/11/17,29.190001
+MT,ArcelorMittal,27/11/17,29.629999
+MT,ArcelorMittal,7/12/17,31.040001
+MT,ArcelorMittal,12/12/17,31.730000
+MT,ArcelorMittal,22/12/17,32.720001
+MT,ArcelorMittal,27/12/17,32.779999
+MT,ArcelorMittal,11/1/18,36.869999
+MT,ArcelorMittal,16/1/18,36.709999
+MT,ArcelorMittal,26/1/18,37.310001
+MT,ArcelorMittal,31/1/18,36.389999
+MT,ArcelorMittal,5/2/18,33.380001
+MT,ArcelorMittal,15/2/18,35.290001
+MT,ArcelorMittal,20/2/18,35.000000
+MT,ArcelorMittal,2/3/18,33.250000
+MT,ArcelorMittal,7/3/18,33.560001
+MT,ArcelorMittal,12/3/18,32.410000
+MT,ArcelorMittal,22/3/18,31.459999
+MT,ArcelorMittal,27/3/18,30.639999
+MT,ArcelorMittal,6/4/18,31.080000
+MT,ArcelorMittal,11/4/18,31.860001
+MT,ArcelorMittal,16/4/18,32.880001
+XOM,Exxon Mobil Corporation,17/4/14,100.419998
+XOM,Exxon Mobil Corporation,22/4/14,100.370003
+XOM,Exxon Mobil Corporation,2/5/14,102.010002
+XOM,Exxon Mobil Corporation,7/5/14,103.110001
+XOM,Exxon Mobil Corporation,12/5/14,102.230003
+XOM,Exxon Mobil Corporation,22/5/14,101.500000
+XOM,Exxon Mobil Corporation,27/5/14,101.360001
+XOM,Exxon Mobil Corporation,6/6/14,101.599998
+XOM,Exxon Mobil Corporation,11/6/14,101.949997
+XOM,Exxon Mobil Corporation,16/6/14,102.919998
+XOM,Exxon Mobil Corporation,26/6/14,102.029999
+XOM,Exxon Mobil Corporation,1/7/14,101.360001
+XOM,Exxon Mobil Corporation,11/7/14,101.739998
+XOM,Exxon Mobil Corporation,16/7/14,103.769997
+XOM,Exxon Mobil Corporation,21/7/14,103.080002
+XOM,Exxon Mobil Corporation,31/7/14,98.940002
+XOM,Exxon Mobil Corporation,5/8/14,98.199997
+XOM,Exxon Mobil Corporation,15/8/14,99.029999
+XOM,Exxon Mobil Corporation,20/8/14,99.699997
+XOM,Exxon Mobil Corporation,25/8/14,98.750000
+XOM,Exxon Mobil Corporation,4/9/14,98.360001
+XOM,Exxon Mobil Corporation,9/9/14,97.389999
+XOM,Exxon Mobil Corporation,19/9/14,97.120003
+XOM,Exxon Mobil Corporation,24/9/14,95.820000
+XOM,Exxon Mobil Corporation,29/9/14,94.430000
+XOM,Exxon Mobil Corporation,9/10/14,91.820000
+XOM,Exxon Mobil Corporation,14/10/14,90.550003
+XOM,Exxon Mobil Corporation,24/10/14,94.489998
+XOM,Exxon Mobil Corporation,29/10/14,94.589996
+XOM,Exxon Mobil Corporation,3/11/14,95.260002
+XOM,Exxon Mobil Corporation,13/11/14,94.660004
+XOM,Exxon Mobil Corporation,18/11/14,94.870003
+XOM,Exxon Mobil Corporation,28/11/14,90.540001
+XOM,Exxon Mobil Corporation,3/12/14,94.949997
+XOM,Exxon Mobil Corporation,8/12/14,91.699997
+XOM,Exxon Mobil Corporation,18/12/14,91.160004
+XOM,Exxon Mobil Corporation,23/12/14,94.589996
+XOM,Exxon Mobil Corporation,2/1/15,92.830002
+XOM,Exxon Mobil Corporation,7/1/15,90.720001
+XOM,Exxon Mobil Corporation,12/1/15,90.330002
+XOM,Exxon Mobil Corporation,22/1/15,92.870003
+XOM,Exxon Mobil Corporation,27/1/15,90.949997
+XOM,Exxon Mobil Corporation,6/2/15,91.500000
+XOM,Exxon Mobil Corporation,11/2/15,90.599998
+XOM,Exxon Mobil Corporation,26/2/15,88.650002
+XOM,Exxon Mobil Corporation,3/3/15,87.620003
+XOM,Exxon Mobil Corporation,13/3/15,83.870003
+XOM,Exxon Mobil Corporation,18/3/15,86.070000
+XOM,Exxon Mobil Corporation,23/3/15,85.430000
+XOM,Exxon Mobil Corporation,2/4/15,84.300003
+XOM,Exxon Mobil Corporation,7/4/15,85.750000
+XOM,Exxon Mobil Corporation,17/4/15,86.930000
+XOM,Exxon Mobil Corporation,22/4/15,87.459999
+XOM,Exxon Mobil Corporation,27/4/15,87.010002
+XOM,Exxon Mobil Corporation,7/5/15,87.599998
+XOM,Exxon Mobil Corporation,12/5/15,87.019997
+XOM,Exxon Mobil Corporation,22/5/15,86.519997
+XOM,Exxon Mobil Corporation,27/5/15,85.110001
+XOM,Exxon Mobil Corporation,1/6/15,85.129997
+XOM,Exxon Mobil Corporation,11/6/15,85.089996
+XOM,Exxon Mobil Corporation,16/6/15,84.680000
+XOM,Exxon Mobil Corporation,26/6/15,83.860001
+XOM,Exxon Mobil Corporation,1/7/15,82.370003
+XOM,Exxon Mobil Corporation,6/7/15,82.529999
+XOM,Exxon Mobil Corporation,16/7/15,82.910004
+XOM,Exxon Mobil Corporation,21/7/15,81.660004
+XOM,Exxon Mobil Corporation,31/7/15,79.209999
+XOM,Exxon Mobil Corporation,5/8/15,77.169998
+XOM,Exxon Mobil Corporation,10/8/15,78.750000
+XOM,Exxon Mobil Corporation,20/8/15,74.570000
+XOM,Exxon Mobil Corporation,25/8/15,68.709999
+XOM,Exxon Mobil Corporation,4/9/15,72.459999
+XOM,Exxon Mobil Corporation,9/9/15,72.000000
+XOM,Exxon Mobil Corporation,14/9/15,72.489998
+XOM,Exxon Mobil Corporation,24/9/15,72.730003
+XOM,Exxon Mobil Corporation,29/9/15,72.970001
+XOM,Exxon Mobil Corporation,9/10/15,79.260002
+XOM,Exxon Mobil Corporation,14/10/15,80.160004
+XOM,Exxon Mobil Corporation,19/10/15,80.989998
+XOM,Exxon Mobil Corporation,29/10/15,82.230003
+XOM,Exxon Mobil Corporation,3/11/15,86.849998
+XOM,Exxon Mobil Corporation,13/11/15,78.099998
+XOM,Exxon Mobil Corporation,18/11/15,80.739998
+XOM,Exxon Mobil Corporation,23/11/15,80.279999
+XOM,Exxon Mobil Corporation,3/12/15,78.410004
+XOM,Exxon Mobil Corporation,8/12/15,74.629997
+XOM,Exxon Mobil Corporation,18/12/15,77.279999
+XOM,Exxon Mobil Corporation,23/12/15,80.190002
+XOM,Exxon Mobil Corporation,28/12/15,78.739998
+XOM,Exxon Mobil Corporation,7/1/16,76.230003
+XOM,Exxon Mobil Corporation,12/1/16,75.199997
+XOM,Exxon Mobil Corporation,22/1/16,76.570000
+XOM,Exxon Mobil Corporation,27/1/16,75.290001
+XOM,Exxon Mobil Corporation,1/2/16,76.290001
+XOM,Exxon Mobil Corporation,11/2/16,79.599998
+XOM,Exxon Mobil Corporation,16/2/16,81.220001
+XOM,Exxon Mobil Corporation,26/2/16,81.750000
+XOM,Exxon Mobil Corporation,2/3/16,82.699997
+XOM,Exxon Mobil Corporation,7/3/16,84.459999
+XOM,Exxon Mobil Corporation,17/3/16,84.099998
+XOM,Exxon Mobil Corporation,22/3/16,84.120003
+XOM,Exxon Mobil Corporation,1/4/16,82.959999
+XOM,Exxon Mobil Corporation,6/4/16,83.309998
+XOM,Exxon Mobil Corporation,11/4/16,83.320000
+XOM,Exxon Mobil Corporation,21/4/16,86.790001
+XOM,Exxon Mobil Corporation,26/4/16,87.629997
+XOM,Exxon Mobil Corporation,6/5/16,88.510002
+XOM,Exxon Mobil Corporation,11/5/16,88.809998
+XOM,Exxon Mobil Corporation,16/5/16,89.570000
+XOM,Exxon Mobil Corporation,26/5/16,89.800003
+XOM,Exxon Mobil Corporation,31/5/16,89.019997
+XOM,Exxon Mobil Corporation,10/6/16,89.980003
+XOM,Exxon Mobil Corporation,15/6/16,90.160004
+XOM,Exxon Mobil Corporation,20/6/16,91.120003
+XOM,Exxon Mobil Corporation,30/6/16,93.739998
+XOM,Exxon Mobil Corporation,5/7/16,93.019997
+XOM,Exxon Mobil Corporation,15/7/16,95.120003
+XOM,Exxon Mobil Corporation,20/7/16,93.930000
+XOM,Exxon Mobil Corporation,25/7/16,92.199997
+XOM,Exxon Mobil Corporation,4/8/16,87.480003
+XOM,Exxon Mobil Corporation,9/8/16,88.699997
+XOM,Exxon Mobil Corporation,19/8/16,87.800003
+XOM,Exxon Mobil Corporation,24/8/16,88.019997
+XOM,Exxon Mobil Corporation,29/8/16,87.839996
+XOM,Exxon Mobil Corporation,8/9/16,89.050003
+XOM,Exxon Mobil Corporation,13/9/16,85.209999
+XOM,Exxon Mobil Corporation,23/9/16,83.449997
+XOM,Exxon Mobil Corporation,28/9/16,86.900002
+XOM,Exxon Mobil Corporation,3/10/16,87.050003
+XOM,Exxon Mobil Corporation,13/10/16,86.559998
+XOM,Exxon Mobil Corporation,18/10/16,86.769997
+XOM,Exxon Mobil Corporation,28/10/16,84.779999
+XOM,Exxon Mobil Corporation,2/11/16,83.449997
+XOM,Exxon Mobil Corporation,7/11/16,85.449997
+XOM,Exxon Mobil Corporation,17/11/16,85.230003
+XOM,Exxon Mobil Corporation,22/11/16,86.680000
+XOM,Exxon Mobil Corporation,2/12/16,87.040001
+XOM,Exxon Mobil Corporation,7/12/16,88.070000
+XOM,Exxon Mobil Corporation,12/12/16,90.980003
+XOM,Exxon Mobil Corporation,22/12/16,90.870003
+XOM,Exxon Mobil Corporation,27/12/16,90.750000
+XOM,Exxon Mobil Corporation,6/1/17,88.500000
+XOM,Exxon Mobil Corporation,11/1/17,86.809998
+XOM,Exxon Mobil Corporation,26/1/17,85.599998
+XOM,Exxon Mobil Corporation,31/1/17,83.889999
+XOM,Exxon Mobil Corporation,10/2/17,82.519997
+XOM,Exxon Mobil Corporation,15/2/17,83.160004
+XOM,Exxon Mobil Corporation,2/3/17,83.300003
+XOM,Exxon Mobil Corporation,7/3/17,82.519997
+XOM,Exxon Mobil Corporation,17/3/17,82.000000
+XOM,Exxon Mobil Corporation,22/3/17,81.760002
+XOM,Exxon Mobil Corporation,27/3/17,81.250000
+XOM,Exxon Mobil Corporation,6/4/17,83.010002
+XOM,Exxon Mobil Corporation,11/4/17,82.839996
+XOM,Exxon Mobil Corporation,21/4/17,80.690002
+XOM,Exxon Mobil Corporation,26/4/17,81.400002
+XOM,Exxon Mobil Corporation,1/5/17,82.059998
+XOM,Exxon Mobil Corporation,11/5/17,82.610001
+XOM,Exxon Mobil Corporation,16/5/17,82.550003
+XOM,Exxon Mobil Corporation,26/5/17,81.550003
+XOM,Exxon Mobil Corporation,31/5/17,80.500000
+XOM,Exxon Mobil Corporation,5/6/17,80.120003
+XOM,Exxon Mobil Corporation,15/6/17,82.260002
+XOM,Exxon Mobil Corporation,20/6/17,82.309998
+XOM,Exxon Mobil Corporation,30/6/17,80.730003
+XOM,Exxon Mobil Corporation,5/7/17,80.849998
+XOM,Exxon Mobil Corporation,10/7/17,80.160004
+XOM,Exxon Mobil Corporation,20/7/17,80.860001
+XOM,Exxon Mobil Corporation,25/7/17,80.269997
+XOM,Exxon Mobil Corporation,4/8/17,80.209999
+XOM,Exxon Mobil Corporation,9/8/17,80.209999
+XOM,Exxon Mobil Corporation,14/8/17,78.230003
+XOM,Exxon Mobil Corporation,24/8/17,76.330002
+XOM,Exxon Mobil Corporation,29/8/17,76.449997
+XOM,Exxon Mobil Corporation,8/9/17,78.820000
+XOM,Exxon Mobil Corporation,13/9/17,79.769997
+XOM,Exxon Mobil Corporation,18/9/17,80.089996
+XOM,Exxon Mobil Corporation,28/9/17,82.190002
+XOM,Exxon Mobil Corporation,3/10/17,81.760002
+XOM,Exxon Mobil Corporation,13/10/17,82.410004
+XOM,Exxon Mobil Corporation,18/10/17,82.760002
+XOM,Exxon Mobil Corporation,23/10/17,83.239998
+XOM,Exxon Mobil Corporation,2/11/17,83.529999
+XOM,Exxon Mobil Corporation,7/11/17,83.580002
+XOM,Exxon Mobil Corporation,17/11/17,80.239998
+XOM,Exxon Mobil Corporation,22/11/17,81.099998
+XOM,Exxon Mobil Corporation,27/11/17,81.110001
+XOM,Exxon Mobil Corporation,7/12/17,82.550003
+XOM,Exxon Mobil Corporation,12/12/17,82.760002
+XOM,Exxon Mobil Corporation,22/12/17,83.970001
+XOM,Exxon Mobil Corporation,27/12/17,83.900002
+XOM,Exxon Mobil Corporation,11/1/18,86.930000
+XOM,Exxon Mobil Corporation,16/1/18,86.970001
+XOM,Exxon Mobil Corporation,26/1/18,89.000000
+XOM,Exxon Mobil Corporation,31/1/18,87.300003
+XOM,Exxon Mobil Corporation,5/2/18,79.720001
+XOM,Exxon Mobil Corporation,15/2/18,76.209999
+XOM,Exxon Mobil Corporation,20/2/18,75.750000
+XOM,Exxon Mobil Corporation,2/3/18,75.550003
+XOM,Exxon Mobil Corporation,7/3/18,74.260002
+XOM,Exxon Mobil Corporation,12/3/18,75.239998
+XOM,Exxon Mobil Corporation,22/3/18,73.500000
+XOM,Exxon Mobil Corporation,27/3/18,73.699997
+XOM,Exxon Mobil Corporation,6/4/18,74.870003
+XOM,Exxon Mobil Corporation,11/4/18,77.430000
+XOM,Exxon Mobil Corporation,16/4/18,78.540001
+MCK,McKesson Corporation,17/4/14,170.979996
+MCK,McKesson Corporation,22/4/14,171.000000
+MCK,McKesson Corporation,2/5/14,167.009995
+MCK,McKesson Corporation,7/5/14,166.419998
+MCK,McKesson Corporation,12/5/14,174.229996
+MCK,McKesson Corporation,22/5/14,183.589996
+MCK,McKesson Corporation,27/5/14,183.369995
+MCK,McKesson Corporation,6/6/14,188.729996
+MCK,McKesson Corporation,11/6/14,187.160004
+MCK,McKesson Corporation,16/6/14,182.550003
+MCK,McKesson Corporation,26/6/14,188.089996
+MCK,McKesson Corporation,1/7/14,189.460007
+MCK,McKesson Corporation,11/7/14,188.970001
+MCK,McKesson Corporation,16/7/14,188.419998
+MCK,McKesson Corporation,21/7/14,188.449997
+MCK,McKesson Corporation,31/7/14,191.860001
+MCK,McKesson Corporation,5/8/14,191.809998
+MCK,McKesson Corporation,15/8/14,191.149994
+MCK,McKesson Corporation,20/8/14,193.589996
+MCK,McKesson Corporation,25/8/14,193.910004
+MCK,McKesson Corporation,4/9/14,195.660004
+MCK,McKesson Corporation,9/9/14,196.490005
+MCK,McKesson Corporation,19/9/14,195.789993
+MCK,McKesson Corporation,24/9/14,197.289993
+MCK,McKesson Corporation,29/9/14,196.520004
+MCK,McKesson Corporation,9/10/14,195.820007
+MCK,McKesson Corporation,14/10/14,188.619995
+MCK,McKesson Corporation,24/10/14,200.830002
+MCK,McKesson Corporation,29/10/14,198.449997
+MCK,McKesson Corporation,3/11/14,203.389999
+MCK,McKesson Corporation,13/11/14,204.820007
+MCK,McKesson Corporation,18/11/14,207.990005
+MCK,McKesson Corporation,28/11/14,210.759995
+MCK,McKesson Corporation,3/12/14,211.500000
+MCK,McKesson Corporation,8/12/14,212.779999
+MCK,McKesson Corporation,18/12/14,211.970001
+MCK,McKesson Corporation,23/12/14,209.210007
+MCK,McKesson Corporation,2/1/15,207.199997
+MCK,McKesson Corporation,7/1/15,214.750000
+MCK,McKesson Corporation,12/1/15,214.660004
+MCK,McKesson Corporation,22/1/15,218.889999
+MCK,McKesson Corporation,27/1/15,217.710007
+MCK,McKesson Corporation,6/2/15,222.759995
+MCK,McKesson Corporation,11/2/15,223.729996
+MCK,McKesson Corporation,26/2/15,229.460007
+MCK,McKesson Corporation,3/3/15,227.690002
+MCK,McKesson Corporation,13/3/15,224.639999
+MCK,McKesson Corporation,18/3/15,228.940002
+MCK,McKesson Corporation,23/3/15,230.259995
+MCK,McKesson Corporation,2/4/15,223.520004
+MCK,McKesson Corporation,7/4/15,221.839996
+MCK,McKesson Corporation,17/4/15,228.029999
+MCK,McKesson Corporation,22/4/15,231.270004
+MCK,McKesson Corporation,27/4/15,227.169998
+MCK,McKesson Corporation,7/5/15,223.820007
+MCK,McKesson Corporation,12/5/15,229.550003
+MCK,McKesson Corporation,22/5/15,240.610001
+MCK,McKesson Corporation,27/5/15,239.199997
+MCK,McKesson Corporation,1/6/15,238.270004
+MCK,McKesson Corporation,11/6/15,237.610001
+MCK,McKesson Corporation,16/6/15,234.440002
+MCK,McKesson Corporation,26/6/15,227.919998
+MCK,McKesson Corporation,1/7/15,225.779999
+MCK,McKesson Corporation,6/7/15,224.580002
+MCK,McKesson Corporation,16/7/15,235.020004
+MCK,McKesson Corporation,21/7/15,232.490005
+MCK,McKesson Corporation,31/7/15,220.570007
+MCK,McKesson Corporation,5/8/15,223.399994
+MCK,McKesson Corporation,10/8/15,217.339996
+MCK,McKesson Corporation,20/8/15,210.490005
+MCK,McKesson Corporation,25/8/15,188.440002
+MCK,McKesson Corporation,4/9/15,192.820007
+MCK,McKesson Corporation,9/9/15,192.850006
+MCK,McKesson Corporation,14/9/15,196.610001
+MCK,McKesson Corporation,24/9/15,197.240005
+MCK,McKesson Corporation,29/9/15,184.770004
+MCK,McKesson Corporation,9/10/15,189.949997
+MCK,McKesson Corporation,14/10/15,189.779999
+MCK,McKesson Corporation,19/10/15,194.850006
+MCK,McKesson Corporation,29/10/15,186.250000
+MCK,McKesson Corporation,3/11/15,183.369995
+MCK,McKesson Corporation,13/11/15,179.889999
+MCK,McKesson Corporation,18/11/15,189.270004
+MCK,McKesson Corporation,23/11/15,189.699997
+MCK,McKesson Corporation,3/12/15,190.300003
+MCK,McKesson Corporation,8/12/15,188.910004
+MCK,McKesson Corporation,18/12/15,193.399994
+MCK,McKesson Corporation,23/12/15,200.500000
+MCK,McKesson Corporation,28/12/15,200.270004
+MCK,McKesson Corporation,7/1/16,187.809998
+MCK,McKesson Corporation,12/1/16,164.009995
+MCK,McKesson Corporation,22/1/16,170.179993
+MCK,McKesson Corporation,27/1/16,166.919998
+MCK,McKesson Corporation,1/2/16,159.270004
+MCK,McKesson Corporation,11/2/16,150.029999
+MCK,McKesson Corporation,16/2/16,152.589996
+MCK,McKesson Corporation,26/2/16,156.779999
+MCK,McKesson Corporation,2/3/16,158.690002
+MCK,McKesson Corporation,7/3/16,163.039993
+MCK,McKesson Corporation,17/3/16,151.690002
+MCK,McKesson Corporation,22/3/16,156.610001
+MCK,McKesson Corporation,1/4/16,157.410004
+MCK,McKesson Corporation,6/4/16,163.210007
+MCK,McKesson Corporation,11/4/16,162.380005
+MCK,McKesson Corporation,21/4/16,178.029999
+MCK,McKesson Corporation,26/4/16,177.169998
+MCK,McKesson Corporation,6/5/16,168.860001
+MCK,McKesson Corporation,11/5/16,168.889999
+MCK,McKesson Corporation,16/5/16,172.529999
+MCK,McKesson Corporation,26/5/16,179.570007
+MCK,McKesson Corporation,31/5/16,183.139999
+MCK,McKesson Corporation,10/6/16,185.470001
+MCK,McKesson Corporation,15/6/16,180.929993
+MCK,McKesson Corporation,20/6/16,179.869995
+MCK,McKesson Corporation,30/6/16,186.649994
+MCK,McKesson Corporation,5/7/16,187.479996
+MCK,McKesson Corporation,15/7/16,197.139999
+MCK,McKesson Corporation,20/7/16,198.440002
+MCK,McKesson Corporation,25/7/16,196.009995
+MCK,McKesson Corporation,4/8/16,194.479996
+MCK,McKesson Corporation,9/8/16,196.289993
+MCK,McKesson Corporation,19/8/16,193.850006
+MCK,McKesson Corporation,24/8/16,189.050003
+MCK,McKesson Corporation,29/8/16,183.899994
+MCK,McKesson Corporation,8/9/16,183.039993
+MCK,McKesson Corporation,13/9/16,175.839996
+MCK,McKesson Corporation,23/9/16,167.080002
+MCK,McKesson Corporation,28/9/16,166.619995
+MCK,McKesson Corporation,3/10/16,165.380005
+MCK,McKesson Corporation,13/10/16,162.070007
+MCK,McKesson Corporation,18/10/16,162.100006
+MCK,McKesson Corporation,28/10/16,124.110001
+MCK,McKesson Corporation,2/11/16,135.830002
+MCK,McKesson Corporation,7/11/16,134.509995
+MCK,McKesson Corporation,17/11/16,141.479996
+MCK,McKesson Corporation,22/11/16,141.330002
+MCK,McKesson Corporation,2/12/16,143.559998
+MCK,McKesson Corporation,7/12/16,141.619995
+MCK,McKesson Corporation,12/12/16,146.490005
+MCK,McKesson Corporation,22/12/16,140.339996
+MCK,McKesson Corporation,27/12/16,142.070007
+MCK,McKesson Corporation,6/1/17,146.919998
+MCK,McKesson Corporation,11/1/17,143.199997
+MCK,McKesson Corporation,26/1/17,138.550003
+MCK,McKesson Corporation,31/1/17,139.149994
+MCK,McKesson Corporation,10/2/17,139.570007
+MCK,McKesson Corporation,15/2/17,149.520004
+MCK,McKesson Corporation,2/3/17,150.160004
+MCK,McKesson Corporation,7/3/17,147.240005
+MCK,McKesson Corporation,17/3/17,147.929993
+MCK,McKesson Corporation,22/3/17,146.309998
+MCK,McKesson Corporation,27/3/17,148.500000
+MCK,McKesson Corporation,6/4/17,144.839996
+MCK,McKesson Corporation,11/4/17,145.380005
+MCK,McKesson Corporation,21/4/17,135.919998
+MCK,McKesson Corporation,26/4/17,136.029999
+MCK,McKesson Corporation,1/5/17,138.470001
+MCK,McKesson Corporation,11/5/17,145.699997
+MCK,McKesson Corporation,16/5/17,144.919998
+MCK,McKesson Corporation,26/5/17,161.199997
+MCK,McKesson Corporation,31/5/17,163.089996
+MCK,McKesson Corporation,5/6/17,165.899994
+MCK,McKesson Corporation,15/6/17,163.910004
+MCK,McKesson Corporation,20/6/17,160.970001
+MCK,McKesson Corporation,30/6/17,164.539993
+MCK,McKesson Corporation,5/7/17,165.270004
+MCK,McKesson Corporation,10/7/17,164.710007
+MCK,McKesson Corporation,20/7/17,165.070007
+MCK,McKesson Corporation,25/7/17,167.630005
+MCK,McKesson Corporation,4/8/17,154.690002
+MCK,McKesson Corporation,9/8/17,154.270004
+MCK,McKesson Corporation,14/8/17,149.080002
+MCK,McKesson Corporation,24/8/17,146.869995
+MCK,McKesson Corporation,29/8/17,147.210007
+MCK,McKesson Corporation,8/9/17,156.940002
+MCK,McKesson Corporation,13/9/17,157.679993
+MCK,McKesson Corporation,18/9/17,148.419998
+MCK,McKesson Corporation,28/9/17,153.720001
+MCK,McKesson Corporation,3/10/17,153.990005
+MCK,McKesson Corporation,13/10/17,147.169998
+MCK,McKesson Corporation,18/10/17,146.210007
+MCK,McKesson Corporation,23/10/17,148.300003
+MCK,McKesson Corporation,2/11/17,137.059998
+MCK,McKesson Corporation,7/11/17,136.929993
+MCK,McKesson Corporation,17/11/17,142.130005
+MCK,McKesson Corporation,22/11/17,145.800003
+MCK,McKesson Corporation,27/11/17,144.850006
+MCK,McKesson Corporation,7/12/17,150.009995
+MCK,McKesson Corporation,12/12/17,154.550003
+MCK,McKesson Corporation,22/12/17,158.440002
+MCK,McKesson Corporation,27/12/17,158.020004
+MCK,McKesson Corporation,11/1/18,162.300003
+MCK,McKesson Corporation,16/1/18,170.660004
+MCK,McKesson Corporation,26/1/18,176.720001
+MCK,McKesson Corporation,31/1/18,168.880005
+MCK,McKesson Corporation,5/2/18,152.389999
+MCK,McKesson Corporation,15/2/18,148.699997
+MCK,McKesson Corporation,20/2/18,148.850006
+MCK,McKesson Corporation,2/3/18,149.899994
+MCK,McKesson Corporation,7/3/18,151.750000
+MCK,McKesson Corporation,12/3/18,157.800003
+MCK,McKesson Corporation,22/3/18,141.690002
+MCK,McKesson Corporation,27/3/18,138.750000
+MCK,McKesson Corporation,6/4/18,139.710007
+MCK,McKesson Corporation,11/4/18,143.080002
+MCK,McKesson Corporation,16/4/18,147.880005
+UNH,UnitedHealth Group Incorporated,17/4/14,75.779999
+UNH,UnitedHealth Group Incorporated,22/4/14,75.760002
+UNH,UnitedHealth Group Incorporated,2/5/14,75.029999
+UNH,UnitedHealth Group Incorporated,7/5/14,77.910004
+UNH,UnitedHealth Group Incorporated,12/5/14,77.739998
+UNH,UnitedHealth Group Incorporated,22/5/14,78.339996
+UNH,UnitedHealth Group Incorporated,27/5/14,79.110001
+UNH,UnitedHealth Group Incorporated,6/6/14,79.930000
+UNH,UnitedHealth Group Incorporated,11/6/14,80.169998
+UNH,UnitedHealth Group Incorporated,16/6/14,78.000000
+UNH,UnitedHealth Group Incorporated,26/6/14,82.290001
+UNH,UnitedHealth Group Incorporated,1/7/14,81.889999
+UNH,UnitedHealth Group Incorporated,11/7/14,82.870003
+UNH,UnitedHealth Group Incorporated,16/7/14,83.760002
+UNH,UnitedHealth Group Incorporated,21/7/14,85.059998
+UNH,UnitedHealth Group Incorporated,31/7/14,81.050003
+UNH,UnitedHealth Group Incorporated,5/8/14,80.989998
+UNH,UnitedHealth Group Incorporated,15/8/14,81.470001
+UNH,UnitedHealth Group Incorporated,20/8/14,83.430000
+UNH,UnitedHealth Group Incorporated,25/8/14,84.239998
+UNH,UnitedHealth Group Incorporated,4/9/14,87.059998
+UNH,UnitedHealth Group Incorporated,9/9/14,88.559998
+UNH,UnitedHealth Group Incorporated,19/9/14,87.800003
+UNH,UnitedHealth Group Incorporated,24/9/14,88.209999
+UNH,UnitedHealth Group Incorporated,29/9/14,86.510002
+UNH,UnitedHealth Group Incorporated,9/10/14,84.940002
+UNH,UnitedHealth Group Incorporated,14/10/14,82.820000
+UNH,UnitedHealth Group Incorporated,24/10/14,91.639999
+UNH,UnitedHealth Group Incorporated,29/10/14,92.959999
+UNH,UnitedHealth Group Incorporated,3/11/14,94.860001
+UNH,UnitedHealth Group Incorporated,13/11/14,95.900002
+UNH,UnitedHealth Group Incorporated,18/11/14,98.190002
+UNH,UnitedHealth Group Incorporated,28/11/14,98.629997
+UNH,UnitedHealth Group Incorporated,3/12/14,100.800003
+UNH,UnitedHealth Group Incorporated,8/12/14,99.919998
+UNH,UnitedHealth Group Incorporated,18/12/14,102.239998
+UNH,UnitedHealth Group Incorporated,23/12/14,102.849998
+UNH,UnitedHealth Group Incorporated,2/1/15,100.779999
+UNH,UnitedHealth Group Incorporated,7/1/15,99.930000
+UNH,UnitedHealth Group Incorporated,12/1/15,102.550003
+UNH,UnitedHealth Group Incorporated,22/1/15,113.849998
+UNH,UnitedHealth Group Incorporated,27/1/15,110.010002
+UNH,UnitedHealth Group Incorporated,6/2/15,107.599998
+UNH,UnitedHealth Group Incorporated,11/2/15,109.849998
+UNH,UnitedHealth Group Incorporated,26/2/15,113.660004
+UNH,UnitedHealth Group Incorporated,3/3/15,112.860001
+UNH,UnitedHealth Group Incorporated,13/3/15,115.250000
+UNH,UnitedHealth Group Incorporated,18/3/15,119.959999
+UNH,UnitedHealth Group Incorporated,23/3/15,119.040001
+UNH,UnitedHealth Group Incorporated,2/4/15,117.360001
+UNH,UnitedHealth Group Incorporated,7/4/15,117.349998
+UNH,UnitedHealth Group Incorporated,17/4/15,118.709999
+UNH,UnitedHealth Group Incorporated,22/4/15,117.809998
+UNH,UnitedHealth Group Incorporated,27/4/15,116.239998
+UNH,UnitedHealth Group Incorporated,7/5/15,114.760002
+UNH,UnitedHealth Group Incorporated,12/5/15,114.639999
+UNH,UnitedHealth Group Incorporated,22/5/15,119.589996
+UNH,UnitedHealth Group Incorporated,27/5/15,119.449997
+UNH,UnitedHealth Group Incorporated,1/6/15,119.860001
+UNH,UnitedHealth Group Incorporated,11/6/15,119.320000
+UNH,UnitedHealth Group Incorporated,16/6/15,121.550003
+UNH,UnitedHealth Group Incorporated,26/6/15,123.250000
+UNH,UnitedHealth Group Incorporated,1/7/15,123.379997
+UNH,UnitedHealth Group Incorporated,6/7/15,122.160004
+UNH,UnitedHealth Group Incorporated,16/7/15,124.930000
+UNH,UnitedHealth Group Incorporated,21/7/15,120.860001
+UNH,UnitedHealth Group Incorporated,31/7/15,121.400002
+UNH,UnitedHealth Group Incorporated,5/8/15,123.919998
+UNH,UnitedHealth Group Incorporated,10/8/15,122.480003
+UNH,UnitedHealth Group Incorporated,20/8/15,119.790001
+UNH,UnitedHealth Group Incorporated,25/8/15,109.980003
+UNH,UnitedHealth Group Incorporated,4/9/15,112.360001
+UNH,UnitedHealth Group Incorporated,9/9/15,115.080002
+UNH,UnitedHealth Group Incorporated,14/9/15,117.800003
+UNH,UnitedHealth Group Incorporated,24/9/15,121.089996
+UNH,UnitedHealth Group Incorporated,29/9/15,114.220001
+UNH,UnitedHealth Group Incorporated,9/10/15,119.269997
+UNH,UnitedHealth Group Incorporated,14/10/15,122.070000
+UNH,UnitedHealth Group Incorporated,19/10/15,120.730003
+UNH,UnitedHealth Group Incorporated,29/10/15,119.709999
+UNH,UnitedHealth Group Incorporated,3/11/15,117.660004
+UNH,UnitedHealth Group Incorporated,13/11/15,111.410004
+UNH,UnitedHealth Group Incorporated,18/11/15,117.250000
+UNH,UnitedHealth Group Incorporated,23/11/15,112.160004
+UNH,UnitedHealth Group Incorporated,3/12/15,115.000000
+UNH,UnitedHealth Group Incorporated,8/12/15,115.879997
+UNH,UnitedHealth Group Incorporated,18/12/15,115.820000
+UNH,UnitedHealth Group Incorporated,23/12/15,118.690002
+UNH,UnitedHealth Group Incorporated,28/12/15,118.330002
+UNH,UnitedHealth Group Incorporated,7/1/16,112.089996
+UNH,UnitedHealth Group Incorporated,12/1/16,112.260002
+UNH,UnitedHealth Group Incorporated,22/1/16,114.330002
+UNH,UnitedHealth Group Incorporated,27/1/16,112.330002
+UNH,UnitedHealth Group Incorporated,1/2/16,115.889999
+UNH,UnitedHealth Group Incorporated,11/2/16,110.620003
+UNH,UnitedHealth Group Incorporated,16/2/16,115.150002
+UNH,UnitedHealth Group Incorporated,26/2/16,121.330002
+UNH,UnitedHealth Group Incorporated,2/3/16,121.269997
+UNH,UnitedHealth Group Incorporated,7/3/16,121.760002
+UNH,UnitedHealth Group Incorporated,17/3/16,124.529999
+UNH,UnitedHealth Group Incorporated,22/3/16,128.020004
+UNH,UnitedHealth Group Incorporated,1/4/16,129.919998
+UNH,UnitedHealth Group Incorporated,6/4/16,128.029999
+UNH,UnitedHealth Group Incorporated,11/4/16,126.330002
+UNH,UnitedHealth Group Incorporated,21/4/16,132.960007
+UNH,UnitedHealth Group Incorporated,26/4/16,134.240005
+UNH,UnitedHealth Group Incorporated,6/5/16,132.039993
+UNH,UnitedHealth Group Incorporated,11/5/16,130.690002
+UNH,UnitedHealth Group Incorporated,16/5/16,130.639999
+UNH,UnitedHealth Group Incorporated,26/5/16,132.979996
+UNH,UnitedHealth Group Incorporated,31/5/16,133.669998
+UNH,UnitedHealth Group Incorporated,10/6/16,139.240005
+UNH,UnitedHealth Group Incorporated,15/6/16,137.259995
+UNH,UnitedHealth Group Incorporated,20/6/16,138.520004
+UNH,UnitedHealth Group Incorporated,30/6/16,141.199997
+UNH,UnitedHealth Group Incorporated,5/7/16,141.559998
+UNH,UnitedHealth Group Incorporated,15/7/16,141.330002
+UNH,UnitedHealth Group Incorporated,20/7/16,143.020004
+UNH,UnitedHealth Group Incorporated,25/7/16,141.729996
+UNH,UnitedHealth Group Incorporated,4/8/16,142.710007
+UNH,UnitedHealth Group Incorporated,9/8/16,141.820007
+UNH,UnitedHealth Group Incorporated,19/8/16,142.039993
+UNH,UnitedHealth Group Incorporated,24/8/16,139.869995
+UNH,UnitedHealth Group Incorporated,29/8/16,137.270004
+UNH,UnitedHealth Group Incorporated,8/9/16,135.440002
+UNH,UnitedHealth Group Incorporated,13/9/16,133.949997
+UNH,UnitedHealth Group Incorporated,23/9/16,140.509995
+UNH,UnitedHealth Group Incorporated,28/9/16,140.410004
+UNH,UnitedHealth Group In
